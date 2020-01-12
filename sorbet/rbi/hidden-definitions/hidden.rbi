@@ -2401,6 +2401,251 @@ class Class
   def json_creatable?(); end
 end
 
+module CodeRay
+  CODERAY_PATH = ::T.let(nil, ::T.untyped)
+  TokenKinds = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class CodeRay::Duo
+  def call(code, options=T.unsafe(nil)); end
+
+  def encode(code, options=T.unsafe(nil)); end
+
+  def encoder(); end
+
+  def format(); end
+
+  def format=(format); end
+
+  def highlight(code, options=T.unsafe(nil)); end
+
+  def initialize(lang=T.unsafe(nil), format=T.unsafe(nil), options=T.unsafe(nil)); end
+
+  def lang(); end
+
+  def lang=(lang); end
+
+  def options(); end
+
+  def options=(options); end
+
+  def scanner(); end
+end
+
+class CodeRay::Duo
+  def self.[](*_); end
+end
+
+class CodeRay::Encoders::Encoder
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+CodeRay::Encoders::Encoder::PLUGIN_HOST = CodeRay::Encoders
+
+class CodeRay::Encoders::Terminal
+  TOKEN_COLORS = ::T.let(nil, ::T.untyped)
+end
+
+module CodeRay::FileType
+  TypeFromExt = ::T.let(nil, ::T.untyped)
+  TypeFromName = ::T.let(nil, ::T.untyped)
+  TypeFromShebang = ::T.let(nil, ::T.untyped)
+end
+
+class CodeRay::FileType::UnknownFileType
+end
+
+class CodeRay::FileType::UnknownFileType
+end
+
+module CodeRay::FileType
+  def self.[](filename, read_shebang=T.unsafe(nil)); end
+
+  def self.fetch(filename, default=T.unsafe(nil), read_shebang=T.unsafe(nil)); end
+
+  def self.type_from_shebang(filename); end
+end
+
+module CodeRay::PluginHost
+  PLUGIN_HOSTS = ::T.let(nil, ::T.untyped)
+  PLUGIN_HOSTS_BY_ID = ::T.let(nil, ::T.untyped)
+end
+
+module CodeRay::Scanners
+end
+
+class CodeRay::Scanners::Scanner
+  include ::Enumerable
+  def binary_string(); end
+
+  def column(pos=T.unsafe(nil)); end
+
+  def each(&block); end
+
+  def file_extension(); end
+
+  def initialize(code=T.unsafe(nil), options=T.unsafe(nil)); end
+
+  def lang(); end
+
+  def line(pos=T.unsafe(nil)); end
+
+  def raise_inspect(message, tokens, state=T.unsafe(nil), ambit=T.unsafe(nil), backtrace=T.unsafe(nil)); end
+
+  def raise_inspect_arguments(message, tokens, state, ambit); end
+
+  def reset_instance(); end
+
+  def scan_rest(); end
+
+  def scan_tokens(tokens, options); end
+
+  def scanner_state_info(state); end
+
+  def set_string_from_source(source); end
+
+  def set_tokens_from_options(options); end
+
+  def setup(); end
+
+  def state(); end
+
+  def state=(state); end
+
+  def string=(code); end
+
+  def tokenize(source=T.unsafe(nil), options=T.unsafe(nil)); end
+
+  def tokens(); end
+
+  def tokens_last(tokens, n); end
+
+  def tokens_size(tokens); end
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+  KINDS_NOT_LOC = ::T.let(nil, ::T.untyped)
+  SCANNER_STATE_INFO = ::T.let(nil, ::T.untyped)
+  SCAN_ERROR_MESSAGE = ::T.let(nil, ::T.untyped)
+end
+
+CodeRay::Scanners::Scanner::PLUGIN_HOST = CodeRay::Scanners
+
+class CodeRay::Scanners::Scanner::ScanError
+end
+
+class CodeRay::Scanners::Scanner::ScanError
+end
+
+class CodeRay::Scanners::Scanner
+  extend ::CodeRay::Plugin
+  def self.encode_with_encoding(code, target_encoding); end
+
+  def self.encoding(name=T.unsafe(nil)); end
+
+  def self.file_extension(extension=T.unsafe(nil)); end
+
+  def self.guess_encoding(s); end
+
+  def self.lang(); end
+
+  def self.normalize(code); end
+
+  def self.to_unix(code); end
+end
+
+module CodeRay::Scanners
+  extend ::CodeRay::PluginHost
+end
+
+module CodeRay::Styles
+end
+
+class CodeRay::Styles::Style
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+CodeRay::Styles::Style::PLUGIN_HOST = CodeRay::Styles
+
+class CodeRay::Styles::Style
+  extend ::CodeRay::Plugin
+end
+
+module CodeRay::Styles
+  extend ::CodeRay::PluginHost
+end
+
+class CodeRay::Tokens
+  def begin_group(kind); end
+
+  def begin_line(kind); end
+
+  def count(); end
+
+  def encode(encoder, options=T.unsafe(nil)); end
+
+  def end_group(kind); end
+
+  def end_line(kind); end
+
+  def method_missing(meth, options=T.unsafe(nil)); end
+
+  def scanner(); end
+
+  def scanner=(scanner); end
+
+  def split_into_parts(*sizes); end
+
+  def text_token(*_); end
+
+  def tokens(*_); end
+end
+
+class CodeRay::Tokens
+end
+
+class CodeRay::TokensProxy
+  def block(); end
+
+  def block=(block); end
+
+  def each(*args, &blk); end
+
+  def encode(encoder, options=T.unsafe(nil)); end
+
+  def initialize(input, lang, options=T.unsafe(nil), block=T.unsafe(nil)); end
+
+  def input(); end
+
+  def input=(input); end
+
+  def lang(); end
+
+  def lang=(lang); end
+
+  def method_missing(method, *args, &blk); end
+
+  def options(); end
+
+  def options=(options); end
+
+  def scanner(); end
+
+  def tokens(); end
+end
+
+class CodeRay::TokensProxy
+end
+
+class Commands::Base
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
+module Compare
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
 class Complex
   def self.polar(*_); end
 
@@ -2945,6 +3190,393 @@ class FalseClass
   include ::JSON::Ext::Generator::GeneratorMethods::FalseClass
 end
 
+module Faraday
+  METHODS_WITH_BODY = ::T.let(nil, ::T.untyped)
+  METHODS_WITH_QUERY = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter
+  CONTENT_LENGTH = ::T.let(nil, ::T.untyped)
+  TIMEOUT_KEYS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::EMHttp
+  include ::Faraday::Adapter::EMHttp::Options
+  def create_request(env); end
+
+  def error_message(client); end
+
+  def parallel?(env); end
+
+  def perform_request(env); end
+
+  def perform_single_request(env); end
+
+  def raise_error(msg); end
+
+  def timeout_message?(msg); end
+end
+
+class Faraday::Adapter::EMHttp::Manager
+  def add(&block); end
+
+  def check_finished(); end
+
+  def perform_request(); end
+
+  def reset(); end
+
+  def run(); end
+
+  def running?(); end
+end
+
+class Faraday::Adapter::EMHttp::Manager
+end
+
+module Faraday::Adapter::EMHttp::Options
+  def configure_compression(options, env); end
+
+  def configure_proxy(options, env); end
+
+  def configure_socket(options, env); end
+
+  def configure_ssl(options, env); end
+
+  def configure_timeout(options, env); end
+
+  def connection_config(env); end
+
+  def read_body(env); end
+
+  def request_config(env); end
+
+  def request_options(env); end
+end
+
+module Faraday::Adapter::EMHttp::Options
+end
+
+class Faraday::Adapter::EMHttp
+  def self.setup_parallel_manager(_options=T.unsafe(nil)); end
+end
+
+class Faraday::Adapter::EMSynchrony
+  include ::Faraday::Adapter::EMHttp::Options
+  def create_request(env); end
+end
+
+class Faraday::Adapter::EMSynchrony::ParallelManager
+  def add(request, method, *args, &block); end
+
+  def run(); end
+end
+
+class Faraday::Adapter::EMSynchrony::ParallelManager
+end
+
+class Faraday::Adapter::EMSynchrony
+  def self.setup_parallel_manager(_options=T.unsafe(nil)); end
+end
+
+class Faraday::Adapter::Excon
+  def build_connection(env); end
+
+  def read_body(env); end
+  OPTS_KEYS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::Excon
+end
+
+class Faraday::Adapter::HTTPClient
+  def build_connection(env); end
+
+  def configure_client(client); end
+
+  def configure_proxy(client, proxy); end
+
+  def configure_socket(client, bind); end
+
+  def configure_ssl(client, ssl); end
+
+  def configure_timeouts(client, req); end
+
+  def ssl_cert_store(ssl); end
+
+  def ssl_verify_mode(ssl); end
+end
+
+class Faraday::Adapter::HTTPClient
+end
+
+class Faraday::Adapter::NetHttp
+  def build_connection(env); end
+
+  def initialize(app=T.unsafe(nil), opts=T.unsafe(nil), &block); end
+
+  def net_http_connection(env); end
+  NET_HTTP_EXCEPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::NetHttp
+end
+
+class Faraday::Adapter::NetHttpPersistent
+  SSL_CONFIGURATIONS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::NetHttpPersistent
+end
+
+class Faraday::Adapter::Patron
+  def build_connection(env); end
+
+  def configure_proxy(session, proxy); end
+
+  def configure_ssl(session, ssl); end
+
+  def configure_timeouts(session, req); end
+  CURL_TIMEOUT_MESSAGES = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::Patron
+end
+
+class Faraday::Adapter::Rack
+  def initialize(faraday_app, rack_app); end
+  SPECIAL_HEADERS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Adapter::Rack
+end
+
+class Faraday::Adapter::Test
+  def configure(); end
+
+  def initialize(app, stubs=T.unsafe(nil), &block); end
+
+  def stubs(); end
+
+  def stubs=(stubs); end
+end
+
+class Faraday::Adapter::Test::Stub
+  def headers_match?(request_headers); end
+
+  def initialize(host, full, headers, body, block); end
+
+  def matches?(request_host, request_uri, request_headers, request_body); end
+
+  def params_match?(request_params); end
+
+  def path_match?(request_path, meta); end
+end
+
+class Faraday::Adapter::Test::Stub
+end
+
+class Faraday::Adapter::Test::Stubs
+  def delete(path, headers=T.unsafe(nil), &block); end
+
+  def empty?(); end
+
+  def get(path, headers=T.unsafe(nil), &block); end
+
+  def head(path, headers=T.unsafe(nil), &block); end
+
+  def match(request_method, host, path, headers, body); end
+
+  def matches?(stack, host, path, headers, body); end
+
+  def new_stub(request_method, path, headers=T.unsafe(nil), body=T.unsafe(nil), &block); end
+
+  def options(path, headers=T.unsafe(nil), &block); end
+
+  def patch(path, body=T.unsafe(nil), headers=T.unsafe(nil), &block); end
+
+  def post(path, body=T.unsafe(nil), headers=T.unsafe(nil), &block); end
+
+  def put(path, body=T.unsafe(nil), headers=T.unsafe(nil), &block); end
+
+  def verify_stubbed_calls(); end
+end
+
+class Faraday::Adapter::Test::Stubs::NotFound
+end
+
+class Faraday::Adapter::Test::Stubs::NotFound
+end
+
+class Faraday::Adapter::Test::Stubs
+end
+
+class Faraday::Adapter::Test
+end
+
+class Faraday::Adapter::Typhoeus
+  def call(); end
+end
+
+class Faraday::Adapter::Typhoeus
+end
+
+class Faraday::Connection
+  METHODS = ::T.let(nil, ::T.untyped)
+end
+
+module Faraday::DecodeMethods
+  SUBKEYS_REGEX = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Env
+  ContentLength = ::T.let(nil, ::T.untyped)
+  MethodsWithBodies = ::T.let(nil, ::T.untyped)
+  StatusesWithoutBody = ::T.let(nil, ::T.untyped)
+  SuccessfulStatuses = ::T.let(nil, ::T.untyped)
+end
+
+Faraday::FilePart = UploadIO
+
+Faraday::Parts = Parts
+
+class Faraday::RackBuilder
+  LOCK_ERR = ::T.let(nil, ::T.untyped)
+  NO_ARGUMENT = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::RackBuilder::Handler
+  REGISTRY = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::Authorization
+  def call(env); end
+
+  def initialize(app, type, token); end
+  KEY = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::Authorization
+  def self.build_hash(type, hash); end
+
+  def self.header(type, token); end
+end
+
+class Faraday::Request::BasicAuthentication
+end
+
+class Faraday::Request::BasicAuthentication
+  def self.header(login, pass); end
+end
+
+class Faraday::Request::Instrumentation
+  def call(env); end
+
+  def initialize(app, options=T.unsafe(nil)); end
+end
+
+class Faraday::Request::Instrumentation::Options
+end
+
+class Faraday::Request::Instrumentation::Options
+end
+
+class Faraday::Request::Instrumentation
+end
+
+class Faraday::Request::Multipart
+  def create_multipart(env, params); end
+
+  def has_multipart?(obj); end
+
+  def part(boundary, key, value); end
+
+  def process_params(params, prefix=T.unsafe(nil), pieces=T.unsafe(nil), &block); end
+
+  def unique_boundary(); end
+  DEFAULT_BOUNDARY_PREFIX = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::Multipart
+end
+
+class Faraday::Request::Retry
+  def build_exception_matcher(exceptions); end
+
+  def calculate_sleep_amount(retries, env); end
+
+  def call(env); end
+
+  def initialize(app, options=T.unsafe(nil)); end
+  DEFAULT_EXCEPTIONS = ::T.let(nil, ::T.untyped)
+  IDEMPOTENT_METHODS = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::Retry::Options
+  DEFAULT_CHECK = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::Retry::Options
+end
+
+class Faraday::Request::Retry
+end
+
+class Faraday::Request::TokenAuthentication
+  def initialize(app, token, options=T.unsafe(nil)); end
+end
+
+class Faraday::Request::TokenAuthentication
+  def self.header(token, options=T.unsafe(nil)); end
+end
+
+class Faraday::Request::UrlEncoded
+  def call(env); end
+
+  def match_content_type(env); end
+
+  def process_request?(env); end
+
+  def request_type(env); end
+  CONTENT_TYPE = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Request::UrlEncoded
+  def self.mime_type(); end
+
+  def self.mime_type=(mime_type); end
+end
+
+class Faraday::Response::Logger
+  def initialize(app, logger=T.unsafe(nil), options=T.unsafe(nil)); end
+end
+
+class Faraday::Response::Logger
+end
+
+class Faraday::Response::RaiseError
+  def response_values(env); end
+  ClientErrorStatuses = ::T.let(nil, ::T.untyped)
+  ServerErrorStatuses = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Response::RaiseError
+end
+
+Faraday::Timer = Timeout
+
+Faraday::UploadIO = UploadIO
+
+module Faraday::Utils
+  DEFAULT_SEP = ::T.let(nil, ::T.untyped)
+  ESCAPE_RE = ::T.let(nil, ::T.untyped)
+end
+
+class Faraday::Utils::Headers
+  KeyMap = ::T.let(nil, ::T.untyped)
+end
+
 class Fiber
   def resume(*_); end
 end
@@ -3480,12 +4112,69 @@ JSON::State = JSON::Ext::Generator::State
 
 JSON::UnparserError = JSON::GeneratorError
 
+module JWT::Algos::Ecdsa
+  NAMED_CURVES = ::T.let(nil, ::T.untyped)
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Algos::Eddsa
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Algos::Hmac
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Algos::Ps
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Algos::Rsa
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Algos::Unsupported
+  SUPPORTED = ::T.let(nil, ::T.untyped)
+end
+
+class JWT::ClaimsValidator
+  INTEGER_CLAIMS = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::DefaultOptions
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+class JWT::Encode
+  ALG_KEY = ::T.let(nil, ::T.untyped)
+  ALG_NONE = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::JWK
+  MAPPINGS = ::T.let(nil, ::T.untyped)
+end
+
+class JWT::JWK::RSA
+  BINARY = ::T.let(nil, ::T.untyped)
+  KTY = ::T.let(nil, ::T.untyped)
+end
+
+module JWT::Signature
+  ALGOS = ::T.let(nil, ::T.untyped)
+end
+
+class JWT::Verify
+  DEFAULTS = ::T.let(nil, ::T.untyped)
+end
+
 module Kernel
   def gem(dep, *reqs); end
 
   def itself(); end
 
   def object_id(); end
+
+  def pretty_inspect(); end
 
   def respond_to?(*_); end
 
@@ -3517,6 +4206,15 @@ end
 
 module Marshal
   def self.restore(*_); end
+end
+
+module MethodSource
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+module MethodSource::CodeHelpers::IncompleteExpression
+  GENERIC_REGEXPS = ::T.let(nil, ::T.untyped)
+  RBX_ONLY_REGEXPS = ::T.let(nil, ::T.untyped)
 end
 
 Methods = T::Private::Methods
@@ -3643,6 +4341,182 @@ class NameError
   def receiver(); end
 end
 
+class Net::BufferedIO
+  def write_timeout(); end
+
+  def write_timeout=(write_timeout); end
+end
+
+class Net::HTTP
+  def max_retries(); end
+
+  def max_retries=(retries); end
+
+  def max_version(); end
+
+  def max_version=(max_version); end
+
+  def min_version(); end
+
+  def min_version=(min_version); end
+
+  def write_timeout(); end
+
+  def write_timeout=(sec); end
+  ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPAlreadyReported
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPAlreadyReported
+end
+
+Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
+
+Net::HTTPClientErrorCode = Net::HTTPClientError
+
+Net::HTTPClientException = Net::HTTPServerException
+
+class Net::HTTPEarlyHints
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPEarlyHints
+end
+
+Net::HTTPFatalErrorCode = Net::HTTPClientError
+
+class Net::HTTPGatewayTimeout
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPGatewayTimeout
+end
+
+Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+
+Net::HTTPInformationCode = Net::HTTPInformation
+
+class Net::HTTPLoopDetected
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPLoopDetected
+end
+
+class Net::HTTPMisdirectedRequest
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPMisdirectedRequest
+end
+
+Net::HTTPMovedTemporarily = Net::HTTPFound
+
+Net::HTTPMultipleChoice = Net::HTTPMultipleChoices
+
+class Net::HTTPNotExtended
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPNotExtended
+end
+
+class Net::HTTPPayloadTooLarge
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPPayloadTooLarge
+end
+
+class Net::HTTPProcessing
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPProcessing
+end
+
+class Net::HTTPRangeNotSatisfiable
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPRangeNotSatisfiable
+end
+
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+
+Net::HTTPRedirectionCode = Net::HTTPRedirection
+
+class Net::HTTPRequestTimeout
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPRequestTimeout
+end
+
+Net::HTTPRequestURITooLarge = Net::HTTPURITooLong
+
+Net::HTTPResponceReceiver = Net::HTTPResponse
+
+Net::HTTPRetriableCode = Net::HTTPRedirection
+
+Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
+
+Net::HTTPServerErrorCode = Net::HTTPServerError
+
+class Net::HTTP
+end
+
+Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
+
+Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
+
+class Net::HTTP
+end
+
+Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+
+Net::HTTPSuccessCode = Net::HTTPSuccess
+
+class Net::HTTPURITooLong
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPURITooLong
+end
+
+Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPVariantAlsoNegotiates
+  HAS_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class Net::HTTPVariantAlsoNegotiates
+end
+
+Net::NetPrivate::HTTPRequest = Net::HTTPRequest
+
+Net::NetPrivate::Socket = Net::InternetMessageIO
+
+Net::ProtocRetryError = Net::ProtoRetriableError
+
+class Net::ReadTimeout
+  def initialize(io=T.unsafe(nil)); end
+
+  def io(); end
+end
+
+class Net::WriteTimeout
+  def initialize(io=T.unsafe(nil)); end
+
+  def io(); end
+end
+
+class Net::WriteTimeout
+end
+
 class NilClass
   include ::JSON::Ext::Generator::GeneratorMethods::NilClass
   def to_i(); end
@@ -3654,8 +4528,276 @@ class NoMethodError
   def private_call?(); end
 end
 
+module Nokogiri
+  LIBXML_ICONV_ENABLED = ::T.let(nil, ::T.untyped)
+  LIBXML_PARSER_VERSION = ::T.let(nil, ::T.untyped)
+  LIBXML_VERSION = ::T.let(nil, ::T.untyped)
+  NOKOGIRI_LIBXML2_PATCHES = ::T.let(nil, ::T.untyped)
+  NOKOGIRI_LIBXML2_PATH = ::T.let(nil, ::T.untyped)
+  NOKOGIRI_LIBXSLT_PATCHES = ::T.let(nil, ::T.untyped)
+  NOKOGIRI_LIBXSLT_PATH = ::T.let(nil, ::T.untyped)
+  NOKOGIRI_USE_PACKAGED_LIBRARIES = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+  VERSION_INFO = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::CSS::Node
+  ALLOW_COMBINATOR_ON_SELF = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::CSS::Parser
+  Racc_arg = ::T.let(nil, ::T.untyped)
+  Racc_debug_parser = ::T.let(nil, ::T.untyped)
+  Racc_token_to_s_table = ::T.let(nil, ::T.untyped)
+end
+
+module Nokogiri::Decorators::Slop
+  XPATH_PREFIX = ::T.let(nil, ::T.untyped)
+end
+
+module Nokogiri::HTML
+  NamedCharacters = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::HTML::ElementDescription
+  ACTION_ATTR = ::T.let(nil, ::T.untyped)
+  ALIGN_ATTR = ::T.let(nil, ::T.untyped)
+  ALT_ATTR = ::T.let(nil, ::T.untyped)
+  APPLET_ATTRS = ::T.let(nil, ::T.untyped)
+  AREA_ATTRS = ::T.let(nil, ::T.untyped)
+  ATTRS = ::T.let(nil, ::T.untyped)
+  A_ATTRS = ::T.let(nil, ::T.untyped)
+  BASEFONT_ATTRS = ::T.let(nil, ::T.untyped)
+  BGCOLOR_ATTR = ::T.let(nil, ::T.untyped)
+  BLOCK = ::T.let(nil, ::T.untyped)
+  BLOCKLI_ELT = ::T.let(nil, ::T.untyped)
+  BODY_ATTRS = ::T.let(nil, ::T.untyped)
+  BODY_CONTENTS = ::T.let(nil, ::T.untyped)
+  BODY_DEPR = ::T.let(nil, ::T.untyped)
+  BUTTON_ATTRS = ::T.let(nil, ::T.untyped)
+  CELLHALIGN = ::T.let(nil, ::T.untyped)
+  CELLVALIGN = ::T.let(nil, ::T.untyped)
+  CLEAR_ATTRS = ::T.let(nil, ::T.untyped)
+  COL_ATTRS = ::T.let(nil, ::T.untyped)
+  COL_ELT = ::T.let(nil, ::T.untyped)
+  COMPACT_ATTR = ::T.let(nil, ::T.untyped)
+  COMPACT_ATTRS = ::T.let(nil, ::T.untyped)
+  CONTENT_ATTR = ::T.let(nil, ::T.untyped)
+  COREATTRS = ::T.let(nil, ::T.untyped)
+  CORE_ATTRS = ::T.let(nil, ::T.untyped)
+  CORE_I18N_ATTRS = ::T.let(nil, ::T.untyped)
+  DIR_ATTR = ::T.let(nil, ::T.untyped)
+  DL_CONTENTS = ::T.let(nil, ::T.untyped)
+  DefaultDescriptions = ::T.let(nil, ::T.untyped)
+  EDIT_ATTRS = ::T.let(nil, ::T.untyped)
+  EMBED_ATTRS = ::T.let(nil, ::T.untyped)
+  EMPTY = ::T.let(nil, ::T.untyped)
+  EVENTS = ::T.let(nil, ::T.untyped)
+  FIELDSET_CONTENTS = ::T.let(nil, ::T.untyped)
+  FLOW = ::T.let(nil, ::T.untyped)
+  FLOW_PARAM = ::T.let(nil, ::T.untyped)
+  FONTSTYLE = ::T.let(nil, ::T.untyped)
+  FONT_ATTRS = ::T.let(nil, ::T.untyped)
+  FORMCTRL = ::T.let(nil, ::T.untyped)
+  FORM_ATTRS = ::T.let(nil, ::T.untyped)
+  FORM_CONTENTS = ::T.let(nil, ::T.untyped)
+  FRAMESET_ATTRS = ::T.let(nil, ::T.untyped)
+  FRAMESET_CONTENTS = ::T.let(nil, ::T.untyped)
+  FRAME_ATTRS = ::T.let(nil, ::T.untyped)
+  HEADING = ::T.let(nil, ::T.untyped)
+  HEAD_ATTRS = ::T.let(nil, ::T.untyped)
+  HEAD_CONTENTS = ::T.let(nil, ::T.untyped)
+  HREF_ATTRS = ::T.let(nil, ::T.untyped)
+  HR_DEPR = ::T.let(nil, ::T.untyped)
+  HTML_ATTRS = ::T.let(nil, ::T.untyped)
+  HTML_CDATA = ::T.let(nil, ::T.untyped)
+  HTML_CONTENT = ::T.let(nil, ::T.untyped)
+  HTML_FLOW = ::T.let(nil, ::T.untyped)
+  HTML_INLINE = ::T.let(nil, ::T.untyped)
+  HTML_PCDATA = ::T.let(nil, ::T.untyped)
+  I18N = ::T.let(nil, ::T.untyped)
+  I18N_ATTRS = ::T.let(nil, ::T.untyped)
+  IFRAME_ATTRS = ::T.let(nil, ::T.untyped)
+  IMG_ATTRS = ::T.let(nil, ::T.untyped)
+  INLINE = ::T.let(nil, ::T.untyped)
+  INLINE_P = ::T.let(nil, ::T.untyped)
+  INPUT_ATTRS = ::T.let(nil, ::T.untyped)
+  LABEL_ATTR = ::T.let(nil, ::T.untyped)
+  LABEL_ATTRS = ::T.let(nil, ::T.untyped)
+  LANGUAGE_ATTR = ::T.let(nil, ::T.untyped)
+  LEGEND_ATTRS = ::T.let(nil, ::T.untyped)
+  LINK_ATTRS = ::T.let(nil, ::T.untyped)
+  LIST = ::T.let(nil, ::T.untyped)
+  LI_ELT = ::T.let(nil, ::T.untyped)
+  MAP_CONTENTS = ::T.let(nil, ::T.untyped)
+  META_ATTRS = ::T.let(nil, ::T.untyped)
+  MODIFIER = ::T.let(nil, ::T.untyped)
+  NAME_ATTR = ::T.let(nil, ::T.untyped)
+  NOFRAMES_CONTENT = ::T.let(nil, ::T.untyped)
+  OBJECT_ATTRS = ::T.let(nil, ::T.untyped)
+  OBJECT_CONTENTS = ::T.let(nil, ::T.untyped)
+  OBJECT_DEPR = ::T.let(nil, ::T.untyped)
+  OL_ATTRS = ::T.let(nil, ::T.untyped)
+  OPTGROUP_ATTRS = ::T.let(nil, ::T.untyped)
+  OPTION_ATTRS = ::T.let(nil, ::T.untyped)
+  OPTION_ELT = ::T.let(nil, ::T.untyped)
+  PARAM_ATTRS = ::T.let(nil, ::T.untyped)
+  PCDATA = ::T.let(nil, ::T.untyped)
+  PHRASE = ::T.let(nil, ::T.untyped)
+  PRE_CONTENT = ::T.let(nil, ::T.untyped)
+  PROMPT_ATTRS = ::T.let(nil, ::T.untyped)
+  QUOTE_ATTRS = ::T.let(nil, ::T.untyped)
+  ROWS_COLS_ATTR = ::T.let(nil, ::T.untyped)
+  SCRIPT_ATTRS = ::T.let(nil, ::T.untyped)
+  SELECT_ATTRS = ::T.let(nil, ::T.untyped)
+  SELECT_CONTENT = ::T.let(nil, ::T.untyped)
+  SPECIAL = ::T.let(nil, ::T.untyped)
+  SRC_ALT_ATTRS = ::T.let(nil, ::T.untyped)
+  STYLE_ATTRS = ::T.let(nil, ::T.untyped)
+  TABLE_ATTRS = ::T.let(nil, ::T.untyped)
+  TABLE_CONTENTS = ::T.let(nil, ::T.untyped)
+  TABLE_DEPR = ::T.let(nil, ::T.untyped)
+  TALIGN_ATTRS = ::T.let(nil, ::T.untyped)
+  TARGET_ATTR = ::T.let(nil, ::T.untyped)
+  TEXTAREA_ATTRS = ::T.let(nil, ::T.untyped)
+  TH_TD_ATTR = ::T.let(nil, ::T.untyped)
+  TH_TD_DEPR = ::T.let(nil, ::T.untyped)
+  TR_CONTENTS = ::T.let(nil, ::T.untyped)
+  TR_ELT = ::T.let(nil, ::T.untyped)
+  TYPE_ATTR = ::T.let(nil, ::T.untyped)
+  UL_DEPR = ::T.let(nil, ::T.untyped)
+  VERSION_ATTR = ::T.let(nil, ::T.untyped)
+  WIDTH_ATTR = ::T.let(nil, ::T.untyped)
+end
+
+Nokogiri::HTML::ElementDescription::Desc = Struct::HTMLElementDescription
+
+module Nokogiri::XML
+  XML_C14N_1_0 = ::T.let(nil, ::T.untyped)
+  XML_C14N_1_1 = ::T.let(nil, ::T.untyped)
+  XML_C14N_EXCLUSIVE_1_0 = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::Document
+  IMPLIED_XPATH_CONTEXTS = ::T.let(nil, ::T.untyped)
+  NCNAME_CHAR = ::T.let(nil, ::T.untyped)
+  NCNAME_RE = ::T.let(nil, ::T.untyped)
+  NCNAME_START_CHAR = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::Element
+end
+
+class Nokogiri::XML::Element
+end
+
+class Nokogiri::XML::ElementContent
+  ELEMENT = ::T.let(nil, ::T.untyped)
+  MULT = ::T.let(nil, ::T.untyped)
+  ONCE = ::T.let(nil, ::T.untyped)
+  OPT = ::T.let(nil, ::T.untyped)
+  OR = ::T.let(nil, ::T.untyped)
+  PCDATA = ::T.let(nil, ::T.untyped)
+  PLUS = ::T.let(nil, ::T.untyped)
+  SEQ = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::EntityDecl
+  EXTERNAL_GENERAL_PARSED = ::T.let(nil, ::T.untyped)
+  EXTERNAL_GENERAL_UNPARSED = ::T.let(nil, ::T.untyped)
+  EXTERNAL_PARAMETER = ::T.let(nil, ::T.untyped)
+  INTERNAL_GENERAL = ::T.let(nil, ::T.untyped)
+  INTERNAL_PARAMETER = ::T.let(nil, ::T.untyped)
+  INTERNAL_PREDEFINED = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::Node
+  ATTRIBUTE_DECL = ::T.let(nil, ::T.untyped)
+  ATTRIBUTE_NODE = ::T.let(nil, ::T.untyped)
+  CDATA_SECTION_NODE = ::T.let(nil, ::T.untyped)
+  COMMENT_NODE = ::T.let(nil, ::T.untyped)
+  DOCB_DOCUMENT_NODE = ::T.let(nil, ::T.untyped)
+  DOCUMENT_FRAG_NODE = ::T.let(nil, ::T.untyped)
+  DOCUMENT_NODE = ::T.let(nil, ::T.untyped)
+  DOCUMENT_TYPE_NODE = ::T.let(nil, ::T.untyped)
+  DTD_NODE = ::T.let(nil, ::T.untyped)
+  ELEMENT_DECL = ::T.let(nil, ::T.untyped)
+  ELEMENT_NODE = ::T.let(nil, ::T.untyped)
+  ENTITY_DECL = ::T.let(nil, ::T.untyped)
+  ENTITY_NODE = ::T.let(nil, ::T.untyped)
+  ENTITY_REF_NODE = ::T.let(nil, ::T.untyped)
+  HTML_DOCUMENT_NODE = ::T.let(nil, ::T.untyped)
+  IMPLIED_XPATH_CONTEXTS = ::T.let(nil, ::T.untyped)
+  NAMESPACE_DECL = ::T.let(nil, ::T.untyped)
+  NOTATION_NODE = ::T.let(nil, ::T.untyped)
+  PI_NODE = ::T.let(nil, ::T.untyped)
+  TEXT_NODE = ::T.let(nil, ::T.untyped)
+  XINCLUDE_END = ::T.let(nil, ::T.untyped)
+  XINCLUDE_START = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::NodeSet
+  IMPLIED_XPATH_CONTEXTS = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::ParseOptions
+  COMPACT = ::T.let(nil, ::T.untyped)
+  DEFAULT_HTML = ::T.let(nil, ::T.untyped)
+  DEFAULT_XML = ::T.let(nil, ::T.untyped)
+  DTDATTR = ::T.let(nil, ::T.untyped)
+  DTDLOAD = ::T.let(nil, ::T.untyped)
+  DTDVALID = ::T.let(nil, ::T.untyped)
+  HUGE = ::T.let(nil, ::T.untyped)
+  NOBASEFIX = ::T.let(nil, ::T.untyped)
+  NOBLANKS = ::T.let(nil, ::T.untyped)
+  NOCDATA = ::T.let(nil, ::T.untyped)
+  NODICT = ::T.let(nil, ::T.untyped)
+  NOENT = ::T.let(nil, ::T.untyped)
+  NOERROR = ::T.let(nil, ::T.untyped)
+  NONET = ::T.let(nil, ::T.untyped)
+  NOWARNING = ::T.let(nil, ::T.untyped)
+  NOXINCNODE = ::T.let(nil, ::T.untyped)
+  NSCLEAN = ::T.let(nil, ::T.untyped)
+  OLD10 = ::T.let(nil, ::T.untyped)
+  PEDANTIC = ::T.let(nil, ::T.untyped)
+  RECOVER = ::T.let(nil, ::T.untyped)
+  SAX1 = ::T.let(nil, ::T.untyped)
+  STRICT = ::T.let(nil, ::T.untyped)
+  XINCLUDE = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::Reader
+  TYPE_ATTRIBUTE = ::T.let(nil, ::T.untyped)
+  TYPE_CDATA = ::T.let(nil, ::T.untyped)
+  TYPE_COMMENT = ::T.let(nil, ::T.untyped)
+  TYPE_DOCUMENT = ::T.let(nil, ::T.untyped)
+  TYPE_DOCUMENT_FRAGMENT = ::T.let(nil, ::T.untyped)
+  TYPE_DOCUMENT_TYPE = ::T.let(nil, ::T.untyped)
+  TYPE_ELEMENT = ::T.let(nil, ::T.untyped)
+  TYPE_END_ELEMENT = ::T.let(nil, ::T.untyped)
+  TYPE_END_ENTITY = ::T.let(nil, ::T.untyped)
+  TYPE_ENTITY = ::T.let(nil, ::T.untyped)
+  TYPE_ENTITY_REFERENCE = ::T.let(nil, ::T.untyped)
+  TYPE_NONE = ::T.let(nil, ::T.untyped)
+  TYPE_NOTATION = ::T.let(nil, ::T.untyped)
+  TYPE_PROCESSING_INSTRUCTION = ::T.let(nil, ::T.untyped)
+  TYPE_SIGNIFICANT_WHITESPACE = ::T.let(nil, ::T.untyped)
+  TYPE_TEXT = ::T.let(nil, ::T.untyped)
+  TYPE_WHITESPACE = ::T.let(nil, ::T.untyped)
+  TYPE_XML_DECLARATION = ::T.let(nil, ::T.untyped)
+end
+
+class Nokogiri::XML::SAX::Parser
+  ENCODINGS = ::T.let(nil, ::T.untyped)
+end
+
+module Nokogiri::XML::Searchable
+  LOOKS_LIKE_XPATH = ::T.let(nil, ::T.untyped)
+end
+
 class Object
   include ::JSON::Ext::Generator::GeneratorMethods::Object
+  include ::PP::ObjectMixin
   ARGF = ::T.let(nil, ::T.untyped)
   ARGV = ::T.let(nil, ::T.untyped)
   CROSS_COMPILING = ::T.let(nil, ::T.untyped)
@@ -3840,6 +4982,8 @@ module OpenSSL
   def self.fips_mode(); end
 end
 
+ParseError = Racc::ParseError
+
 class Pathname
   def empty?(); end
 
@@ -3900,6 +5044,149 @@ module Process
   def self.last_status(); end
 
   def self.setpgrp(); end
+end
+
+class Pry
+  BINDING_METHOD_IMPL = ::T.let(nil, ::T.untyped)
+  CLIPPED_PRINT = ::T.let(nil, ::T.untyped)
+  Commands = ::T.let(nil, ::T.untyped)
+  DEFAULT_CONTROL_D_HANDLER = ::T.let(nil, ::T.untyped)
+  DEFAULT_EXCEPTION_HANDLER = ::T.let(nil, ::T.untyped)
+  DEFAULT_EXCEPTION_WHITELIST = ::T.let(nil, ::T.untyped)
+  DEFAULT_HOOKS = ::T.let(nil, ::T.untyped)
+  DEFAULT_PRINT = ::T.let(nil, ::T.untyped)
+  DEFAULT_SYSTEM = ::T.let(nil, ::T.untyped)
+  EMPTY_COMPLETIONS = ::T.let(nil, ::T.untyped)
+  HOME_RC_FILE = ::T.let(nil, ::T.untyped)
+  LOCAL_RC_FILE = ::T.let(nil, ::T.untyped)
+  SIMPLE_PRINT = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+Pry::BasicObject::Kernel = Kernel
+
+Pry::BasicObject::Pry = Pry
+
+class Pry::Code
+  extend ::MethodSource::CodeHelpers
+end
+
+class Pry::CodeFile
+  DEFAULT_EXT = ::T.let(nil, ::T.untyped)
+  EXTENSIONS = ::T.let(nil, ::T.untyped)
+  FILES = ::T.let(nil, ::T.untyped)
+  INITIAL_PWD = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::ColorPrinter
+  OBJ_COLOR = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command
+  VOID_VALUE = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command::GemSearch
+  API_ENDPOINT = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command::GemStat
+  FAIL_WHALE = ::T.let(nil, ::T.untyped)
+  STAT_HOST = ::T.let(nil, ::T.untyped)
+  STAT_PATH = ::T.let(nil, ::T.untyped)
+  STAT_PORT = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command::Ls
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command::Ls::Constants
+  DEPRECATED_CONSTANTS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Command::Ls::Globals
+  BUILTIN_GLOBALS = ::T.let(nil, ::T.untyped)
+  PSEUDO_GLOBALS = ::T.let(nil, ::T.untyped)
+end
+
+module Pry::Config::Behavior
+  ASSIGNMENT = ::T.let(nil, ::T.untyped)
+  INSPECT_REGEXP = ::T.let(nil, ::T.untyped)
+  NODUP = ::T.let(nil, ::T.untyped)
+end
+
+module Pry::Config::Convenience
+  SHORTCUTS = ::T.let(nil, ::T.untyped)
+end
+
+module Pry::Config::Memoization
+  MEMOIZED_METHODS = ::T.let(nil, ::T.untyped)
+end
+
+module Pry::Helpers::Text
+  COLORS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Indent
+  IGNORE_TOKENS = ::T.let(nil, ::T.untyped)
+  MIDWAY_TOKENS = ::T.let(nil, ::T.untyped)
+  OPEN_TOKENS = ::T.let(nil, ::T.untyped)
+  OPTIONAL_DO_TOKENS = ::T.let(nil, ::T.untyped)
+  SINGLELINE_TOKENS = ::T.let(nil, ::T.untyped)
+  SPACES = ::T.let(nil, ::T.untyped)
+  STATEMENT_END_TOKENS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Inspector
+  MAP = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::ObjectPath
+  SPECIAL_TERMS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::PluginManager
+  PRY_PLUGIN_PREFIX = ::T.let(nil, ::T.untyped)
+end
+
+module Pry::Prompt
+  DEFAULT_NAME = ::T.let(nil, ::T.untyped)
+  SAFE_CONTEXTS = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Slop
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Pry::Slop::Option
+  DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+module Racc
+  Racc_No_Extensions = ::T.let(nil, ::T.untyped)
+end
+
+class Racc::CparseParams
+end
+
+class Racc::CparseParams
+end
+
+class Racc::Parser
+  Racc_Main_Parsing_Routine = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Id_C = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Revision = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Revision_C = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Revision_R = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Version = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Version_C = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Core_Version_R = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Revision = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Type = ::T.let(nil, ::T.untyped)
+  Racc_Runtime_Version = ::T.let(nil, ::T.untyped)
+  Racc_YY_Parse_Method = ::T.let(nil, ::T.untyped)
 end
 
 module Rack
@@ -5255,6 +6542,8 @@ class RubyVM::AbstractSyntaxTree::Node
 
   def last_lineno(); end
 
+  def pretty_print_children(q, names=T.unsafe(nil)); end
+
   def type(); end
 end
 
@@ -5359,6 +6648,25 @@ class Set
 
   def reset(); end
   InspectKey = ::T.let(nil, ::T.untyped)
+end
+
+module Shellwords
+end
+
+module Shellwords
+  def self.escape(str); end
+
+  def self.join(array); end
+
+  def self.shellescape(str); end
+
+  def self.shelljoin(array); end
+
+  def self.shellsplit(line); end
+
+  def self.shellwords(line); end
+
+  def self.split(line); end
 end
 
 class SignalException
@@ -6252,6 +7560,20 @@ class Tilt::Mapping
   LOCK = ::T.let(nil, ::T.untyped)
 end
 
+class Tilt::NokogiriTemplate
+  def evaluate(scope, locals); end
+
+  def precompiled_postamble(locals); end
+
+  def precompiled_preamble(locals); end
+
+  def precompiled_template(locals); end
+  DOCUMENT_HEADER = ::T.let(nil, ::T.untyped)
+end
+
+class Tilt::NokogiriTemplate
+end
+
 class Tilt::PlainTemplate
 end
 
@@ -6299,6 +7621,24 @@ end
 
 class TrueClass
   include ::JSON::Ext::Generator::GeneratorMethods::TrueClass
+end
+
+module Twilio
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Twilio::JWT::TaskRouterCapability
+  TASK_ROUTER_VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Twilio::JWT::TaskRouterCapability::TaskRouterUtils
+  TASK_ROUTER_BASE_URL = ::T.let(nil, ::T.untyped)
+  TASK_ROUTER_VERSION = ::T.let(nil, ::T.untyped)
+  TASK_ROUTER_WEBSOCKET_BASE_URL = ::T.let(nil, ::T.untyped)
+end
+
+class Twilio::REST::Page
+  META_KEYS = ::T.let(nil, ::T.untyped)
 end
 
 module URI

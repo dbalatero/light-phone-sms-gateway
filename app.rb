@@ -5,20 +5,43 @@ require 'bundler/setup'
 require 'sorbet-runtime'
 
 require 'sinatra/base'
+require 'twilio-ruby'
 require_relative './lib/compare'
+require_relative './lib/commands'
 
 class App < Sinatra::Base
+  configure :production, :development do
+    enable :logging
+  end
+
   get '/' do
     body 'OK'
   end
 
+  COMMANDS = [
+    Commands::Ping
+  ].freeze
+
   post '/gateway' do
-    secret_token = request.env['HTTP_SMS_GATEWAY_TOKEN']
-    return status 403 unless secret_token
+    twilio = Twilio::REST::Client.new(
+      ENV.fetch('TWILIO_ACCOUNT_SID'),
+      ENV.fetch('TWILIO_AUTH_TOKEN')
+    )
 
-    configured_token = ENV.fetch('GATEWAY_SECRET_KEY')
-    return status 403 unless Compare.secure_compare(secret_token, configured_token)
+    incoming_message = params['Body'].to_s.downcase
+    cmd, arg_text = incoming_message.split(/\s+/, 2)
 
-    body 'OK GATEWAY'
+    command_class = COMMANDS.find { |klass| klass.name == cmd }
+
+    twiml = Twilio::TwiML::MessagingResponse.new do |resp|
+      if command_class
+        command = command_class.new(arg_text)
+        resp.message body: command.response_body
+      else
+        resp.message body: 'invalid command'
+      end
+    end
+
+    twiml.to_s
   end
 end

@@ -2155,6 +2155,162 @@
 # uninitialized constant Chalk
 # uninitialized constant Chalk
 # wrong constant name json_creatable?
+# wrong constant name <Class:Duo>
+# wrong constant name <Class:FileType>
+# wrong constant name <Class:Scanners>
+# wrong constant name <Class:Styles>
+# wrong constant name <Class:Tokens>
+# wrong constant name <Class:TokensProxy>
+# undefined method `call<defaultArg>1' for class `CodeRay::Duo'
+# undefined method `encode<defaultArg>1' for class `CodeRay::Duo'
+# undefined method `highlight<defaultArg>1' for class `CodeRay::Duo'
+# undefined method `initialize<defaultArg>1' for class `CodeRay::Duo'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `CodeRay::Duo'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `CodeRay::Duo'
+# Did you mean?  initialize_dup
+# wrong constant name call<defaultArg>1
+# wrong constant name call
+# wrong constant name encode<defaultArg>1
+# wrong constant name encode
+# wrong constant name encoder
+# wrong constant name format
+# wrong constant name format=
+# wrong constant name highlight<defaultArg>1
+# wrong constant name highlight
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name lang
+# wrong constant name lang=
+# wrong constant name options
+# wrong constant name options=
+# wrong constant name scanner
+# wrong constant name <static-init>
+# wrong constant name []
+# uninitialized constant CodeRay::Encoders::Terminal::DEFAULT_OPTIONS
+# wrong constant name <Class:UnknownFileType>
+# wrong constant name <static-init>
+# undefined singleton method `[]<defaultArg>1' for `CodeRay::FileType'
+# undefined singleton method `fetch<defaultArg>1' for `CodeRay::FileType'
+# undefined singleton method `fetch<defaultArg>2' for `CodeRay::FileType'
+# wrong constant name <static-init>
+# wrong constant name []<defaultArg>1
+# wrong constant name []
+# wrong constant name fetch<defaultArg>1
+# wrong constant name fetch<defaultArg>2
+# wrong constant name fetch
+# wrong constant name type_from_shebang
+# wrong constant name <Class:Scanner>
+# undefined method `column<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `initialize<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# Did you mean?  initialize_dup
+# undefined method `line<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>3' for class `CodeRay::Scanners::Scanner'
+# undefined method `tokenize<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `tokenize<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# uninitialized constant CodeRay::Scanners::Scanner::Elem
+# uninitialized constant CodeRay::Scanners::Scanner::Id
+# wrong constant name <Class:ScanError>
+# uninitialized constant CodeRay::Scanners::Scanner::Version
+# Did you mean?  CodeRay::VERSION
+# wrong constant name binary_string
+# wrong constant name column<defaultArg>1
+# wrong constant name column
+# wrong constant name each
+# wrong constant name file_extension
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name lang
+# wrong constant name line<defaultArg>1
+# wrong constant name line
+# wrong constant name raise_inspect<defaultArg>1
+# wrong constant name raise_inspect<defaultArg>2
+# wrong constant name raise_inspect<defaultArg>3
+# wrong constant name raise_inspect
+# wrong constant name raise_inspect_arguments
+# wrong constant name reset_instance
+# wrong constant name scan_rest
+# wrong constant name scan_tokens
+# wrong constant name scanner_state_info
+# wrong constant name set_string_from_source
+# wrong constant name set_tokens_from_options
+# wrong constant name setup
+# wrong constant name state
+# wrong constant name state=
+# wrong constant name string=
+# wrong constant name tokenize<defaultArg>1
+# wrong constant name tokenize<defaultArg>2
+# wrong constant name tokenize
+# wrong constant name tokens
+# wrong constant name tokens_last
+# wrong constant name tokens_size
+# wrong constant name <static-init>
+# undefined singleton method `encoding<defaultArg>1' for `CodeRay::Scanners::Scanner'
+# undefined singleton method `file_extension<defaultArg>1' for `CodeRay::Scanners::Scanner'
+# wrong constant name <static-init>
+# wrong constant name encode_with_encoding
+# wrong constant name encoding<defaultArg>1
+# wrong constant name encoding
+# wrong constant name file_extension<defaultArg>1
+# wrong constant name file_extension
+# wrong constant name guess_encoding
+# wrong constant name lang
+# wrong constant name normalize
+# wrong constant name to_unix
+# wrong constant name <static-init>
+# wrong constant name <Class:Style>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `encode<defaultArg>1' for class `CodeRay::Tokens'
+# undefined method `method_missing<defaultArg>1' for class `CodeRay::Tokens'
+# Did you mean?  method_missing
+# uninitialized constant CodeRay::Tokens::Elem
+# wrong constant name begin_group
+# wrong constant name begin_line
+# wrong constant name count
+# wrong constant name encode<defaultArg>1
+# wrong constant name encode
+# wrong constant name end_group
+# wrong constant name end_line
+# wrong constant name method_missing<defaultArg>1
+# wrong constant name method_missing
+# wrong constant name scanner
+# wrong constant name scanner=
+# wrong constant name split_into_parts
+# wrong constant name text_token
+# wrong constant name tokens
+# wrong constant name <static-init>
+# undefined method `encode<defaultArg>1' for class `CodeRay::TokensProxy'
+# undefined method `initialize<defaultArg>1' for class `CodeRay::TokensProxy'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `CodeRay::TokensProxy'
+# Did you mean?  initialize_dup
+# wrong constant name block
+# wrong constant name block=
+# wrong constant name each
+# wrong constant name encode<defaultArg>1
+# wrong constant name encode
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name input
+# wrong constant name input=
+# wrong constant name lang
+# wrong constant name lang=
+# wrong constant name method_missing
+# wrong constant name options
+# wrong constant name options=
+# wrong constant name scanner
+# wrong constant name tokens
+# wrong constant name <static-init>
 # wrong constant name polar
 # wrong constant name rect
 # wrong constant name rectangular
@@ -2364,6 +2520,246 @@
 # wrong constant name to_tty?
 # uninitialized constant Exception2MessageMapper
 # uninitialized constant Exception2MessageMapper
+# wrong constant name <static-init>
+# wrong constant name <Class:EMHttp>
+# wrong constant name <Class:EMSynchrony>
+# wrong constant name <Class:Excon>
+# wrong constant name <Class:HTTPClient>
+# wrong constant name <Class:NetHttp>
+# wrong constant name <Class:NetHttpPersistent>
+# wrong constant name <Class:Patron>
+# wrong constant name <Class:Rack>
+# wrong constant name <Class:Test>
+# wrong constant name <Class:Typhoeus>
+# uninitialized constant Faraday::Adapter::EMHttp::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# wrong constant name <Class:Manager>
+# wrong constant name <Class:Options>
+# uninitialized constant Faraday::Adapter::EMHttp::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name create_request
+# wrong constant name error_message
+# wrong constant name parallel?
+# wrong constant name perform_request
+# wrong constant name perform_single_request
+# wrong constant name raise_error
+# wrong constant name timeout_message?
+# wrong constant name add
+# wrong constant name check_finished
+# wrong constant name perform_request
+# wrong constant name reset
+# wrong constant name run
+# wrong constant name running?
+# wrong constant name <static-init>
+# wrong constant name configure_compression
+# wrong constant name configure_proxy
+# wrong constant name configure_socket
+# wrong constant name configure_ssl
+# wrong constant name configure_timeout
+# wrong constant name connection_config
+# wrong constant name read_body
+# wrong constant name request_config
+# wrong constant name request_options
+# wrong constant name <static-init>
+# undefined singleton method `setup_parallel_manager<defaultArg>1' for `Faraday::Adapter::EMHttp'
+# wrong constant name <static-init>
+# wrong constant name setup_parallel_manager<defaultArg>1
+# wrong constant name setup_parallel_manager
+# uninitialized constant Faraday::Adapter::EMSynchrony::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# wrong constant name <Class:ParallelManager>
+# uninitialized constant Faraday::Adapter::EMSynchrony::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name create_request
+# wrong constant name add
+# wrong constant name run
+# wrong constant name <static-init>
+# undefined singleton method `setup_parallel_manager<defaultArg>1' for `Faraday::Adapter::EMSynchrony'
+# wrong constant name <static-init>
+# wrong constant name setup_parallel_manager<defaultArg>1
+# wrong constant name setup_parallel_manager
+# uninitialized constant Faraday::Adapter::Excon::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::Excon::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name build_connection
+# wrong constant name read_body
+# wrong constant name <static-init>
+# uninitialized constant Faraday::Adapter::HTTPClient::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::HTTPClient::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name build_connection
+# wrong constant name configure_client
+# wrong constant name configure_proxy
+# wrong constant name configure_socket
+# wrong constant name configure_ssl
+# wrong constant name configure_timeouts
+# wrong constant name ssl_cert_store
+# wrong constant name ssl_verify_mode
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Faraday::Adapter::NetHttp'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Faraday::Adapter::NetHttp'
+# Did you mean?  initialize_dup
+# uninitialized constant Faraday::Adapter::NetHttp::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::NetHttp::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name build_connection
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name net_http_connection
+# wrong constant name <static-init>
+# uninitialized constant Faraday::Adapter::NetHttpPersistent::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::NetHttpPersistent::NET_HTTP_EXCEPTIONS
+# uninitialized constant Faraday::Adapter::NetHttpPersistent::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name <static-init>
+# uninitialized constant Faraday::Adapter::Patron::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::Patron::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name build_connection
+# wrong constant name configure_proxy
+# wrong constant name configure_ssl
+# wrong constant name configure_timeouts
+# wrong constant name <static-init>
+# uninitialized constant Faraday::Adapter::Rack::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::Rack::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Faraday::Adapter::Test'
+# Did you mean?  initialize_dup
+# uninitialized constant Faraday::Adapter::Test::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# wrong constant name <Class:Stub>
+# wrong constant name <Class:Stubs>
+# uninitialized constant Faraday::Adapter::Test::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name configure
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name stubs
+# wrong constant name stubs=
+# wrong constant name headers_match?
+# wrong constant name initialize
+# wrong constant name matches?
+# wrong constant name params_match?
+# wrong constant name path_match?
+# wrong constant name <static-init>
+# undefined method `delete<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `get<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `head<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `new_stub<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `new_stub<defaultArg>2' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `options<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `patch<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `patch<defaultArg>2' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `post<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `post<defaultArg>2' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `put<defaultArg>1' for class `Faraday::Adapter::Test::Stubs'
+# undefined method `put<defaultArg>2' for class `Faraday::Adapter::Test::Stubs'
+# wrong constant name <Class:NotFound>
+# wrong constant name delete<defaultArg>1
+# wrong constant name delete
+# wrong constant name empty?
+# wrong constant name get<defaultArg>1
+# wrong constant name get
+# wrong constant name head<defaultArg>1
+# wrong constant name head
+# wrong constant name match
+# wrong constant name matches?
+# wrong constant name new_stub<defaultArg>1
+# wrong constant name new_stub<defaultArg>2
+# wrong constant name new_stub
+# wrong constant name options<defaultArg>1
+# wrong constant name options
+# wrong constant name patch<defaultArg>1
+# wrong constant name patch<defaultArg>2
+# wrong constant name patch
+# wrong constant name post<defaultArg>1
+# wrong constant name post<defaultArg>2
+# wrong constant name post
+# wrong constant name put<defaultArg>1
+# wrong constant name put<defaultArg>2
+# wrong constant name put
+# wrong constant name verify_stubbed_calls
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant Faraday::Adapter::Typhoeus::CONTENT_LENGTH
+# Did you mean?  Faraday::Adapter::CONTENT_LENGTH
+# uninitialized constant Faraday::Adapter::Typhoeus::TIMEOUT_KEYS
+# Did you mean?  Faraday::Adapter::TIMEOUT_KEYS
+# wrong constant name call
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name build_hash
+# wrong constant name header
+# uninitialized constant Faraday::Request::BasicAuthentication::KEY
+# wrong constant name <static-init>
+# wrong constant name header
+# undefined method `initialize<defaultArg>1' for class `Faraday::Request::Instrumentation'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Options>
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `process_params<defaultArg>1' for class `Faraday::Request::Multipart'
+# undefined method `process_params<defaultArg>2' for class `Faraday::Request::Multipart'
+# uninitialized constant Faraday::Request::Multipart::CONTENT_TYPE
+# wrong constant name create_multipart
+# wrong constant name has_multipart?
+# wrong constant name part
+# wrong constant name process_params<defaultArg>1
+# wrong constant name process_params<defaultArg>2
+# wrong constant name process_params
+# wrong constant name unique_boundary
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Faraday::Request::Retry'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Options>
+# wrong constant name build_exception_matcher
+# wrong constant name calculate_sleep_amount
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Faraday::Request::TokenAuthentication'
+# Did you mean?  initialize_dup
+# uninitialized constant Faraday::Request::TokenAuthentication::KEY
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# undefined singleton method `header<defaultArg>1' for `Faraday::Request::TokenAuthentication'
+# wrong constant name <static-init>
+# wrong constant name header<defaultArg>1
+# wrong constant name header
+# wrong constant name call
+# wrong constant name match_content_type
+# wrong constant name process_request?
+# wrong constant name request_type
+# wrong constant name <static-init>
+# wrong constant name mime_type
+# wrong constant name mime_type=
+# undefined method `initialize<defaultArg>1' for class `Faraday::Response::Logger'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Faraday::Response::Logger'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name response_values
 # wrong constant name <static-init>
 # wrong constant name resume
 # wrong constant name yield
@@ -2594,6 +2990,7 @@
 # wrong constant name gem
 # wrong constant name itself
 # wrong constant name object_id
+# wrong constant name pretty_inspect
 # wrong constant name respond_to?
 # wrong constant name then
 # wrong constant name yield_self
@@ -2635,6 +3032,11 @@
 # uninitialized constant Mutex_m
 # wrong constant name name
 # wrong constant name receiver
+# undefined method `initialize<defaultArg>4' for class `Net::BufferedIO'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>4
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::FTP
 # uninitialized constant Net::FTP
 # uninitialized constant Net::FTPConnectionError
@@ -2655,12 +3057,61 @@
 # Did you mean?  TypeError
 # uninitialized constant Net::FTPTempError
 # Did you mean?  TypeError
+# wrong constant name max_retries
+# wrong constant name max_retries=
+# wrong constant name max_version
+# wrong constant name max_version=
+# wrong constant name min_version
+# wrong constant name min_version=
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::HTTP::DigestAuth
 # uninitialized constant Net::HTTP::DigestAuth
 # uninitialized constant Net::HTTP::Persistent
 # uninitialized constant Net::HTTP::Persistent
+# uninitialized constant Net::HTTPAlreadyReported::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPAlreadyReported::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPEarlyHints::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPEarlyHints::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPGatewayTimeout::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPGatewayTimeout::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPLoopDetected::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPLoopDetected::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPNotExtended::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPNotExtended::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPProcessing::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPProcessing::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPRequestTimeout::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPRequestTimeout::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPURITooLong::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPURITooLong::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_TO_OBJ
+# wrong constant name <static-init>
 # uninitialized constant Net::IMAP
 # uninitialized constant Net::IMAP
+# undefined method `initialize<defaultArg>1' for class `Net::ReadTimeout'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name io
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTPAuthenticationError
@@ -2685,9 +3136,185 @@
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnsupportedCommand
 # uninitialized constant Net::SMTPUnsupportedCommand
+# undefined method `initialize<defaultArg>1' for class `Net::WriteTimeout'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name io
+# wrong constant name <static-init>
 # wrong constant name to_i
 # wrong constant name args
 # wrong constant name private_call?
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Main_Parsing_Routine
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_R
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Core_Version_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_C
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision_R
+#                Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Revision
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Revision
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Type
+# uninitialized constant Nokogiri::CSS::Parser::Racc_Runtime_Version
+# Did you mean?  Nokogiri::CSS::Parser::Racc_Runtime_Revision
+#                Nokogiri::CSS::Parser::Racc_Runtime_Core_Version
+# uninitialized constant Nokogiri::CSS::Parser::Racc_YY_Parse_Method
+# wrong constant name <Class:Element>
+# uninitialized constant Nokogiri::XML::Document::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::Document::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::Document::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::Document::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::Document::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::Document::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Document::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::Document::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::Document::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::DTD_NODE
+# uninitialized constant Nokogiri::XML::Document::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::Document::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::ENTITY_DECL
+# Did you mean?  Nokogiri::XML::EntityDecl
+# uninitialized constant Nokogiri::XML::Document::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Document::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::Document::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Document::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Document::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::Document::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::Document::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::Document::PI_NODE
+# uninitialized constant Nokogiri::XML::Document::TEXT_NODE
+# uninitialized constant Nokogiri::XML::Document::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::Document::XINCLUDE_START
+# uninitialized constant Nokogiri::XML::Element::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::Element::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::Element::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::Element::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::Element::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::Element::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::Element::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::Element::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::Element::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::DTD_NODE
+# uninitialized constant Nokogiri::XML::Element::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::Element::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::ENTITY_DECL
+# Did you mean?  Nokogiri::XML::EntityDecl
+# uninitialized constant Nokogiri::XML::Element::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Element::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::Element::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::Element::Elem
+# uninitialized constant Nokogiri::XML::Element::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::Element::IMPLIED_XPATH_CONTEXTS
+# uninitialized constant Nokogiri::XML::Element::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::Element::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::Element::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::Element::PI_NODE
+# uninitialized constant Nokogiri::XML::Element::TEXT_NODE
+# uninitialized constant Nokogiri::XML::Element::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::Element::XINCLUDE_START
+# wrong constant name <static-init>
+# uninitialized constant Nokogiri::XML::EntityDecl::ATTRIBUTE_DECL
+# Did you mean?  Nokogiri::XML::AttributeDecl
+#                Nokogiri::XML::EntityDecl::ATTRIBUTE_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ATTRIBUTE_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::ATTRIBUTE_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::CDATA_SECTION_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::COMMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCB_DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_FRAG_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_TYPE_NODE
+#                Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::COMMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DOCUMENT_TYPE_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::DOCUMENT_FRAG_NODE
+#                Nokogiri::XML::EntityDecl::DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::DTD_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ELEMENT_DECL
+# Did you mean?  Nokogiri::XML::ElementDecl
+# uninitialized constant Nokogiri::XML::EntityDecl::ELEMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::ENTITY_REF_NODE
+# Did you mean?  Nokogiri::XML::EntityDecl::ENTITY_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::HTML_DOCUMENT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::IMPLIED_XPATH_CONTEXTS
+# uninitialized constant Nokogiri::XML::EntityDecl::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::EntityDecl::NAMESPACE_DECL
+# uninitialized constant Nokogiri::XML::EntityDecl::NOTATION_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::PI_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::TEXT_NODE
+# uninitialized constant Nokogiri::XML::EntityDecl::XINCLUDE_END
+# uninitialized constant Nokogiri::XML::EntityDecl::XINCLUDE_START
+# uninitialized constant Nokogiri::XML::Node::LOOKS_LIKE_XPATH
+# uninitialized constant Nokogiri::XML::NodeSet::LOOKS_LIKE_XPATH
 # uninitialized constant RUBYGEMS_ACTIVATION_MONITOR
 # wrong constant name <Class:Object>
 # wrong constant name []
@@ -2754,8 +3381,6 @@
 # wrong constant name fips_mode
 # uninitialized constant Opus
 # uninitialized constant Opus
-# uninitialized constant PP
-# uninitialized constant PP
 # undefined method `children<defaultArg>1' for class `Pathname'
 # undefined method `each_child<defaultArg>1' for class `Pathname'
 # undefined method `find<defaultArg>1' for class `Pathname'
@@ -2766,8 +3391,6 @@
 # wrong constant name fnmatch?
 # wrong constant name glob
 # wrong constant name make_symlink
-# uninitialized constant PrettyPrint
-# uninitialized constant PrettyPrint
 # wrong constant name <<
 # wrong constant name ===
 # wrong constant name >>
@@ -2808,10 +3431,21 @@
 # wrong constant name members
 # wrong constant name last_status
 # wrong constant name setpgrp
-# uninitialized constant Racc
-# Did you mean?  Rack
-# uninitialized constant Racc
-# Did you mean?  Rack
+# uninitialized constant Pry::Command::COLORS
+# uninitialized constant Pry::Command::GemSearch::COLORS
+# Did you mean?  Pry::Command::COLORS
+# uninitialized constant Pry::Command::GemSearch::VOID_VALUE
+# Did you mean?  Pry::Command::VOID_VALUE
+# uninitialized constant Pry::Command::GemStat::COLORS
+# Did you mean?  Pry::Command::COLORS
+# uninitialized constant Pry::Command::GemStat::VOID_VALUE
+# Did you mean?  Pry::Command::VOID_VALUE
+# uninitialized constant Pry::Command::Ls::COLORS
+# Did you mean?  Pry::Command::COLORS
+# uninitialized constant Pry::Command::Ls::VOID_VALUE
+# Did you mean?  Pry::Command::VOID_VALUE
+# wrong constant name <Class:CparseParams>
+# wrong constant name <static-init>
 # wrong constant name <Class:Cascade>
 # wrong constant name <Class:Chunked>
 # wrong constant name <Class:ConditionalGet>
@@ -3609,11 +4243,15 @@
 # uninitialized constant Ripper
 # uninitialized constant Ripper
 # wrong constant name <Class:Node>
+# undefined method `pretty_print_children<defaultArg>1' for class `RubyVM::AbstractSyntaxTree::Node'
+# Did you mean?  pretty_print_inspect
 # wrong constant name children
 # wrong constant name first_column
 # wrong constant name first_lineno
 # wrong constant name last_column
 # wrong constant name last_lineno
+# wrong constant name pretty_print_children<defaultArg>1
+# wrong constant name pretty_print_children
 # wrong constant name type
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -3663,6 +4301,14 @@
 # wrong constant name pretty_print
 # wrong constant name pretty_print_cycle
 # wrong constant name reset
+# wrong constant name <static-init>
+# wrong constant name escape
+# wrong constant name join
+# wrong constant name shellescape
+# wrong constant name shelljoin
+# wrong constant name shellsplit
+# wrong constant name shellwords
+# wrong constant name split
 # wrong constant name signm
 # wrong constant name signo
 # uninitialized constant Sinatra::Base::COMMON_SEP
@@ -4047,6 +4693,7 @@
 # wrong constant name <Class:CSVTemplate>
 # wrong constant name <Class:ERBTemplate>
 # wrong constant name <Class:EtanniTemplate>
+# wrong constant name <Class:NokogiriTemplate>
 # wrong constant name <Class:PlainTemplate>
 # wrong constant name <Class:RDocTemplate>
 # wrong constant name <Class:SigilTemplate>
@@ -4063,6 +4710,11 @@
 # wrong constant name default_output_variable
 # wrong constant name default_output_variable=
 # wrong constant name precompiled
+# wrong constant name precompiled_template
+# wrong constant name <static-init>
+# wrong constant name evaluate
+# wrong constant name precompiled_postamble
+# wrong constant name precompiled_preamble
 # wrong constant name precompiled_template
 # wrong constant name <static-init>
 # wrong constant name <static-init>

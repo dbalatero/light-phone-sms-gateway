@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sorbet-runtime'
+gem 'twilio-ruby'
 
 group :development do
   gem 'pry'

@@ -1,1 +1,2 @@
-export GATEWAY_SECRET_KEY=xxxxxxxxxxx
+export TWILIO_ACCOUNT_SID=xxxxxxxxxxx
+export TWILIO_AUTH_TOKEN=xxxxxxxxx

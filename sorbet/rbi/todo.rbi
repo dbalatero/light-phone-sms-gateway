@@ -5,3 +5,11 @@
 module ::Anonymous_Delegator_1; end
 module ::Anonymous_Delegator_2; end
 module ::Anonymous_Delegator_3; end
+module Compare::Boolean; end
+module Compare::Boolean; end
+module Compare::Boolean; end
+module Compare::Boolean; end
+module T::Private::Methods::MethodHooks; end
+module T::Private::Methods::MethodHooks; end
+module T::Private::Methods::SingletonMethodHooks; end
+module T::Private::Methods::SingletonMethodHooks; end
