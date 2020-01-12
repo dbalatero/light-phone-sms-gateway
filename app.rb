@@ -23,11 +23,6 @@ class App < Sinatra::Base
   ].freeze
 
   post '/gateway' do
-    twilio = Twilio::REST::Client.new(
-      ENV.fetch('TWILIO_ACCOUNT_SID'),
-      ENV.fetch('TWILIO_AUTH_TOKEN')
-    )
-
     incoming_message = params['Body'].to_s.downcase
     cmd, arg_text = incoming_message.split(/\s+/, 2)
 
