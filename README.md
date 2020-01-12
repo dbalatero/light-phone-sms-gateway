@@ -18,6 +18,18 @@ that matter) can ping with useful commands.
 
 ## Cost
 
+This service isn't free to run:
+
+* Twilio costs $0.0075 (at time of writing) per SMS.
+* Responses might come back batched as multiple SMS messages.
+
+However, you need to do a cost/benefit analysis. What is the value of ditching
+your smartphone and regaining your focus? For me, I would easily pay someone
+$100/mo if they could guarantee that I would be twice as focused and less
+stressed out by technology. YMMV, of course. But for the love of god don't
+kneejerk react to the cost - make sure you really weigh the pros and cons of
+running this service!
+
 ## Supported Commands
 
 Here are the currently supported commands. If you want to add more commands, see [Contributing a new command](#contributing-a-new-command).
