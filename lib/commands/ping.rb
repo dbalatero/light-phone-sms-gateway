@@ -1,6 +1,8 @@
 # typed: strong
 # frozen_string_literal: true
 
+require_relative './base'
+
 module Commands
   class Ping < Base
     extend T::Sig
