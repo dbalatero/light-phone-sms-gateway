@@ -38,6 +38,60 @@ This command will give you Google Maps directions from `start` to `destination`.
 * [Get an API key for Google Maps](https://developers.google.com/maps/gmp-get-started)
 * `heroku config:set GOOGLE_MAPS_API_KEY=...`
 
+*Examples:*
+
+    -> directions rail Smith Tower to University of Washington
+
+    18 mins (4.4 mi) to Seattle, WA 98195, USA
+
+    Walk to Pioneer Square Station (3 mins)
+    1. Head northwest on 2nd Ave toward James St (213 ft, 1 min)
+    2. Turn right onto James St (322 ft, 2 mins)
+    3. Turn left onto 3rd Ave. Destination will be on the right (157 ft, 1 min)
+
+    Light rail towards University Of Washington Station (11 mins)
+    1. Board Link light rail (Sound Transit) from Pioneer Square Station at 3:39pm
+    2. Get off at University of Washington Station at 3:50pm
+
+    Walk to Seattle, WA 98195, USA (4 mins)
+    1. Head south (85 ft, 1 min)
+    2. Turn right toward Montlake Blvd NE (220 ft, 1 min)
+    3. Turn left onto Montlake Blvd NE. Destination will be on the right (0.1 mi, 2 mins)
+
+    -> directions rail Barclays Center, Brooklyn, NY to Madison Square Garden
+
+    25 mins (6.1 mi) to 4 Pennsylvania Plaza, New York, NY 10001, USA
+
+    Walk to Atlantic Avenue Barclays Center Station (3 mins)
+    1. Head northeast toward Atlantic Ave (131 ft, 1 min)
+    2. Turn left onto Atlantic Ave. Destination will be on the left (135 ft, 1 min)
+    3. Take entrance Barclays Center entrance (456 ft, 2 mins)
+
+    Subway towards Harlem - 148 St (21 mins)
+    1. Board 3 (MTA New York City Transit) from Atlantic Avenue Barclays Center Station at 6:32pm
+    2. Get off at 34 St - Penn Station at 6:52pm
+
+    Walk to 4 Pennsylvania Plaza, New York, NY 10001, USA (1 min)
+    1. Take exit 7th Ave & 33rd St at NW corner (69 ft, 1 min)
+    2. Head southeast on W 33rd St toward 7th Ave/Fashion Ave (66 ft, 1 min)
+    3. Turn right onto 7th Ave/Fashion Ave. Destination will be on the right (194 ft, 1 min)
+
+    -> directions walk SF Moma to Japanese gardens, san francisco, ca
+
+    1 hour 30 mins (4.2 mi) to Japanese Tea Garden, 75 Hagiwara Tea Garden Dr, San Francisco, CA 94118, USA
+    Head northwest on 3rd St toward Minna St (1 min)
+    Turn left onto Mission St (11 mins)
+    Turn right onto 6th St (3 mins)
+    Turn left onto Market St. Pass by CVS (on the left in 0.2mi) (9 mins)
+    Slight right onto Hayes St. Pass by Popeyes Louisiana Kitchen (on the left in 1.2mi) (49 mins)
+    Slight right (4 mins)
+    Turn right (1 min)
+    Turn left (1 min)
+    Turn right (6 mins)
+    Turn left (3 mins)
+    Turn left toward Hagiwara Tea Garden Dr (1 min)
+    Turn right onto Hagiwara Tea Garden Dr. Destination will be on the right (2 mins)
+
 ### help
 
 Get a list of commands, or get help for a specific command.
