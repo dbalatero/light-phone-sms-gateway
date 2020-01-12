@@ -2,6 +2,8 @@
 
 require 'rubygems'
 require 'bundler/setup'
+require 'sorbet-runtime'
+
 require 'sinatra/base'
 require_relative './lib/compare'
 

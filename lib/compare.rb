@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module Compare
+  extend T::Sig
+
   module_function
 
   # File activesupport/lib/active_support/security_utils.rb, line 11
