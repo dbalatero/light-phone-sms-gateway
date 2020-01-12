@@ -2157,7 +2157,10 @@
 # wrong constant name json_creatable?
 # wrong constant name <Class:Duo>
 # wrong constant name <Class:FileType>
+# wrong constant name <Class:Scanners>
 # wrong constant name <Class:Styles>
+# wrong constant name <Class:Tokens>
+# wrong constant name <Class:TokensProxy>
 # undefined method `call<defaultArg>1' for class `CodeRay::Duo'
 # undefined method `encode<defaultArg>1' for class `CodeRay::Duo'
 # undefined method `highlight<defaultArg>1' for class `CodeRay::Duo'
@@ -2200,11 +2203,122 @@
 # wrong constant name fetch<defaultArg>2
 # wrong constant name fetch
 # wrong constant name type_from_shebang
+# wrong constant name <Class:Scanner>
+# undefined method `column<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `initialize<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# Did you mean?  initialize_dup
+# undefined method `line<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# undefined method `raise_inspect<defaultArg>3' for class `CodeRay::Scanners::Scanner'
+# undefined method `tokenize<defaultArg>1' for class `CodeRay::Scanners::Scanner'
+# undefined method `tokenize<defaultArg>2' for class `CodeRay::Scanners::Scanner'
+# uninitialized constant CodeRay::Scanners::Scanner::Elem
 # uninitialized constant CodeRay::Scanners::Scanner::Id
+# wrong constant name <Class:ScanError>
 # uninitialized constant CodeRay::Scanners::Scanner::Version
 # Did you mean?  CodeRay::VERSION
+# wrong constant name binary_string
+# wrong constant name column<defaultArg>1
+# wrong constant name column
+# wrong constant name each
+# wrong constant name file_extension
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name lang
+# wrong constant name line<defaultArg>1
+# wrong constant name line
+# wrong constant name raise_inspect<defaultArg>1
+# wrong constant name raise_inspect<defaultArg>2
+# wrong constant name raise_inspect<defaultArg>3
+# wrong constant name raise_inspect
+# wrong constant name raise_inspect_arguments
+# wrong constant name reset_instance
+# wrong constant name scan_rest
+# wrong constant name scan_tokens
+# wrong constant name scanner_state_info
+# wrong constant name set_string_from_source
+# wrong constant name set_tokens_from_options
+# wrong constant name setup
+# wrong constant name state
+# wrong constant name state=
+# wrong constant name string=
+# wrong constant name tokenize<defaultArg>1
+# wrong constant name tokenize<defaultArg>2
+# wrong constant name tokenize
+# wrong constant name tokens
+# wrong constant name tokens_last
+# wrong constant name tokens_size
+# wrong constant name <static-init>
+# undefined singleton method `encoding<defaultArg>1' for `CodeRay::Scanners::Scanner'
+# undefined singleton method `file_extension<defaultArg>1' for `CodeRay::Scanners::Scanner'
+# wrong constant name <static-init>
+# wrong constant name encode_with_encoding
+# wrong constant name encoding<defaultArg>1
+# wrong constant name encoding
+# wrong constant name file_extension<defaultArg>1
+# wrong constant name file_extension
+# wrong constant name guess_encoding
+# wrong constant name lang
+# wrong constant name normalize
+# wrong constant name to_unix
+# wrong constant name <static-init>
 # wrong constant name <Class:Style>
 # wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `encode<defaultArg>1' for class `CodeRay::Tokens'
+# undefined method `method_missing<defaultArg>1' for class `CodeRay::Tokens'
+# Did you mean?  method_missing
+# uninitialized constant CodeRay::Tokens::Elem
+# wrong constant name begin_group
+# wrong constant name begin_line
+# wrong constant name count
+# wrong constant name encode<defaultArg>1
+# wrong constant name encode
+# wrong constant name end_group
+# wrong constant name end_line
+# wrong constant name method_missing<defaultArg>1
+# wrong constant name method_missing
+# wrong constant name scanner
+# wrong constant name scanner=
+# wrong constant name split_into_parts
+# wrong constant name text_token
+# wrong constant name tokens
+# wrong constant name <static-init>
+# undefined method `encode<defaultArg>1' for class `CodeRay::TokensProxy'
+# undefined method `initialize<defaultArg>1' for class `CodeRay::TokensProxy'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `CodeRay::TokensProxy'
+# Did you mean?  initialize_dup
+# wrong constant name block
+# wrong constant name block=
+# wrong constant name each
+# wrong constant name encode<defaultArg>1
+# wrong constant name encode
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name input
+# wrong constant name input=
+# wrong constant name lang
+# wrong constant name lang=
+# wrong constant name method_missing
+# wrong constant name options
+# wrong constant name options=
+# wrong constant name scanner
+# wrong constant name tokens
+# wrong constant name <static-init>
+# wrong constant name arg_text
+# wrong constant name help
+# wrong constant name initialize
+# wrong constant name response_body
+# wrong constant name <static-init>
+# wrong constant name help
+# wrong constant name name
+# wrong constant name inherited
 # wrong constant name <static-init>
 # wrong constant name polar
 # wrong constant name rect
@@ -2657,6 +2771,8 @@
 # wrong constant name response_values
 # wrong constant name <static-init>
 # wrong constant name resume
+# wrong constant name transfer
+# wrong constant name current
 # wrong constant name yield
 # wrong constant name size?
 # wrong constant name empty?
@@ -2816,42 +2932,22 @@
 # undefined method `read_nonblock<defaultArg>1' for class `IO'
 # undefined method `read_nonblock<defaultArg>2' for class `IO'
 # undefined method `write_nonblock<defaultArg>1' for class `IO'
-# wrong constant name beep
-# wrong constant name cooked
-# wrong constant name cooked!
-# wrong constant name cursor
-# wrong constant name cursor=
-# wrong constant name echo=
-# wrong constant name echo?
 # wrong constant name external_encoding
-# wrong constant name getch
-# wrong constant name getpass
-# wrong constant name goto
-# wrong constant name iflush
-# wrong constant name ioflush
-# wrong constant name noecho
 # wrong constant name nonblock
 # wrong constant name nonblock=
 # wrong constant name nonblock?
 # wrong constant name nread
-# wrong constant name oflush
 # wrong constant name pathconf
 # wrong constant name pread
-# wrong constant name pressed?
 # wrong constant name pwrite
-# wrong constant name raw
-# wrong constant name raw!
 # wrong constant name read_nonblock<defaultArg>1
 # wrong constant name read_nonblock<defaultArg>2
 # wrong constant name ready?
 # wrong constant name wait
 # wrong constant name wait_readable
 # wrong constant name wait_writable
-# wrong constant name winsize
-# wrong constant name winsize=
 # wrong constant name write_nonblock<defaultArg>1
 # wrong constant name write_nonblock
-# wrong constant name console
 # wrong constant name foreach
 # undefined method `initialize<defaultArg>1' for class `IPAddr'
 # Did you mean?  initialize_dup
@@ -2914,6 +3010,21 @@
 # wrong constant name sqrt
 # wrong constant name from_state
 # wrong constant name initialize
+# uninitialized constant JSONClient::AddressableEnabled
+# uninitialized constant JSONClient::DEFAULT_AGENT_NAME
+# uninitialized constant JSONClient::GSSAPIEnabled
+# Did you mean?  JSONClient::SSPIEnabled
+# uninitialized constant JSONClient::LIB_NAME
+# uninitialized constant JSONClient::NO_PROXY_HOSTS
+# uninitialized constant JSONClient::NTLMEnabled
+# uninitialized constant JSONClient::PROPFIND_DEFAULT_EXTHEADER
+# uninitialized constant JSONClient::RUBY_VERSION_STRING
+# uninitialized constant JSONClient::SSLEnabled
+# Did you mean?  JSONClient::SSPIEnabled
+# uninitialized constant JSONClient::SSPIEnabled
+# Did you mean?  JSONClient::GSSAPIEnabled
+#                JSONClient::SSLEnabled
+# uninitialized constant JSONClient::VERSION
 # wrong constant name gem
 # wrong constant name itself
 # wrong constant name object_id
@@ -2930,7 +3041,9 @@
 # uninitialized constant Logger::LogDevice::SiD
 # wrong constant name restore
 # uninitialized constant MessagePack
+# Did you mean?  MessageMock
 # uninitialized constant MessagePack
+# Did you mean?  MessageMock
 # wrong constant name deprecate_constant
 # wrong constant name undef_method
 # wrong constant name used_modules
@@ -3241,7 +3354,12 @@
 # uninitialized constant Nokogiri::XML::EntityDecl::XINCLUDE_START
 # uninitialized constant Nokogiri::XML::Node::LOOKS_LIKE_XPATH
 # uninitialized constant Nokogiri::XML::NodeSet::LOOKS_LIKE_XPATH
+# undefined method `to_yaml<defaultArg>1' for class `Object'
 # uninitialized constant RUBYGEMS_ACTIVATION_MONITOR
+# wrong constant name dclone
+# wrong constant name to_yaml<defaultArg>1
+# wrong constant name to_yaml
+# wrong constant name yaml_tag
 # wrong constant name <Class:Object>
 # wrong constant name []
 # wrong constant name []=
@@ -3415,6 +3533,1550 @@
 # Did you mean?  Pry::Command::COLORS
 # uninitialized constant Pry::Command::Ls::VOID_VALUE
 # Did you mean?  Pry::Command::VOID_VALUE
+# wrong constant name <Class:BadAlias>
+# wrong constant name <Class:ClassLoader>
+# wrong constant name <Class:Coder>
+# wrong constant name <Class:DisallowedClass>
+# wrong constant name <Class:Emitter>
+# wrong constant name <Class:Exception>
+# wrong constant name <Class:Handler>
+# wrong constant name <Class:Handlers>
+# wrong constant name <Class:JSON>
+# wrong constant name <Class:Nodes>
+# wrong constant name <Class:Omap>
+# wrong constant name <Class:Parser>
+# wrong constant name <Class:ScalarScanner>
+# wrong constant name <Class:Set>
+# wrong constant name <Class:Stream>
+# wrong constant name <Class:Streaming>
+# wrong constant name <Class:SyntaxError>
+# wrong constant name <Class:TreeBuilder>
+# wrong constant name <Class:Visitors>
+# wrong constant name <static-init>
+# wrong constant name <Class:Restricted>
+# wrong constant name big_decimal
+# wrong constant name complex
+# wrong constant name date
+# wrong constant name date_time
+# wrong constant name exception
+# wrong constant name load
+# wrong constant name object
+# wrong constant name psych_omap
+# wrong constant name psych_set
+# wrong constant name range
+# wrong constant name rational
+# wrong constant name regexp
+# wrong constant name struct
+# wrong constant name symbol
+# wrong constant name symbolize
+# uninitialized constant Psych::ClassLoader::Restricted::BIG_DECIMAL
+# Did you mean?  BigDecimal
+#                Psych::ClassLoader::BIG_DECIMAL
+# uninitialized constant Psych::ClassLoader::Restricted::CACHE
+# Did you mean?  Psych::ClassLoader::CACHE
+# uninitialized constant Psych::ClassLoader::Restricted::COMPLEX
+# Did you mean?  Complex
+#                Psych::ClassLoader::COMPLEX
+# uninitialized constant Psych::ClassLoader::Restricted::DATE
+# Did you mean?  Date
+#                Data
+#                Psych::ClassLoader::DATE
+# uninitialized constant Psych::ClassLoader::Restricted::DATE_TIME
+# Did you mean?  DateTime
+#                Psych::ClassLoader::DATE_TIME
+# uninitialized constant Psych::ClassLoader::Restricted::EXCEPTION
+# Did you mean?  Psych::Exception
+#                Exception
+#                Psych::ClassLoader::EXCEPTION
+# uninitialized constant Psych::ClassLoader::Restricted::OBJECT
+# Did you mean?  Object
+#                Psych::ClassLoader::OBJECT
+# uninitialized constant Psych::ClassLoader::Restricted::PSYCH_OMAP
+# Did you mean?  Psych::ClassLoader::PSYCH_OMAP
+# uninitialized constant Psych::ClassLoader::Restricted::PSYCH_SET
+# Did you mean?  Psych::ClassLoader::PSYCH_SET
+# uninitialized constant Psych::ClassLoader::Restricted::RANGE
+# Did you mean?  Range
+#                Psych::ClassLoader::RANGE
+# uninitialized constant Psych::ClassLoader::Restricted::RATIONAL
+# Did you mean?  Rational
+#                Psych::ClassLoader::RATIONAL
+# uninitialized constant Psych::ClassLoader::Restricted::REGEXP
+# Did you mean?  Regexp
+#                Psych::ClassLoader::REGEXP
+# uninitialized constant Psych::ClassLoader::Restricted::STRUCT
+# Did you mean?  Struct
+#                Psych::ClassLoader::STRUCT
+# uninitialized constant Psych::ClassLoader::Restricted::SYMBOL
+# Did you mean?  Symbol
+#                Psych::ClassLoader::SYMBOL
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `map<defaultArg>1' for class `Psych::Coder'
+# undefined method `map<defaultArg>2' for class `Psych::Coder'
+# wrong constant name []
+# wrong constant name []=
+# wrong constant name add
+# wrong constant name implicit
+# wrong constant name implicit=
+# wrong constant name initialize
+# wrong constant name map<defaultArg>1
+# wrong constant name map<defaultArg>2
+# wrong constant name map
+# wrong constant name map=
+# wrong constant name object
+# wrong constant name object=
+# wrong constant name represent_map
+# wrong constant name represent_object
+# wrong constant name represent_scalar
+# wrong constant name represent_seq
+# wrong constant name scalar
+# wrong constant name scalar=
+# wrong constant name seq
+# wrong constant name seq=
+# wrong constant name style
+# wrong constant name style=
+# wrong constant name tag
+# wrong constant name tag=
+# wrong constant name type
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name <static-init>
+# uninitialized constant Psych::Emitter::EVENTS
+# uninitialized constant Psych::Emitter::OPTIONS
+# wrong constant name alias
+# wrong constant name canonical
+# wrong constant name canonical=
+# wrong constant name end_document
+# wrong constant name indentation
+# wrong constant name indentation=
+# wrong constant name initialize
+# wrong constant name line_width
+# wrong constant name line_width=
+# wrong constant name scalar
+# wrong constant name start_document
+# wrong constant name start_mapping
+# wrong constant name start_sequence
+# wrong constant name start_stream
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <Class:DumperOptions>
+# wrong constant name alias
+# wrong constant name empty
+# wrong constant name end_document
+# wrong constant name end_mapping
+# wrong constant name end_sequence
+# wrong constant name end_stream
+# wrong constant name event_location
+# wrong constant name scalar
+# wrong constant name start_document
+# wrong constant name start_mapping
+# wrong constant name start_sequence
+# wrong constant name start_stream
+# wrong constant name streaming?
+# wrong constant name canonical
+# wrong constant name canonical=
+# wrong constant name indentation
+# wrong constant name indentation=
+# wrong constant name line_width
+# wrong constant name line_width=
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <Class:DocumentStream>
+# uninitialized constant Psych::Handlers::DocumentStream::EVENTS
+# uninitialized constant Psych::Handlers::DocumentStream::OPTIONS
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <Class:RubyEvents>
+# wrong constant name <Class:Stream>
+# wrong constant name <Class:TreeBuilder>
+# wrong constant name <Class:YAMLEvents>
+# wrong constant name visit_DateTime
+# wrong constant name visit_String
+# wrong constant name visit_Symbol
+# wrong constant name visit_Time
+# wrong constant name <static-init>
+# uninitialized constant Psych::JSON::Stream::DISPATCH
+# wrong constant name <Class:Emitter>
+# uninitialized constant Psych::JSON::Stream::Emitter::EVENTS
+# uninitialized constant Psych::JSON::Stream::Emitter::OPTIONS
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant Psych::JSON::TreeBuilder::EVENTS
+# uninitialized constant Psych::JSON::TreeBuilder::OPTIONS
+# wrong constant name <static-init>
+# undefined method `end_document<defaultArg>1' for module `Psych::JSON::YAMLEvents'
+# wrong constant name end_document<defaultArg>1
+# wrong constant name end_document
+# wrong constant name scalar
+# wrong constant name start_document
+# wrong constant name start_mapping
+# wrong constant name start_sequence
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <Class:Alias>
+# wrong constant name <Class:Document>
+# wrong constant name <Class:Mapping>
+# wrong constant name <Class:Node>
+# wrong constant name <Class:Scalar>
+# wrong constant name <Class:Sequence>
+# wrong constant name <Class:Stream>
+# uninitialized constant Psych::Nodes::Alias::Elem
+# wrong constant name anchor
+# wrong constant name anchor=
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Nodes::Document'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Psych::Nodes::Document'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `Psych::Nodes::Document'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Nodes::Document::Elem
+# wrong constant name implicit
+# wrong constant name implicit=
+# wrong constant name implicit_end
+# wrong constant name implicit_end=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name root
+# wrong constant name tag_directives
+# wrong constant name tag_directives=
+# wrong constant name version
+# wrong constant name version=
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Nodes::Mapping'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Psych::Nodes::Mapping'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `Psych::Nodes::Mapping'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>4' for class `Psych::Nodes::Mapping'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Nodes::Mapping::Elem
+# wrong constant name anchor
+# wrong constant name anchor=
+# wrong constant name implicit
+# wrong constant name implicit=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize
+# wrong constant name style
+# wrong constant name style=
+# wrong constant name tag=
+# wrong constant name <static-init>
+# undefined method `to_yaml<defaultArg>1' for class `Psych::Nodes::Node'
+# undefined method `to_yaml<defaultArg>2' for class `Psych::Nodes::Node'
+# undefined method `yaml<defaultArg>1' for class `Psych::Nodes::Node'
+# undefined method `yaml<defaultArg>2' for class `Psych::Nodes::Node'
+# uninitialized constant Psych::Nodes::Node::Elem
+# wrong constant name alias?
+# wrong constant name children
+# wrong constant name document?
+# wrong constant name each
+# wrong constant name end_column
+# wrong constant name end_column=
+# wrong constant name end_line
+# wrong constant name end_line=
+# wrong constant name mapping?
+# wrong constant name scalar?
+# wrong constant name sequence?
+# wrong constant name start_column
+# wrong constant name start_column=
+# wrong constant name start_line
+# wrong constant name start_line=
+# wrong constant name stream?
+# wrong constant name tag
+# wrong constant name to_ruby
+# wrong constant name to_yaml<defaultArg>1
+# wrong constant name to_yaml<defaultArg>2
+# wrong constant name to_yaml
+# wrong constant name transform
+# wrong constant name yaml<defaultArg>1
+# wrong constant name yaml<defaultArg>2
+# wrong constant name yaml
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Nodes::Scalar'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Psych::Nodes::Scalar'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `Psych::Nodes::Scalar'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>4' for class `Psych::Nodes::Scalar'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>5' for class `Psych::Nodes::Scalar'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Nodes::Scalar::Elem
+# wrong constant name anchor
+# wrong constant name anchor=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize<defaultArg>5
+# wrong constant name initialize
+# wrong constant name plain
+# wrong constant name plain=
+# wrong constant name quoted
+# wrong constant name quoted=
+# wrong constant name style
+# wrong constant name style=
+# wrong constant name tag=
+# wrong constant name value
+# wrong constant name value=
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Nodes::Sequence'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Psych::Nodes::Sequence'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `Psych::Nodes::Sequence'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>4' for class `Psych::Nodes::Sequence'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Nodes::Sequence::Elem
+# wrong constant name anchor
+# wrong constant name anchor=
+# wrong constant name implicit
+# wrong constant name implicit=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize
+# wrong constant name style
+# wrong constant name style=
+# wrong constant name tag=
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Nodes::Stream'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Nodes::Stream::Elem
+# wrong constant name encoding
+# wrong constant name encoding=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant Psych::Omap::Elem
+# uninitialized constant Psych::Omap::K
+# uninitialized constant Psych::Omap::V
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Parser'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Mark>
+# wrong constant name external_encoding=
+# wrong constant name handler
+# wrong constant name handler=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name mark
+# wrong constant name parse
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name class_loader
+# wrong constant name initialize
+# wrong constant name parse_int
+# wrong constant name parse_time
+# wrong constant name tokenize
+# wrong constant name <static-init>
+# uninitialized constant Psych::Set::Elem
+# uninitialized constant Psych::Set::K
+# uninitialized constant Psych::Set::V
+# wrong constant name <static-init>
+# uninitialized constant Psych::Stream::DISPATCH
+# wrong constant name <Class:Emitter>
+# undefined method `end_document<defaultArg>1' for class `Psych::Stream::Emitter'
+# uninitialized constant Psych::Stream::Emitter::EVENTS
+# uninitialized constant Psych::Stream::Emitter::OPTIONS
+# wrong constant name end_document<defaultArg>1
+# wrong constant name end_document
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `start<defaultArg>1' for module `Psych::Streaming'
+# wrong constant name <Class:ClassMethods>
+# wrong constant name start<defaultArg>1
+# wrong constant name start
+# wrong constant name new
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name column
+# wrong constant name context
+# wrong constant name file
+# wrong constant name initialize
+# wrong constant name line
+# wrong constant name offset
+# wrong constant name problem
+# wrong constant name <static-init>
+# undefined method `end_document<defaultArg>1' for class `Psych::TreeBuilder'
+# uninitialized constant Psych::TreeBuilder::EVENTS
+# uninitialized constant Psych::TreeBuilder::OPTIONS
+# wrong constant name end_document<defaultArg>1
+# wrong constant name end_document
+# wrong constant name root
+# wrong constant name <static-init>
+# wrong constant name <Class:DepthFirst>
+# wrong constant name <Class:Emitter>
+# wrong constant name <Class:JSONTree>
+# wrong constant name <Class:NoAliasRuby>
+# wrong constant name <Class:ToRuby>
+# wrong constant name <Class:Visitor>
+# wrong constant name <Class:YAMLTree>
+# uninitialized constant Psych::Visitors::DepthFirst::DISPATCH
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Psych::Visitors::Emitter'
+# Did you mean?  initialize_dup
+# uninitialized constant Psych::Visitors::Emitter::DISPATCH
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name visit_Psych_Nodes_Alias
+# wrong constant name visit_Psych_Nodes_Document
+# wrong constant name visit_Psych_Nodes_Mapping
+# wrong constant name visit_Psych_Nodes_Scalar
+# wrong constant name visit_Psych_Nodes_Sequence
+# wrong constant name visit_Psych_Nodes_Stream
+# wrong constant name <static-init>
+# uninitialized constant Psych::Visitors::JSONTree::DISPATCH
+# undefined singleton method `create<defaultArg>1' for `Psych::Visitors::JSONTree'
+# wrong constant name <static-init>
+# wrong constant name create<defaultArg>1
+# wrong constant name create
+# uninitialized constant Psych::Visitors::NoAliasRuby::DISPATCH
+# uninitialized constant Psych::Visitors::NoAliasRuby::SHOVEL
+# wrong constant name <static-init>
+# uninitialized constant Psych::Visitors::ToRuby::DISPATCH
+# wrong constant name class_loader
+# wrong constant name initialize
+# wrong constant name visit_Psych_Nodes_Alias
+# wrong constant name visit_Psych_Nodes_Document
+# wrong constant name visit_Psych_Nodes_Mapping
+# wrong constant name visit_Psych_Nodes_Scalar
+# wrong constant name visit_Psych_Nodes_Sequence
+# wrong constant name visit_Psych_Nodes_Stream
+# wrong constant name <static-init>
+# wrong constant name create
+# wrong constant name accept
+# wrong constant name <static-init>
+# undefined method `start<defaultArg>1' for class `Psych::Visitors::YAMLTree'
+# wrong constant name <<
+# uninitialized constant Psych::Visitors::YAMLTree::DISPATCH
+# wrong constant name finish
+# wrong constant name finished
+# wrong constant name finished?
+# wrong constant name initialize
+# wrong constant name push
+# wrong constant name start<defaultArg>1
+# wrong constant name start
+# wrong constant name started
+# wrong constant name started?
+# wrong constant name tree
+# wrong constant name visit_Array
+# wrong constant name visit_BasicObject
+# wrong constant name visit_BigDecimal
+# wrong constant name visit_Class
+# wrong constant name visit_Complex
+# wrong constant name visit_Date
+# wrong constant name visit_DateTime
+# wrong constant name visit_Delegator
+# wrong constant name visit_Encoding
+# wrong constant name visit_Enumerator
+# wrong constant name visit_Exception
+# wrong constant name visit_FalseClass
+# wrong constant name visit_Float
+# wrong constant name visit_Hash
+# wrong constant name visit_Integer
+# wrong constant name visit_Module
+# wrong constant name visit_NameError
+# wrong constant name visit_NilClass
+# wrong constant name visit_Object
+# wrong constant name visit_Psych_Omap
+# wrong constant name visit_Psych_Set
+# wrong constant name visit_Range
+# wrong constant name visit_Rational
+# wrong constant name visit_Regexp
+# wrong constant name visit_String
+# wrong constant name visit_Struct
+# wrong constant name visit_Symbol
+# wrong constant name visit_Time
+# wrong constant name visit_TrueClass
+# undefined singleton method `create<defaultArg>1' for `Psych::Visitors::YAMLTree'
+# undefined singleton method `create<defaultArg>2' for `Psych::Visitors::YAMLTree'
+# wrong constant name <static-init>
+# wrong constant name create<defaultArg>1
+# wrong constant name create<defaultArg>2
+# wrong constant name create
+# wrong constant name <static-init>
+# undefined singleton method `dump<defaultArg>1' for `Psych'
+# undefined singleton method `dump<defaultArg>2' for `Psych'
+# undefined singleton method `load<defaultArg>1' for `Psych'
+# undefined singleton method `load<defaultArg>2' for `Psych'
+# undefined singleton method `load<defaultArg>3' for `Psych'
+# undefined singleton method `load<defaultArg>4' for `Psych'
+# undefined singleton method `load_file<defaultArg>1' for `Psych'
+# undefined singleton method `load_stream<defaultArg>1' for `Psych'
+# undefined singleton method `load_stream<defaultArg>2' for `Psych'
+# undefined singleton method `load_stream<defaultArg>3' for `Psych'
+# undefined singleton method `parse<defaultArg>1' for `Psych'
+# undefined singleton method `parse<defaultArg>2' for `Psych'
+# undefined singleton method `parse<defaultArg>3' for `Psych'
+# undefined singleton method `parse_file<defaultArg>1' for `Psych'
+# undefined singleton method `parse_stream<defaultArg>1' for `Psych'
+# undefined singleton method `parse_stream<defaultArg>2' for `Psych'
+# undefined singleton method `safe_load<defaultArg>10' for `Psych'
+# undefined singleton method `safe_load<defaultArg>1' for `Psych'
+# undefined singleton method `safe_load<defaultArg>2' for `Psych'
+# undefined singleton method `safe_load<defaultArg>3' for `Psych'
+# undefined singleton method `safe_load<defaultArg>4' for `Psych'
+# undefined singleton method `safe_load<defaultArg>5' for `Psych'
+# undefined singleton method `safe_load<defaultArg>6' for `Psych'
+# undefined singleton method `safe_load<defaultArg>7' for `Psych'
+# undefined singleton method `safe_load<defaultArg>8' for `Psych'
+# undefined singleton method `safe_load<defaultArg>9' for `Psych'
+# wrong constant name <static-init>
+# wrong constant name add_builtin_type
+# wrong constant name add_domain_type
+# wrong constant name add_tag
+# wrong constant name domain_types
+# wrong constant name domain_types=
+# wrong constant name dump<defaultArg>1
+# wrong constant name dump<defaultArg>2
+# wrong constant name dump
+# wrong constant name dump_stream
+# wrong constant name dump_tags
+# wrong constant name dump_tags=
+# wrong constant name libyaml_version
+# wrong constant name load<defaultArg>1
+# wrong constant name load<defaultArg>2
+# wrong constant name load<defaultArg>3
+# wrong constant name load<defaultArg>4
+# wrong constant name load
+# wrong constant name load_file<defaultArg>1
+# wrong constant name load_file
+# wrong constant name load_stream<defaultArg>1
+# wrong constant name load_stream<defaultArg>2
+# wrong constant name load_stream<defaultArg>3
+# wrong constant name load_stream
+# wrong constant name load_tags
+# wrong constant name load_tags=
+# wrong constant name parse<defaultArg>1
+# wrong constant name parse<defaultArg>2
+# wrong constant name parse<defaultArg>3
+# wrong constant name parse
+# wrong constant name parse_file<defaultArg>1
+# wrong constant name parse_file
+# wrong constant name parse_stream<defaultArg>1
+# wrong constant name parse_stream<defaultArg>2
+# wrong constant name parse_stream
+# wrong constant name parser
+# wrong constant name remove_type
+# wrong constant name safe_load<defaultArg>10
+# wrong constant name safe_load<defaultArg>1
+# wrong constant name safe_load<defaultArg>2
+# wrong constant name safe_load<defaultArg>3
+# wrong constant name safe_load<defaultArg>4
+# wrong constant name safe_load<defaultArg>5
+# wrong constant name safe_load<defaultArg>6
+# wrong constant name safe_load<defaultArg>7
+# wrong constant name safe_load<defaultArg>8
+# wrong constant name safe_load<defaultArg>9
+# wrong constant name safe_load
+# wrong constant name to_json
+# wrong constant name <Class:AttlistDecl>
+# wrong constant name <Class:Attribute>
+# wrong constant name <Class:Attributes>
+# wrong constant name <Class:CData>
+# wrong constant name <Class:Child>
+# wrong constant name <Class:Comment>
+# wrong constant name <Class:Declaration>
+# wrong constant name <Class:DocType>
+# wrong constant name <Class:Document>
+# wrong constant name <Class:Element>
+# wrong constant name <Class:ElementDecl>
+# wrong constant name <Class:Elements>
+# wrong constant name <Class:Encoding>
+# wrong constant name <Class:Entity>
+# wrong constant name <Class:EntityConst>
+# wrong constant name <Class:ExternalEntity>
+# wrong constant name <Class:Formatters>
+# wrong constant name <Class:Functions>
+# wrong constant name <Class:IOSource>
+# wrong constant name <Class:Instruction>
+# wrong constant name <Class:Light>
+# wrong constant name <Class:Namespace>
+# wrong constant name <Class:Node>
+# wrong constant name <Class:NotationDecl>
+# wrong constant name <Class:Output>
+# wrong constant name <Class:Parent>
+# wrong constant name <Class:ParseException>
+# wrong constant name <Class:Parsers>
+# wrong constant name <Class:Security>
+# wrong constant name <Class:Source>
+# wrong constant name <Class:SourceFactory>
+# wrong constant name <Class:SyncEnumerator>
+# wrong constant name <Class:Text>
+# wrong constant name <Class:UndefinedNamespaceException>
+# wrong constant name <Class:Validation>
+# wrong constant name <Class:XMLDecl>
+# wrong constant name <Class:XMLTokens>
+# wrong constant name <Class:XPath>
+# wrong constant name <Class:XPathNode>
+# wrong constant name <Class:XPathParser>
+# undefined method `write<defaultArg>1' for class `REXML::AttlistDecl'
+# uninitialized constant REXML::AttlistDecl::Elem
+# Did you mean?  REXML::Element
+# wrong constant name []
+# wrong constant name each
+# wrong constant name element_name
+# wrong constant name include?
+# wrong constant name initialize
+# wrong constant name node_type
+# wrong constant name write<defaultArg>1
+# wrong constant name write
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Attribute'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Attribute'
+# Did you mean?  initialize_dup
+# undefined method `namespace<defaultArg>1' for class `REXML::Attribute'
+# undefined method `write<defaultArg>1' for class `REXML::Attribute'
+# wrong constant name ==
+# uninitialized constant REXML::Attribute::NAME
+# uninitialized constant REXML::Attribute::NAMECHAR
+# Did you mean?  REXML::Attribute::NAME_CHAR
+# uninitialized constant REXML::Attribute::NAMESPLIT
+# Did you mean?  REXML::Namespace
+# uninitialized constant REXML::Attribute::NAME_CHAR
+# Did you mean?  REXML::Attribute::NAME_STR
+#                REXML::Attribute::NAMECHAR
+# uninitialized constant REXML::Attribute::NAME_START_CHAR
+# uninitialized constant REXML::Attribute::NAME_STR
+# Did you mean?  REXML::Attribute::NCNAME_STR
+# uninitialized constant REXML::Attribute::NCNAME_STR
+# Did you mean?  REXML::Attribute::NAME_STR
+# uninitialized constant REXML::Attribute::NMTOKEN
+# Did you mean?  REXML::Attribute::NMTOKENS
+# uninitialized constant REXML::Attribute::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Attribute::REFERENCE
+# wrong constant name clone
+# wrong constant name doctype
+# wrong constant name element
+# wrong constant name element=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name namespace<defaultArg>1
+# wrong constant name namespace
+# wrong constant name node_type
+# wrong constant name normalized=
+# wrong constant name remove
+# wrong constant name to_s
+# wrong constant name to_string
+# wrong constant name value
+# wrong constant name write<defaultArg>1
+# wrong constant name write
+# wrong constant name xpath
+# wrong constant name <static-init>
+# wrong constant name <<
+# uninitialized constant REXML::Attributes::Elem
+# Did you mean?  REXML::Element
+# uninitialized constant REXML::Attributes::K
+# uninitialized constant REXML::Attributes::V
+# wrong constant name []
+# wrong constant name []=
+# wrong constant name add
+# wrong constant name delete
+# wrong constant name delete_all
+# wrong constant name each_attribute
+# wrong constant name get_attribute
+# wrong constant name get_attribute_ns
+# wrong constant name initialize
+# wrong constant name namespaces
+# wrong constant name prefixes
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::CData'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::CData'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::CData'
+# undefined method `write<defaultArg>2' for class `REXML::CData'
+# undefined method `write<defaultArg>3' for class `REXML::CData'
+# undefined method `write<defaultArg>4' for class `REXML::CData'
+# uninitialized constant REXML::CData::EREFERENCE
+# uninitialized constant REXML::CData::NEEDS_A_SECOND_CHECK
+# uninitialized constant REXML::CData::NUMERICENTITY
+# uninitialized constant REXML::CData::REFERENCE
+# uninitialized constant REXML::CData::SETUTITSBUS
+# uninitialized constant REXML::CData::SLAICEPS
+# uninitialized constant REXML::CData::SPECIALS
+# uninitialized constant REXML::CData::SUBSTITUTES
+# uninitialized constant REXML::CData::VALID_CHAR
+# uninitialized constant REXML::CData::VALID_XML_CHARS
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write<defaultArg>4
+# wrong constant name write
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Child'
+# Did you mean?  initialize_dup
+# wrong constant name bytes
+# wrong constant name document
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name next_sibling
+# wrong constant name next_sibling=
+# wrong constant name parent
+# wrong constant name parent=
+# wrong constant name previous_sibling
+# wrong constant name previous_sibling=
+# wrong constant name remove
+# wrong constant name replace_with
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Comment'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::Comment'
+# undefined method `write<defaultArg>2' for class `REXML::Comment'
+# undefined method `write<defaultArg>3' for class `REXML::Comment'
+# wrong constant name <=>
+# wrong constant name ==
+# wrong constant name clone
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name node_type
+# wrong constant name string
+# wrong constant name string=
+# wrong constant name to_s
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name to_s
+# wrong constant name write
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::DocType'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::DocType'
+# undefined method `write<defaultArg>2' for class `REXML::DocType'
+# undefined method `write<defaultArg>3' for class `REXML::DocType'
+# uninitialized constant REXML::DocType::Elem
+# Did you mean?  REXML::Element
+# uninitialized constant REXML::DocType::NAME
+# uninitialized constant REXML::DocType::NAMECHAR
+# Did you mean?  REXML::DocType::NAME_CHAR
+# uninitialized constant REXML::DocType::NAME_CHAR
+# Did you mean?  REXML::DocType::NAME_STR
+#                REXML::DocType::NAMECHAR
+# uninitialized constant REXML::DocType::NAME_START_CHAR
+# uninitialized constant REXML::DocType::NAME_STR
+# Did you mean?  REXML::DocType::NCNAME_STR
+# uninitialized constant REXML::DocType::NCNAME_STR
+# Did you mean?  REXML::DocType::NAME_STR
+# uninitialized constant REXML::DocType::NMTOKEN
+# Did you mean?  REXML::DocType::NMTOKENS
+# uninitialized constant REXML::DocType::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::DocType::REFERENCE
+# wrong constant name add
+# wrong constant name attribute_of
+# wrong constant name attributes_of
+# wrong constant name clone
+# wrong constant name context
+# wrong constant name entities
+# wrong constant name entity
+# wrong constant name external_id
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name name
+# wrong constant name namespaces
+# wrong constant name node_type
+# wrong constant name notation
+# wrong constant name notations
+# wrong constant name public
+# wrong constant name system
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write
+# wrong constant name <static-init>
+# undefined method `add_element<defaultArg>1' for class `REXML::Document'
+# undefined method `add_element<defaultArg>2' for class `REXML::Document'
+# undefined method `initialize<defaultArg>1' for class `REXML::Document'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Document'
+# Did you mean?  initialize_dup
+# wrong constant name <<
+# uninitialized constant REXML::Document::Elem
+# Did you mean?  REXML::Element
+# uninitialized constant REXML::Document::NAME
+# uninitialized constant REXML::Document::NAMECHAR
+# Did you mean?  REXML::Document::NAME_CHAR
+# uninitialized constant REXML::Document::NAMESPLIT
+# Did you mean?  REXML::Namespace
+# uninitialized constant REXML::Document::NAME_CHAR
+# Did you mean?  REXML::Document::NAME_STR
+#                REXML::Document::NAMECHAR
+# uninitialized constant REXML::Document::NAME_START_CHAR
+# uninitialized constant REXML::Document::NAME_STR
+# Did you mean?  REXML::Document::NCNAME_STR
+# uninitialized constant REXML::Document::NCNAME_STR
+# Did you mean?  REXML::Document::NAME_STR
+# uninitialized constant REXML::Document::NMTOKEN
+# Did you mean?  REXML::Document::NMTOKENS
+# uninitialized constant REXML::Document::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Document::REFERENCE
+# uninitialized constant REXML::Document::UNDEFINED
+# wrong constant name add
+# wrong constant name add_element<defaultArg>1
+# wrong constant name add_element<defaultArg>2
+# wrong constant name add_element
+# wrong constant name doctype
+# wrong constant name encoding
+# wrong constant name entity_expansion_count
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name record_entity_expansion
+# wrong constant name stand_alone?
+# wrong constant name version
+# wrong constant name write
+# wrong constant name xml_decl
+# wrong constant name <static-init>
+# wrong constant name entity_expansion_limit
+# wrong constant name entity_expansion_limit=
+# wrong constant name entity_expansion_text_limit
+# wrong constant name entity_expansion_text_limit=
+# wrong constant name parse_stream
+# undefined method `add_attribute<defaultArg>1' for class `REXML::Element'
+# undefined method `add_element<defaultArg>1' for class `REXML::Element'
+# undefined method `add_namespace<defaultArg>1' for class `REXML::Element'
+# undefined method `attribute<defaultArg>1' for class `REXML::Element'
+# undefined method `delete_namespace<defaultArg>1' for class `REXML::Element'
+# undefined method `each_element<defaultArg>1' for class `REXML::Element'
+# undefined method `each_element_with_attribute<defaultArg>1' for class `REXML::Element'
+# undefined method `each_element_with_attribute<defaultArg>2' for class `REXML::Element'
+# undefined method `each_element_with_attribute<defaultArg>3' for class `REXML::Element'
+# undefined method `each_element_with_text<defaultArg>1' for class `REXML::Element'
+# undefined method `each_element_with_text<defaultArg>2' for class `REXML::Element'
+# undefined method `each_element_with_text<defaultArg>3' for class `REXML::Element'
+# undefined method `get_text<defaultArg>1' for class `REXML::Element'
+# undefined method `initialize<defaultArg>1' for class `REXML::Element'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Element'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `REXML::Element'
+# Did you mean?  initialize_dup
+# undefined method `namespace<defaultArg>1' for class `REXML::Element'
+# undefined method `text<defaultArg>1' for class `REXML::Element'
+# undefined method `write<defaultArg>1' for class `REXML::Element'
+# undefined method `write<defaultArg>2' for class `REXML::Element'
+# undefined method `write<defaultArg>3' for class `REXML::Element'
+# undefined method `write<defaultArg>4' for class `REXML::Element'
+# uninitialized constant REXML::Element::Elem
+# uninitialized constant REXML::Element::NAME
+# uninitialized constant REXML::Element::NAMECHAR
+# Did you mean?  REXML::Element::NAME_CHAR
+# uninitialized constant REXML::Element::NAMESPLIT
+# Did you mean?  REXML::Namespace
+# uninitialized constant REXML::Element::NAME_CHAR
+# Did you mean?  REXML::Element::NAME_STR
+#                REXML::Element::NAMECHAR
+# uninitialized constant REXML::Element::NAME_START_CHAR
+# uninitialized constant REXML::Element::NAME_STR
+# Did you mean?  REXML::Element::NCNAME_STR
+# uninitialized constant REXML::Element::NCNAME_STR
+# Did you mean?  REXML::Element::NAME_STR
+# uninitialized constant REXML::Element::NMTOKEN
+# Did you mean?  REXML::Element::NMTOKENS
+# uninitialized constant REXML::Element::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Element::REFERENCE
+# wrong constant name []
+# wrong constant name add_attribute<defaultArg>1
+# wrong constant name add_attribute
+# wrong constant name add_attributes
+# wrong constant name add_element<defaultArg>1
+# wrong constant name add_element
+# wrong constant name add_namespace<defaultArg>1
+# wrong constant name add_namespace
+# wrong constant name add_text
+# wrong constant name attribute<defaultArg>1
+# wrong constant name attribute
+# wrong constant name attributes
+# wrong constant name cdatas
+# wrong constant name clone
+# wrong constant name comments
+# wrong constant name context
+# wrong constant name context=
+# wrong constant name delete_attribute
+# wrong constant name delete_element
+# wrong constant name delete_namespace<defaultArg>1
+# wrong constant name delete_namespace
+# wrong constant name each_element<defaultArg>1
+# wrong constant name each_element
+# wrong constant name each_element_with_attribute<defaultArg>1
+# wrong constant name each_element_with_attribute<defaultArg>2
+# wrong constant name each_element_with_attribute<defaultArg>3
+# wrong constant name each_element_with_attribute
+# wrong constant name each_element_with_text<defaultArg>1
+# wrong constant name each_element_with_text<defaultArg>2
+# wrong constant name each_element_with_text<defaultArg>3
+# wrong constant name each_element_with_text
+# wrong constant name elements
+# wrong constant name get_elements
+# wrong constant name get_text<defaultArg>1
+# wrong constant name get_text
+# wrong constant name has_attributes?
+# wrong constant name has_elements?
+# wrong constant name has_text?
+# wrong constant name ignore_whitespace_nodes
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name instructions
+# wrong constant name namespace<defaultArg>1
+# wrong constant name namespace
+# wrong constant name namespaces
+# wrong constant name next_element
+# wrong constant name node_type
+# wrong constant name prefixes
+# wrong constant name previous_element
+# wrong constant name raw
+# wrong constant name root
+# wrong constant name root_node
+# wrong constant name text<defaultArg>1
+# wrong constant name text
+# wrong constant name text=
+# wrong constant name texts
+# wrong constant name whitespace
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write<defaultArg>4
+# wrong constant name write
+# wrong constant name xpath
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `<<<defaultArg>1' for class `REXML::Elements'
+# undefined method `[]<defaultArg>1' for class `REXML::Elements'
+# undefined method `add<defaultArg>1' for class `REXML::Elements'
+# undefined method `collect<defaultArg>1' for class `REXML::Elements'
+# undefined method `each<defaultArg>1' for class `REXML::Elements'
+# undefined method `inject<defaultArg>1' for class `REXML::Elements'
+# undefined method `inject<defaultArg>2' for class `REXML::Elements'
+# undefined method `to_a<defaultArg>1' for class `REXML::Elements'
+# wrong constant name <<<defaultArg>1
+# wrong constant name <<
+# uninitialized constant REXML::Elements::Elem
+# wrong constant name []<defaultArg>1
+# wrong constant name []
+# wrong constant name []=
+# wrong constant name add<defaultArg>1
+# wrong constant name add
+# wrong constant name collect<defaultArg>1
+# wrong constant name collect
+# wrong constant name delete
+# wrong constant name delete_all
+# wrong constant name each<defaultArg>1
+# wrong constant name each
+# wrong constant name empty?
+# wrong constant name index
+# wrong constant name initialize
+# wrong constant name inject<defaultArg>1
+# wrong constant name inject<defaultArg>2
+# wrong constant name inject
+# wrong constant name size
+# wrong constant name to_a<defaultArg>1
+# wrong constant name to_a
+# wrong constant name <static-init>
+# wrong constant name decode
+# wrong constant name encode
+# wrong constant name encoding
+# wrong constant name encoding=
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Entity'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Entity'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `REXML::Entity'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::Entity'
+# uninitialized constant REXML::Entity::NAME
+# uninitialized constant REXML::Entity::NAMECHAR
+# Did you mean?  REXML::Entity::NAME_CHAR
+# uninitialized constant REXML::Entity::NAME_CHAR
+# Did you mean?  REXML::Entity::NAME_STR
+#                REXML::Entity::NAMECHAR
+# uninitialized constant REXML::Entity::NAME_START_CHAR
+# uninitialized constant REXML::Entity::NAME_STR
+# Did you mean?  REXML::Entity::NCNAME_STR
+# uninitialized constant REXML::Entity::NCNAME_STR
+# Did you mean?  REXML::Entity::NAME_STR
+# uninitialized constant REXML::Entity::NMTOKEN
+# Did you mean?  REXML::Entity::NMTOKENS
+# uninitialized constant REXML::Entity::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Entity::REFERENCE
+# wrong constant name external
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name name
+# wrong constant name ndata
+# wrong constant name normalized
+# wrong constant name pubid
+# wrong constant name ref
+# wrong constant name to_s
+# wrong constant name unnormalized
+# wrong constant name value
+# wrong constant name write<defaultArg>1
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name matches?
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name to_s
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name <Class:Default>
+# wrong constant name <Class:Pretty>
+# undefined method `initialize<defaultArg>1' for class `REXML::Formatters::Default'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name write
+# wrong constant name write_cdata
+# wrong constant name write_comment
+# wrong constant name write_document
+# wrong constant name write_element
+# wrong constant name write_instruction
+# wrong constant name write_text
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Formatters::Pretty'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Formatters::Pretty'
+# Did you mean?  initialize_dup
+# wrong constant name compact
+# wrong constant name compact=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name width
+# wrong constant name width=
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined singleton method `boolean<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `get_namespace<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `local_name<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `name<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `namespace_uri<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `normalize_space<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `number<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `string<defaultArg>1' for `REXML::Functions'
+# undefined singleton method `substring<defaultArg>1' for `REXML::Functions'
+# wrong constant name <static-init>
+# wrong constant name boolean<defaultArg>1
+# wrong constant name boolean
+# wrong constant name ceiling
+# wrong constant name compare_language
+# wrong constant name concat
+# wrong constant name contains
+# wrong constant name context=
+# wrong constant name count
+# wrong constant name false
+# wrong constant name floor
+# wrong constant name get_namespace<defaultArg>1
+# wrong constant name get_namespace
+# wrong constant name id
+# wrong constant name lang
+# wrong constant name last
+# wrong constant name local_name<defaultArg>1
+# wrong constant name local_name
+# wrong constant name name<defaultArg>1
+# wrong constant name name
+# wrong constant name namespace_context
+# wrong constant name namespace_context=
+# wrong constant name namespace_uri<defaultArg>1
+# wrong constant name namespace_uri
+# wrong constant name normalize_space<defaultArg>1
+# wrong constant name normalize_space
+# wrong constant name not
+# wrong constant name number<defaultArg>1
+# wrong constant name number
+# wrong constant name position
+# wrong constant name processing_instruction
+# wrong constant name round
+# wrong constant name send
+# wrong constant name singleton_method_added
+# wrong constant name starts_with
+# wrong constant name string<defaultArg>1
+# wrong constant name string
+# wrong constant name string_length
+# wrong constant name string_value
+# wrong constant name substring<defaultArg>1
+# wrong constant name substring
+# wrong constant name substring_after
+# wrong constant name substring_before
+# wrong constant name sum
+# wrong constant name text
+# wrong constant name translate
+# wrong constant name true
+# wrong constant name variables
+# wrong constant name variables=
+# undefined method `initialize<defaultArg>1' for class `REXML::IOSource'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::IOSource'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Instruction'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::Instruction'
+# undefined method `write<defaultArg>2' for class `REXML::Instruction'
+# undefined method `write<defaultArg>3' for class `REXML::Instruction'
+# wrong constant name ==
+# wrong constant name clone
+# wrong constant name content
+# wrong constant name content=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name node_type
+# wrong constant name target
+# wrong constant name target=
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name <Class:Node>
+# undefined method `[]<defaultArg>1' for class `REXML::Light::Node'
+# undefined method `[]=<defaultArg>1' for class `REXML::Light::Node'
+# undefined method `has_name?<defaultArg>1' for class `REXML::Light::Node'
+# undefined method `initialize<defaultArg>1' for class `REXML::Light::Node'
+# Did you mean?  initialize_dup
+# undefined method `name=<defaultArg>1' for class `REXML::Light::Node'
+# undefined method `namespace<defaultArg>1' for class `REXML::Light::Node'
+# undefined method `prefix<defaultArg>1' for class `REXML::Light::Node'
+# wrong constant name <<
+# wrong constant name =~
+# wrong constant name []<defaultArg>1
+# wrong constant name []
+# wrong constant name []=<defaultArg>1
+# wrong constant name []=
+# wrong constant name children
+# wrong constant name each
+# wrong constant name has_name?<defaultArg>1
+# wrong constant name has_name?
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name local_name
+# wrong constant name local_name=
+# wrong constant name name
+# wrong constant name name=<defaultArg>1
+# wrong constant name name=
+# wrong constant name namespace<defaultArg>1
+# wrong constant name namespace
+# wrong constant name namespace=
+# wrong constant name node_type
+# wrong constant name parent
+# wrong constant name parent=
+# wrong constant name prefix<defaultArg>1
+# wrong constant name prefix
+# wrong constant name root
+# wrong constant name size
+# wrong constant name text=
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `has_name?<defaultArg>1' for module `REXML::Namespace'
+# uninitialized constant REXML::Namespace::NAME
+# uninitialized constant REXML::Namespace::NAMECHAR
+# Did you mean?  REXML::Namespace::NAME_CHAR
+# uninitialized constant REXML::Namespace::NAME_CHAR
+# Did you mean?  REXML::Namespace::NAME_STR
+#                REXML::Namespace::NAMECHAR
+# uninitialized constant REXML::Namespace::NAME_START_CHAR
+# uninitialized constant REXML::Namespace::NAME_STR
+# Did you mean?  REXML::Namespace::NCNAME_STR
+# uninitialized constant REXML::Namespace::NCNAME_STR
+# Did you mean?  REXML::Namespace::NAME_STR
+# uninitialized constant REXML::Namespace::NMTOKEN
+# Did you mean?  REXML::Namespace::NMTOKENS
+# uninitialized constant REXML::Namespace::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Namespace::REFERENCE
+# wrong constant name expanded_name
+# wrong constant name fully_expanded_name
+# wrong constant name has_name?<defaultArg>1
+# wrong constant name has_name?
+# wrong constant name local_name
+# wrong constant name name
+# wrong constant name name=
+# wrong constant name prefix
+# wrong constant name prefix=
+# wrong constant name <static-init>
+# undefined method `to_s<defaultArg>1' for module `REXML::Node'
+# wrong constant name each_recursive
+# wrong constant name find_first_recursive
+# wrong constant name indent
+# wrong constant name index_in_parent
+# wrong constant name next_sibling_node
+# wrong constant name parent?
+# wrong constant name previous_sibling_node
+# wrong constant name to_s<defaultArg>1
+# wrong constant name to_s
+# wrong constant name <static-init>
+# undefined method `write<defaultArg>1' for class `REXML::NotationDecl'
+# wrong constant name initialize
+# wrong constant name name
+# wrong constant name public
+# wrong constant name public=
+# wrong constant name system
+# wrong constant name system=
+# wrong constant name to_s
+# wrong constant name write<defaultArg>1
+# wrong constant name write
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Output'
+# Did you mean?  initialize_dup
+# wrong constant name <<
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <<
+# uninitialized constant REXML::Parent::Elem
+# Did you mean?  REXML::Element
+# wrong constant name []
+# wrong constant name []=
+# wrong constant name add
+# wrong constant name children
+# wrong constant name deep_clone
+# wrong constant name delete
+# wrong constant name delete_at
+# wrong constant name delete_if
+# wrong constant name each
+# wrong constant name each_child
+# wrong constant name each_index
+# wrong constant name index
+# wrong constant name insert_after
+# wrong constant name insert_before
+# wrong constant name length
+# wrong constant name push
+# wrong constant name replace_child
+# wrong constant name size
+# wrong constant name to_a
+# wrong constant name unshift
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::ParseException'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::ParseException'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `REXML::ParseException'
+# Did you mean?  initialize_dup
+# wrong constant name context
+# wrong constant name continued_exception
+# wrong constant name continued_exception=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name line
+# wrong constant name parser
+# wrong constant name parser=
+# wrong constant name position
+# wrong constant name source
+# wrong constant name source=
+# wrong constant name <static-init>
+# wrong constant name <Class:BaseParser>
+# wrong constant name <Class:StreamParser>
+# wrong constant name <Class:TreeParser>
+# wrong constant name <Class:XPathParser>
+# undefined method `normalize<defaultArg>1' for class `REXML::Parsers::BaseParser'
+# undefined method `normalize<defaultArg>2' for class `REXML::Parsers::BaseParser'
+# undefined method `peek<defaultArg>1' for class `REXML::Parsers::BaseParser'
+# undefined method `unnormalize<defaultArg>1' for class `REXML::Parsers::BaseParser'
+# undefined method `unnormalize<defaultArg>2' for class `REXML::Parsers::BaseParser'
+# wrong constant name add_listener
+# wrong constant name empty?
+# wrong constant name entity
+# wrong constant name has_next?
+# wrong constant name initialize
+# wrong constant name normalize<defaultArg>1
+# wrong constant name normalize<defaultArg>2
+# wrong constant name normalize
+# wrong constant name peek<defaultArg>1
+# wrong constant name peek
+# wrong constant name position
+# wrong constant name pull
+# wrong constant name source
+# wrong constant name stream=
+# wrong constant name unnormalize<defaultArg>1
+# wrong constant name unnormalize<defaultArg>2
+# wrong constant name unnormalize
+# wrong constant name unshift
+# wrong constant name <static-init>
+# wrong constant name add_listener
+# wrong constant name initialize
+# wrong constant name parse
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::Parsers::TreeParser'
+# Did you mean?  initialize_dup
+# wrong constant name add_listener
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name parse
+# wrong constant name <static-init>
+# uninitialized constant REXML::Parsers::XPathParser::NAME
+# Did you mean?  REXML::Parsers::XPathParser::QNAME
+# uninitialized constant REXML::Parsers::XPathParser::NAMECHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_CHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+#                REXML::Parsers::XPathParser::NAMECHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NCNAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NCNAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKEN
+# Did you mean?  REXML::Parsers::XPathParser::NMTOKENS
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Parsers::XPathParser::REFERENCE
+# wrong constant name abbreviate
+# wrong constant name expand
+# wrong constant name namespaces=
+# wrong constant name parse
+# wrong constant name predicate
+# wrong constant name predicate_to_string
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name entity_expansion_limit
+# wrong constant name entity_expansion_limit=
+# wrong constant name entity_expansion_text_limit
+# wrong constant name entity_expansion_text_limit=
+# undefined method `initialize<defaultArg>1' for class `REXML::Source'
+# Did you mean?  initialize_dup
+# undefined method `match<defaultArg>1' for class `REXML::Source'
+# undefined method `scan<defaultArg>1' for class `REXML::Source'
+# wrong constant name buffer
+# wrong constant name consume
+# wrong constant name current_line
+# wrong constant name empty?
+# wrong constant name encoding=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name line
+# wrong constant name match<defaultArg>1
+# wrong constant name match
+# wrong constant name match_to
+# wrong constant name match_to_consume
+# wrong constant name position
+# wrong constant name read
+# wrong constant name scan<defaultArg>1
+# wrong constant name scan
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name create_from
+# uninitialized constant REXML::SyncEnumerator::Elem
+# Did you mean?  REXML::Element
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name length
+# wrong constant name size
+# wrong constant name <static-init>
+# undefined method `indent_text<defaultArg>1' for class `REXML::Text'
+# undefined method `indent_text<defaultArg>2' for class `REXML::Text'
+# undefined method `indent_text<defaultArg>3' for class `REXML::Text'
+# undefined method `initialize<defaultArg>1' for class `REXML::Text'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::Text'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `REXML::Text'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>4' for class `REXML::Text'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>5' for class `REXML::Text'
+# Did you mean?  initialize_dup
+# undefined method `wrap<defaultArg>1' for class `REXML::Text'
+# undefined method `write<defaultArg>1' for class `REXML::Text'
+# undefined method `write<defaultArg>2' for class `REXML::Text'
+# undefined method `write<defaultArg>3' for class `REXML::Text'
+# wrong constant name <<
+# wrong constant name <=>
+# wrong constant name clone
+# wrong constant name doctype
+# wrong constant name empty?
+# wrong constant name indent_text<defaultArg>1
+# wrong constant name indent_text<defaultArg>2
+# wrong constant name indent_text<defaultArg>3
+# wrong constant name indent_text
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize<defaultArg>5
+# wrong constant name initialize
+# wrong constant name node_type
+# wrong constant name parent=
+# wrong constant name raw
+# wrong constant name raw=
+# wrong constant name to_s
+# wrong constant name value
+# wrong constant name value=
+# wrong constant name wrap<defaultArg>1
+# wrong constant name wrap
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write
+# wrong constant name write_with_substitution
+# wrong constant name xpath
+# undefined singleton method `normalize<defaultArg>1' for `REXML::Text'
+# undefined singleton method `normalize<defaultArg>2' for `REXML::Text'
+# undefined singleton method `read_with_substitution<defaultArg>1' for `REXML::Text'
+# undefined singleton method `unnormalize<defaultArg>1' for `REXML::Text'
+# undefined singleton method `unnormalize<defaultArg>2' for `REXML::Text'
+# undefined singleton method `unnormalize<defaultArg>3' for `REXML::Text'
+# wrong constant name <static-init>
+# wrong constant name check
+# wrong constant name expand
+# wrong constant name normalize<defaultArg>1
+# wrong constant name normalize<defaultArg>2
+# wrong constant name normalize
+# wrong constant name read_with_substitution<defaultArg>1
+# wrong constant name read_with_substitution
+# wrong constant name unnormalize<defaultArg>1
+# wrong constant name unnormalize<defaultArg>2
+# wrong constant name unnormalize<defaultArg>3
+# wrong constant name unnormalize
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <Class:ValidationException>
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::XMLDecl'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `REXML::XMLDecl'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `REXML::XMLDecl'
+# Did you mean?  initialize_dup
+# undefined method `write<defaultArg>1' for class `REXML::XMLDecl'
+# undefined method `write<defaultArg>2' for class `REXML::XMLDecl'
+# undefined method `write<defaultArg>3' for class `REXML::XMLDecl'
+# wrong constant name ==
+# wrong constant name clone
+# wrong constant name dowrite
+# wrong constant name encoding=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name initialize
+# wrong constant name node_type
+# wrong constant name nowrite
+# wrong constant name old_enc=
+# wrong constant name stand_alone?
+# wrong constant name standalone
+# wrong constant name standalone=
+# wrong constant name version
+# wrong constant name version=
+# wrong constant name write<defaultArg>1
+# wrong constant name write<defaultArg>2
+# wrong constant name write<defaultArg>3
+# wrong constant name write
+# wrong constant name writeencoding
+# wrong constant name writethis
+# wrong constant name xmldecl
+# wrong constant name <static-init>
+# wrong constant name default
+# wrong constant name <static-init>
+# uninitialized constant REXML::XPath::INTERNAL_METHODS
+# undefined singleton method `each<defaultArg>1' for `REXML::XPath'
+# undefined singleton method `each<defaultArg>2' for `REXML::XPath'
+# undefined singleton method `each<defaultArg>3' for `REXML::XPath'
+# undefined singleton method `each<defaultArg>4' for `REXML::XPath'
+# undefined singleton method `first<defaultArg>1' for `REXML::XPath'
+# undefined singleton method `first<defaultArg>2' for `REXML::XPath'
+# undefined singleton method `first<defaultArg>3' for `REXML::XPath'
+# undefined singleton method `first<defaultArg>4' for `REXML::XPath'
+# undefined singleton method `match<defaultArg>1' for `REXML::XPath'
+# undefined singleton method `match<defaultArg>2' for `REXML::XPath'
+# undefined singleton method `match<defaultArg>3' for `REXML::XPath'
+# undefined singleton method `match<defaultArg>4' for `REXML::XPath'
+# wrong constant name <static-init>
+# wrong constant name each<defaultArg>1
+# wrong constant name each<defaultArg>2
+# wrong constant name each<defaultArg>3
+# wrong constant name each<defaultArg>4
+# wrong constant name each
+# wrong constant name first<defaultArg>1
+# wrong constant name first<defaultArg>2
+# wrong constant name first<defaultArg>3
+# wrong constant name first<defaultArg>4
+# wrong constant name first
+# wrong constant name match<defaultArg>1
+# wrong constant name match<defaultArg>2
+# wrong constant name match<defaultArg>3
+# wrong constant name match<defaultArg>4
+# wrong constant name match
+# undefined method `initialize<defaultArg>1' for class `REXML::XPathNode'
+# Did you mean?  initialize_dup
+# wrong constant name context
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name position
+# wrong constant name raw_node
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `REXML::XPathParser'
+# Did you mean?  initialize_dup
+# undefined method `namespaces=<defaultArg>1' for class `REXML::XPathParser'
+# undefined method `variables=<defaultArg>1' for class `REXML::XPathParser'
+# uninitialized constant REXML::XPathParser::NAME
+# uninitialized constant REXML::XPathParser::NAMECHAR
+# Did you mean?  REXML::XPathParser::NAME_CHAR
+# uninitialized constant REXML::XPathParser::NAME_CHAR
+# Did you mean?  REXML::XPathParser::NAME_STR
+#                REXML::XPathParser::NAMECHAR
+# uninitialized constant REXML::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::XPathParser::NAME_STR
+# Did you mean?  REXML::XPathParser::NCNAME_STR
+# uninitialized constant REXML::XPathParser::NCNAME_STR
+# Did you mean?  REXML::XPathParser::NAME_STR
+# uninitialized constant REXML::XPathParser::NMTOKEN
+# Did you mean?  REXML::XPathParser::NMTOKENS
+# uninitialized constant REXML::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::XPathParser::REFERENCE
+# wrong constant name []=
+# wrong constant name first
+# wrong constant name get_first
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name match
+# wrong constant name namespaces=<defaultArg>1
+# wrong constant name namespaces=
+# wrong constant name parse
+# wrong constant name predicate
+# wrong constant name variables=<defaultArg>1
+# wrong constant name variables=
+# wrong constant name <static-init>
+# wrong constant name <static-init>
 # wrong constant name call
 # wrong constant name initialize
 # wrong constant name relative_file_name
@@ -3674,7 +5336,7 @@
 # wrong constant name <static-init>
 # wrong constant name worse_than?
 # wrong constant name +
-# uninitialized constant #<Class:0x00007fd7da9a67f8>::Elem
+# uninitialized constant #<Class:0x00007fbfabb8ed78>::Elem
 # wrong constant name candidate?
 # wrong constant name ideal?
 # wrong constant name indeterminate_actual_indexes
@@ -4858,45 +6520,6 @@
 # wrong constant name fire_update!<defaultArg>2
 # wrong constant name fire_update!
 # wrong constant name ruby
-# wrong constant name <static-init>
-# wrong constant name basic_quote_characters
-# wrong constant name basic_quote_characters=
-# wrong constant name basic_word_break_characters
-# wrong constant name basic_word_break_characters=
-# wrong constant name completer_quote_characters
-# wrong constant name completer_quote_characters=
-# wrong constant name completer_word_break_characters
-# wrong constant name completer_word_break_characters=
-# wrong constant name completion_append_character
-# wrong constant name completion_append_character=
-# wrong constant name completion_case_fold
-# wrong constant name completion_case_fold=
-# wrong constant name completion_proc
-# wrong constant name completion_proc=
-# wrong constant name completion_quote_character
-# wrong constant name delete_text
-# wrong constant name emacs_editing_mode
-# wrong constant name emacs_editing_mode?
-# wrong constant name filename_quote_characters
-# wrong constant name filename_quote_characters=
-# wrong constant name get_screen_size
-# wrong constant name input=
-# wrong constant name insert_text
-# wrong constant name line_buffer
-# wrong constant name output=
-# wrong constant name point
-# wrong constant name point=
-# wrong constant name pre_input_hook
-# wrong constant name pre_input_hook=
-# wrong constant name quoting_detection_proc
-# wrong constant name quoting_detection_proc=
-# wrong constant name redisplay
-# wrong constant name refresh_line
-# wrong constant name set_screen_size
-# wrong constant name special_prefixes
-# wrong constant name special_prefixes=
-# wrong constant name vi_editing_mode
-# wrong constant name vi_editing_mode?
 # wrong constant name match?
 # uninitialized constant Ripper
 # uninitialized constant Ripper
@@ -5022,6 +6645,14 @@
 # wrong constant name def_single_delegators
 # wrong constant name delegate
 # wrong constant name single_delegate
+# undefined method `_dump<defaultArg>1' for module `Singleton'
+# wrong constant name _dump<defaultArg>1
+# wrong constant name _dump
+# wrong constant name clone
+# wrong constant name dup
+# wrong constant name _load
+# wrong constant name clone
+# wrong constant name __init__
 # uninitialized constant Socket::APPEND
 # uninitialized constant Socket::BINARY
 # uninitialized constant Socket::CREAT
@@ -5533,6 +7164,54 @@
 # wrong constant name original_name
 # wrong constant name tag
 # wrong constant name value
+# wrong constant name <static-init>
+# wrong constant name <Class:CucumberTags>
+# wrong constant name <Class:InternetConnection>
+# wrong constant name deserialize
+# wrong constant name file_extension
+# wrong constant name serialize
+# wrong constant name <static-init>
+# wrong constant name deserialize
+# wrong constant name file_extension
+# wrong constant name serialize
+# wrong constant name <static-init>
+# wrong constant name deserialize
+# wrong constant name file_extension
+# wrong constant name serialize
+# wrong constant name <static-init>
+# wrong constant name deserialize
+# wrong constant name file_extension
+# wrong constant name serialize
+# wrong constant name <static-init>
+# wrong constant name <Class:ScenarioNameBuilder>
+# wrong constant name initialize
+# wrong constant name tag
+# wrong constant name tags
+# wrong constant name cassette_name
+# wrong constant name examples_table
+# wrong constant name examples_table_row
+# wrong constant name feature
+# wrong constant name initialize
+# wrong constant name scenario
+# wrong constant name scenario_outline
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name add_tag
+# wrong constant name tags
+# wrong constant name available?
+# wrong constant name <static-init>
+# wrong constant name <Class:RequestHandler>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name app
+# wrong constant name env
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name configure!
 # wrong constant name <static-init>
 # wrong constant name warn
 # wrong constant name <Class:BufError>

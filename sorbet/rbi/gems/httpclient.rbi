@@ -147,6 +147,11 @@ module HTTPClient::Util
   def urify(uri); end
   def warning(message); end
 end
+class HTTPClient::Util::AddressableURI < Addressable::URI
+  def authority; end
+  def hostname; end
+  def port; end
+end
 class HTTPClient::SSLConfig
   def add_crl(crl); end
   def add_trust_ca(trust_ca_file_or_hashed_dir); end
@@ -801,4 +806,15 @@ class HTTPClient::KeepAliveDisconnected < StandardError
   def cause; end
   def initialize(sess = nil, cause = nil); end
   def sess; end
+end
+class JSONClient < HTTPClient
+  def argument_to_hash_for_json(args); end
+  def content_type_json_request; end
+  def content_type_json_response_regex; end
+  def initialize(*args); end
+  def json_header(header); end
+  def post(uri, *args, &block); end
+  def put(uri, *args, &block); end
+  def request(method, uri, *args, &block); end
+  def wrap_json_response(original); end
 end
