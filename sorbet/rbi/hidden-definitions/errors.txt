@@ -143,6 +143,9 @@
 # wrong constant name <todo sym>
 # uninitialized constant Abbrev
 # uninitialized constant Abbrev
+# undefined method `connect_internal<defaultArg>1' for class `Addrinfo'
+# wrong constant name connect_internal<defaultArg>1
+# wrong constant name connect_internal
 # wrong constant name bsearch
 # wrong constant name bsearch_index
 # wrong constant name collect!
@@ -151,6 +154,7 @@
 # wrong constant name pack
 # wrong constant name replace
 # wrong constant name shelljoin
+# wrong constant name to_csv
 # wrong constant name to_h
 # wrong constant name try_convert
 # wrong constant name <Class:BasicObject>
@@ -2031,8 +2035,123 @@
 # wrong constant name unbundled_exec
 # wrong constant name unbundled_system
 # wrong constant name with_unbundled_env
-# uninitialized constant CSV
-# uninitialized constant CSV
+# undefined method `a<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `base<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `blockquote<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `caption<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `checkbox_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `html<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `popup_menu<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `radio_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `scrolling_list<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>3' for module `CGI::HtmlExtension'
+# wrong constant name a<defaultArg>1
+# wrong constant name a
+# wrong constant name base<defaultArg>1
+# wrong constant name base
+# wrong constant name blockquote<defaultArg>1
+# wrong constant name blockquote
+# wrong constant name caption<defaultArg>1
+# wrong constant name caption
+# wrong constant name checkbox<defaultArg>1
+# wrong constant name checkbox<defaultArg>2
+# wrong constant name checkbox<defaultArg>3
+# wrong constant name checkbox
+# wrong constant name checkbox_group<defaultArg>1
+# wrong constant name checkbox_group
+# wrong constant name file_field<defaultArg>1
+# wrong constant name file_field<defaultArg>2
+# wrong constant name file_field<defaultArg>3
+# wrong constant name file_field
+# wrong constant name form<defaultArg>1
+# wrong constant name form<defaultArg>2
+# wrong constant name form<defaultArg>3
+# wrong constant name form
+# wrong constant name hidden<defaultArg>1
+# wrong constant name hidden<defaultArg>2
+# wrong constant name hidden
+# wrong constant name html<defaultArg>1
+# wrong constant name html
+# wrong constant name image_button<defaultArg>1
+# wrong constant name image_button<defaultArg>2
+# wrong constant name image_button<defaultArg>3
+# wrong constant name image_button
+# wrong constant name img<defaultArg>1
+# wrong constant name img<defaultArg>2
+# wrong constant name img<defaultArg>3
+# wrong constant name img<defaultArg>4
+# wrong constant name img
+# wrong constant name multipart_form<defaultArg>1
+# wrong constant name multipart_form<defaultArg>2
+# wrong constant name multipart_form
+# wrong constant name password_field<defaultArg>1
+# wrong constant name password_field<defaultArg>2
+# wrong constant name password_field<defaultArg>3
+# wrong constant name password_field<defaultArg>4
+# wrong constant name password_field
+# wrong constant name popup_menu<defaultArg>1
+# wrong constant name popup_menu
+# wrong constant name radio_button<defaultArg>1
+# wrong constant name radio_button<defaultArg>2
+# wrong constant name radio_button<defaultArg>3
+# wrong constant name radio_button
+# wrong constant name radio_group<defaultArg>1
+# wrong constant name radio_group
+# wrong constant name reset<defaultArg>1
+# wrong constant name reset<defaultArg>2
+# wrong constant name reset
+# wrong constant name scrolling_list<defaultArg>1
+# wrong constant name scrolling_list
+# wrong constant name submit<defaultArg>1
+# wrong constant name submit<defaultArg>2
+# wrong constant name submit
+# wrong constant name text_field<defaultArg>1
+# wrong constant name text_field<defaultArg>2
+# wrong constant name text_field<defaultArg>3
+# wrong constant name text_field<defaultArg>4
+# wrong constant name text_field
+# wrong constant name textarea<defaultArg>1
+# wrong constant name textarea<defaultArg>2
+# wrong constant name textarea<defaultArg>3
+# wrong constant name textarea
+# wrong constant name <static-init>
 # uninitialized constant Chalk
 # uninitialized constant Chalk
 # wrong constant name json_creatable?
@@ -2043,6 +2162,10 @@
 # uninitialized constant Configatron
 # uninitialized constant Coverage
 # uninitialized constant Coverage
+# undefined method `initialize<defaultArg>1' for class `Date::Infinity'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
 # undefined method `methods<defaultArg>1' for class `Delegator'
 # undefined method `protected_methods<defaultArg>1' for class `Delegator'
 # Did you mean?  protected_methods
@@ -2255,8 +2378,21 @@
 # Did you mean?  FileUtils::VERSION
 # uninitialized constant FileUtils::Verbose::VERSION
 # Did you mean?  FileUtils::VERSION
-# uninitialized constant Forwardable
-# uninitialized constant Forwardable
+# undefined method `def_delegator<defaultArg>1' for module `Forwardable'
+# undefined method `def_instance_delegator<defaultArg>1' for module `Forwardable'
+# wrong constant name def_delegator<defaultArg>1
+# wrong constant name def_delegator
+# wrong constant name def_delegators
+# wrong constant name def_instance_delegator<defaultArg>1
+# wrong constant name def_instance_delegator
+# wrong constant name def_instance_delegators
+# wrong constant name delegate
+# wrong constant name instance_delegate
+# wrong constant name _compile_method
+# wrong constant name _delegator_method
+# wrong constant name _valid_method?
+# wrong constant name debug
+# wrong constant name debug=
 # wrong constant name garbage_collect
 # wrong constant name latest_gc_info
 # wrong constant name stress=
@@ -2467,8 +2603,6 @@
 # wrong constant name path
 # wrong constant name exit_value
 # wrong constant name reason
-# uninitialized constant Logger
-# uninitialized constant Logger
 # wrong constant name restore
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
@@ -2571,6 +2705,12 @@
 # wrong constant name define_finalizer
 # wrong constant name garbage_collect
 # wrong constant name undefine_finalizer
+# wrong constant name indefinite_length
+# wrong constant name indefinite_length=
+# wrong constant name +@
+# wrong constant name -@
+# wrong constant name /
+# wrong constant name negative?
 # uninitialized constant OpenSSL::Digest::DSS
 # uninitialized constant OpenSSL::Digest::DSS
 # uninitialized constant OpenSSL::Digest::DSS1
@@ -2579,8 +2719,39 @@
 # Did you mean?  OpenSSL::Digest::SHA1
 # uninitialized constant OpenSSL::Digest::SHA
 # Did you mean?  OpenSSL::Digest::SHA1
+# wrong constant name <Class:KDFError>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name hkdf
+# wrong constant name pbkdf2_hmac
+# wrong constant name scrypt
+# wrong constant name signed?
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
+# undefined method `to_bn<defaultArg>1' for class `OpenSSL::PKey::EC::Point'
+# wrong constant name to_bn<defaultArg>1
+# wrong constant name to_octet_string
+# wrong constant name sign_pss
+# wrong constant name verify_pss
+# wrong constant name add_certificate
+# wrong constant name alpn_protocols
+# wrong constant name alpn_protocols=
+# wrong constant name alpn_select_cb
+# wrong constant name alpn_select_cb=
+# wrong constant name enable_fallback_scsv
+# wrong constant name max_version=
+# wrong constant name min_version=
+# uninitialized constant OpenSSL::SSL::SSLSocket::BLOCK_SIZE
+# wrong constant name alpn_protocol
+# wrong constant name tmp_key
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name to_utf8
+# wrong constant name ==
+# wrong constant name ==
+# wrong constant name to_der
+# wrong constant name fips_mode
 # uninitialized constant Opus
 # uninitialized constant Opus
 # uninitialized constant PP
@@ -2638,7 +2809,779 @@
 # wrong constant name last_status
 # wrong constant name setpgrp
 # uninitialized constant Racc
+# Did you mean?  Rack
 # uninitialized constant Racc
+# Did you mean?  Rack
+# wrong constant name <Class:Cascade>
+# wrong constant name <Class:Chunked>
+# wrong constant name <Class:ConditionalGet>
+# wrong constant name <Class:Config>
+# wrong constant name <Class:ContentLength>
+# wrong constant name <Class:ContentType>
+# wrong constant name <Class:Deflater>
+# wrong constant name <Class:Directory>
+# wrong constant name <Class:ETag>
+# wrong constant name <Class:Files>
+# wrong constant name <Class:ForwardRequest>
+# wrong constant name <Class:Handler>
+# wrong constant name <Class:Head>
+# wrong constant name <Class:Lint>
+# wrong constant name <Class:Lock>
+# wrong constant name <Class:Logger>
+# wrong constant name <Class:MethodOverride>
+# wrong constant name <Class:Mime>
+# wrong constant name <Class:MockRequest>
+# wrong constant name <Class:MockResponse>
+# wrong constant name <Class:Multipart>
+# wrong constant name <Class:NullLogger>
+# wrong constant name <Class:Recursive>
+# wrong constant name <Class:Reloader>
+# wrong constant name <Class:Runtime>
+# wrong constant name <Class:Sendfile>
+# wrong constant name <Class:Server>
+# wrong constant name <Class:ShowStatus>
+# wrong constant name <Class:Static>
+# wrong constant name <Class:TempfileReaper>
+# wrong constant name <Class:URLMap>
+# undefined method `initialize<defaultArg>1' for class `Rack::Auth::AbstractHandler'
+# Did you mean?  initialize_dup
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name realm
+# wrong constant name realm=
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name params
+# wrong constant name parts
+# wrong constant name provided?
+# wrong constant name request
+# wrong constant name scheme
+# wrong constant name valid?
+# wrong constant name <static-init>
+# wrong constant name <Class:Request>
+# wrong constant name call
+# uninitialized constant Rack::Auth::Basic::Request::AUTHORIZATION_KEYS
+# wrong constant name basic?
+# wrong constant name credentials
+# wrong constant name username
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Auth::Digest::MD5'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Auth::Digest::MD5'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name opaque
+# wrong constant name opaque=
+# wrong constant name passwords_hashed=
+# wrong constant name passwords_hashed?
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Auth::Digest::Nonce'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Auth::Digest::Nonce'
+# Did you mean?  initialize_dup
+# wrong constant name digest
+# wrong constant name fresh?
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name stale?
+# wrong constant name valid?
+# wrong constant name <static-init>
+# wrong constant name parse
+# wrong constant name private_key
+# wrong constant name private_key=
+# wrong constant name time_limit
+# wrong constant name time_limit=
+# uninitialized constant Rack::Auth::Digest::Params::Elem
+# uninitialized constant Rack::Auth::Digest::Params::K
+# uninitialized constant Rack::Auth::Digest::Params::V
+# wrong constant name []
+# wrong constant name []=
+# wrong constant name initialize
+# wrong constant name quote
+# wrong constant name <static-init>
+# wrong constant name dequote
+# wrong constant name parse
+# wrong constant name split_header_value
+# uninitialized constant Rack::Auth::Digest::Request::AUTHORIZATION_KEYS
+# wrong constant name correct_uri?
+# wrong constant name digest?
+# wrong constant name method
+# wrong constant name method_missing
+# wrong constant name nonce
+# wrong constant name respond_to?
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Cascade'
+# Did you mean?  initialize_dup
+# wrong constant name <<
+# wrong constant name add
+# wrong constant name apps
+# wrong constant name call
+# wrong constant name include?
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <Class:Body>
+# uninitialized constant Rack::Chunked::COMMON_SEP
+# uninitialized constant Rack::Chunked::DEFAULT_SEP
+# uninitialized constant Rack::Chunked::ESCAPE_HTML
+# uninitialized constant Rack::Chunked::ESCAPE_HTML_PATTERN
+# uninitialized constant Rack::Chunked::HTTP_STATUS_CODES
+# uninitialized constant Rack::Chunked::NULL_BYTE
+# uninitialized constant Rack::Chunked::PATH_SEPS
+# uninitialized constant Rack::Chunked::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Rack::Chunked::SYMBOL_TO_STATUS_CODE
+# wrong constant name <Class:TrailerBody>
+# wrong constant name call
+# wrong constant name chunkable_version?
+# wrong constant name initialize
+# uninitialized constant Rack::Chunked::Body::COMMON_SEP
+# Did you mean?  Rack::Chunked::COMMON_SEP
+# uninitialized constant Rack::Chunked::Body::DEFAULT_SEP
+# Did you mean?  Rack::Chunked::DEFAULT_SEP
+# uninitialized constant Rack::Chunked::Body::ESCAPE_HTML
+# Did you mean?  Rack::Chunked::ESCAPE_HTML
+# uninitialized constant Rack::Chunked::Body::ESCAPE_HTML_PATTERN
+# Did you mean?  Rack::Chunked::ESCAPE_HTML_PATTERN
+# uninitialized constant Rack::Chunked::Body::HTTP_STATUS_CODES
+# Did you mean?  Rack::Chunked::HTTP_STATUS_CODES
+# uninitialized constant Rack::Chunked::Body::NULL_BYTE
+# Did you mean?  Rack::Chunked::NULL_BYTE
+# uninitialized constant Rack::Chunked::Body::PATH_SEPS
+# Did you mean?  Rack::Chunked::PATH_SEPS
+# uninitialized constant Rack::Chunked::Body::STATUS_WITH_NO_ENTITY_BODY
+# Did you mean?  Rack::Chunked::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Rack::Chunked::Body::SYMBOL_TO_STATUS_CODE
+# Did you mean?  Rack::Chunked::SYMBOL_TO_STATUS_CODE
+# wrong constant name close
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name <static-init>
+# uninitialized constant Rack::Chunked::TrailerBody::COMMON_SEP
+# Did you mean?  Rack::Chunked::COMMON_SEP
+# uninitialized constant Rack::Chunked::TrailerBody::DEFAULT_SEP
+# Did you mean?  Rack::Chunked::DEFAULT_SEP
+# uninitialized constant Rack::Chunked::TrailerBody::ESCAPE_HTML
+# Did you mean?  Rack::Chunked::ESCAPE_HTML
+# uninitialized constant Rack::Chunked::TrailerBody::ESCAPE_HTML_PATTERN
+# Did you mean?  Rack::Chunked::ESCAPE_HTML_PATTERN
+# uninitialized constant Rack::Chunked::TrailerBody::HTTP_STATUS_CODES
+# Did you mean?  Rack::Chunked::HTTP_STATUS_CODES
+# uninitialized constant Rack::Chunked::TrailerBody::NULL_BYTE
+# Did you mean?  Rack::Chunked::NULL_BYTE
+# uninitialized constant Rack::Chunked::TrailerBody::PATH_SEPS
+# Did you mean?  Rack::Chunked::PATH_SEPS
+# uninitialized constant Rack::Chunked::TrailerBody::STATUS_WITH_NO_ENTITY_BODY
+# Did you mean?  Rack::Chunked::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Rack::Chunked::TrailerBody::SYMBOL_TO_STATUS_CODE
+# Did you mean?  Rack::Chunked::SYMBOL_TO_STATUS_CODE
+# uninitialized constant Rack::Chunked::TrailerBody::TAIL
+# uninitialized constant Rack::Chunked::TrailerBody::TERM
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# uninitialized constant Rack::ContentLength::COMMON_SEP
+# uninitialized constant Rack::ContentLength::DEFAULT_SEP
+# uninitialized constant Rack::ContentLength::ESCAPE_HTML
+# uninitialized constant Rack::ContentLength::ESCAPE_HTML_PATTERN
+# uninitialized constant Rack::ContentLength::HTTP_STATUS_CODES
+# uninitialized constant Rack::ContentLength::NULL_BYTE
+# uninitialized constant Rack::ContentLength::PATH_SEPS
+# uninitialized constant Rack::ContentLength::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Rack::ContentLength::SYMBOL_TO_STATUS_CODE
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::ContentType'
+# Did you mean?  initialize_dup
+# uninitialized constant Rack::ContentType::COMMON_SEP
+# uninitialized constant Rack::ContentType::DEFAULT_SEP
+# uninitialized constant Rack::ContentType::ESCAPE_HTML
+# uninitialized constant Rack::ContentType::ESCAPE_HTML_PATTERN
+# uninitialized constant Rack::ContentType::HTTP_STATUS_CODES
+# uninitialized constant Rack::ContentType::NULL_BYTE
+# uninitialized constant Rack::ContentType::PATH_SEPS
+# uninitialized constant Rack::ContentType::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Rack::ContentType::SYMBOL_TO_STATUS_CODE
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Deflater'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:GzipStream>
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name close
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Directory'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:DirectoryBody>
+# wrong constant name call
+# wrong constant name check_bad_request
+# wrong constant name check_forbidden
+# wrong constant name entity_not_found
+# wrong constant name filesize_format
+# wrong constant name get
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name list_directory
+# wrong constant name list_path
+# wrong constant name path
+# wrong constant name root
+# wrong constant name stat
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::ETag'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::ETag'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Files'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Files'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Iterator>
+# wrong constant name call
+# wrong constant name get
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name root
+# wrong constant name serving
+# wrong constant name close
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name path
+# wrong constant name range
+# wrong constant name to_path
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::ForwardRequest'
+# Did you mean?  initialize_dup
+# wrong constant name env
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name url
+# wrong constant name <static-init>
+# wrong constant name <Class:CGI>
+# wrong constant name <Class:WEBrick>
+# undefined singleton method `run<defaultArg>1' for `Rack::Handler::CGI'
+# wrong constant name <static-init>
+# wrong constant name run<defaultArg>1
+# wrong constant name run
+# wrong constant name send_body
+# wrong constant name send_headers
+# wrong constant name serve
+# wrong constant name initialize
+# undefined singleton method `run<defaultArg>1' for `Rack::Handler::WEBrick'
+# wrong constant name <static-init>
+# wrong constant name run<defaultArg>1
+# wrong constant name run
+# wrong constant name shutdown
+# wrong constant name valid_options
+# wrong constant name <static-init>
+# wrong constant name default
+# wrong constant name get
+# wrong constant name pick
+# wrong constant name register
+# wrong constant name try_require
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `call<defaultArg>1' for class `Rack::Lint'
+# wrong constant name <Class:Assertion>
+# wrong constant name <Class:ErrorWrapper>
+# wrong constant name <Class:HijackWrapper>
+# wrong constant name <Class:InputWrapper>
+# wrong constant name <Class:LintError>
+# wrong constant name _call
+# wrong constant name call<defaultArg>1
+# wrong constant name call
+# wrong constant name check_content_length
+# wrong constant name check_content_type
+# wrong constant name check_env
+# wrong constant name check_error
+# wrong constant name check_headers
+# wrong constant name check_hijack
+# wrong constant name check_hijack_response
+# wrong constant name check_input
+# wrong constant name check_status
+# wrong constant name close
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name verify_content_length
+# wrong constant name assert
+# wrong constant name <static-init>
+# wrong constant name close
+# wrong constant name flush
+# wrong constant name initialize
+# wrong constant name puts
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name close
+# wrong constant name close_read
+# wrong constant name close_write
+# wrong constant name closed?
+# wrong constant name flush
+# wrong constant name initialize
+# wrong constant name read
+# wrong constant name read_nonblock
+# wrong constant name write
+# wrong constant name write_nonblock
+# wrong constant name <static-init>
+# wrong constant name close
+# wrong constant name each
+# wrong constant name gets
+# wrong constant name initialize
+# wrong constant name read
+# wrong constant name rewind
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Lock'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Logger'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name method_override
+# wrong constant name <static-init>
+# undefined singleton method `mime_type<defaultArg>1' for `Rack::Mime'
+# wrong constant name <static-init>
+# wrong constant name match?
+# wrong constant name mime_type<defaultArg>1
+# wrong constant name mime_type
+# undefined method `delete<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `get<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `head<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `options<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `patch<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `post<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `put<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `request<defaultArg>1' for class `Rack::MockRequest'
+# undefined method `request<defaultArg>2' for class `Rack::MockRequest'
+# undefined method `request<defaultArg>3' for class `Rack::MockRequest'
+# wrong constant name <Class:FatalWarner>
+# wrong constant name <Class:FatalWarning>
+# wrong constant name delete<defaultArg>1
+# wrong constant name delete
+# wrong constant name get<defaultArg>1
+# wrong constant name get
+# wrong constant name head<defaultArg>1
+# wrong constant name head
+# wrong constant name initialize
+# wrong constant name options<defaultArg>1
+# wrong constant name options
+# wrong constant name patch<defaultArg>1
+# wrong constant name patch
+# wrong constant name post<defaultArg>1
+# wrong constant name post
+# wrong constant name put<defaultArg>1
+# wrong constant name put
+# wrong constant name request<defaultArg>1
+# wrong constant name request<defaultArg>2
+# wrong constant name request<defaultArg>3
+# wrong constant name request
+# wrong constant name flush
+# wrong constant name puts
+# wrong constant name string
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined singleton method `env_for<defaultArg>1' for `Rack::MockRequest'
+# undefined singleton method `env_for<defaultArg>2' for `Rack::MockRequest'
+# wrong constant name <static-init>
+# wrong constant name env_for<defaultArg>1
+# wrong constant name env_for<defaultArg>2
+# wrong constant name env_for
+# wrong constant name parse_uri_rfc2396
+# undefined method `initialize<defaultArg>1' for class `Rack::MockResponse'
+# Did you mean?  initialize_dup
+# wrong constant name =~
+# uninitialized constant Rack::MockResponse::CHUNKED
+# Did you mean?  Rack::Chunked
+# uninitialized constant Rack::MockResponse::STATUS_WITH_NO_ENTITY_BODY
+# wrong constant name cookie
+# wrong constant name cookies
+# wrong constant name errors
+# wrong constant name errors=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name match
+# wrong constant name original_headers
+# wrong constant name <static-init>
+# wrong constant name <Class:Generator>
+# wrong constant name <Class:MultipartPartLimitError>
+# wrong constant name <Class:Parser>
+# wrong constant name <Class:UploadedFile>
+# undefined method `initialize<defaultArg>1' for class `Rack::Multipart::Generator'
+# Did you mean?  initialize_dup
+# wrong constant name dump
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# uninitialized constant Rack::Multipart::MultipartPartLimitError::Errno
+# wrong constant name <static-init>
+# wrong constant name <Class:BoundedIO>
+# wrong constant name <Class:Collector>
+# wrong constant name <Class:MultipartInfo>
+# wrong constant name initialize
+# wrong constant name on_read
+# wrong constant name result
+# wrong constant name state
+# undefined method `read<defaultArg>1' for class `Rack::Multipart::Parser::BoundedIO'
+# wrong constant name initialize
+# wrong constant name read<defaultArg>1
+# wrong constant name read
+# wrong constant name rewind
+# wrong constant name <static-init>
+# wrong constant name <Class:BufferPart>
+# uninitialized constant Rack::Multipart::Parser::Collector::Elem
+# wrong constant name <Class:MimePart>
+# wrong constant name <Class:TempfilePart>
+# wrong constant name each
+# wrong constant name initialize
+# wrong constant name on_mime_body
+# wrong constant name on_mime_finish
+# wrong constant name on_mime_head
+# wrong constant name close
+# wrong constant name file?
+# wrong constant name <static-init>
+# wrong constant name get_data
+# wrong constant name <static-init>
+# wrong constant name close
+# wrong constant name file?
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant Rack::Multipart::Parser::MultipartInfo::Elem
+# wrong constant name params
+# wrong constant name params=
+# wrong constant name tmp_files
+# wrong constant name tmp_files=
+# wrong constant name <static-init>
+# wrong constant name []
+# wrong constant name members
+# wrong constant name <static-init>
+# wrong constant name parse
+# wrong constant name parse_boundary
+# undefined method `initialize<defaultArg>1' for class `Rack::Multipart::UploadedFile'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Multipart::UploadedFile'
+# Did you mean?  initialize_dup
+# wrong constant name content_type
+# wrong constant name content_type=
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name local_path
+# wrong constant name method_missing
+# wrong constant name original_filename
+# wrong constant name path
+# wrong constant name respond_to?
+# wrong constant name <static-init>
+# undefined singleton method `build_multipart<defaultArg>1' for `Rack::Multipart'
+# undefined singleton method `extract_multipart<defaultArg>1' for `Rack::Multipart'
+# undefined singleton method `parse_multipart<defaultArg>1' for `Rack::Multipart'
+# wrong constant name <static-init>
+# wrong constant name build_multipart<defaultArg>1
+# wrong constant name build_multipart
+# wrong constant name extract_multipart<defaultArg>1
+# wrong constant name extract_multipart
+# wrong constant name parse_multipart<defaultArg>1
+# wrong constant name parse_multipart
+# undefined method `add<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `add<defaultArg>2' for class `Rack::NullLogger'
+# undefined method `debug<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `error<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `fatal<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `info<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `unknown<defaultArg>1' for class `Rack::NullLogger'
+# undefined method `warn<defaultArg>1' for class `Rack::NullLogger'
+# wrong constant name <<
+# wrong constant name add<defaultArg>1
+# wrong constant name add<defaultArg>2
+# wrong constant name add
+# wrong constant name call
+# wrong constant name close
+# wrong constant name datetime_format
+# wrong constant name datetime_format=
+# wrong constant name debug<defaultArg>1
+# wrong constant name debug
+# wrong constant name debug?
+# wrong constant name error<defaultArg>1
+# wrong constant name error
+# wrong constant name error?
+# wrong constant name fatal<defaultArg>1
+# wrong constant name fatal
+# wrong constant name fatal?
+# wrong constant name formatter
+# wrong constant name formatter=
+# wrong constant name info<defaultArg>1
+# wrong constant name info
+# wrong constant name info?
+# wrong constant name initialize
+# wrong constant name level
+# wrong constant name level=
+# wrong constant name progname
+# wrong constant name progname=
+# wrong constant name sev_threshold
+# wrong constant name sev_threshold=
+# wrong constant name unknown<defaultArg>1
+# wrong constant name unknown
+# wrong constant name warn<defaultArg>1
+# wrong constant name warn
+# wrong constant name warn?
+# wrong constant name <static-init>
+# wrong constant name <Class:AuthenticityToken>
+# wrong constant name <Class:Base>
+# wrong constant name <Class:ContentSecurityPolicy>
+# wrong constant name <Class:CookieTossing>
+# wrong constant name <Class:EscapedParams>
+# wrong constant name <Class:FormToken>
+# wrong constant name <Class:FrameOptions>
+# wrong constant name <Class:HttpOrigin>
+# wrong constant name <Class:IPSpoofing>
+# wrong constant name <Class:JsonCsrf>
+# wrong constant name <Class:PathTraversal>
+# wrong constant name <Class:RemoteReferrer>
+# wrong constant name <Class:RemoteToken>
+# wrong constant name <Class:SessionHijacking>
+# wrong constant name <Class:StrictTransport>
+# wrong constant name <Class:XSSHeader>
+# uninitialized constant Rack::Protection::AuthenticityToken::DEFAULT_OPTIONS
+# wrong constant name mask_authenticity_token
+# wrong constant name <static-init>
+# wrong constant name random_token
+# wrong constant name token
+# undefined method `initialize<defaultArg>1' for class `Rack::Protection::Base'
+# Did you mean?  initialize_dup
+# undefined method `random_string<defaultArg>1' for class `Rack::Protection::Base'
+# wrong constant name accepts?
+# wrong constant name app
+# wrong constant name call
+# wrong constant name default_options
+# wrong constant name default_reaction
+# wrong constant name deny
+# wrong constant name drop_session
+# wrong constant name encrypt
+# wrong constant name html?
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name instrument
+# wrong constant name options
+# wrong constant name origin
+# wrong constant name random_string<defaultArg>1
+# wrong constant name random_string
+# wrong constant name react
+# wrong constant name referrer
+# wrong constant name report
+# wrong constant name safe?
+# wrong constant name secure_compare
+# wrong constant name session
+# wrong constant name session?
+# wrong constant name warn
+# wrong constant name <static-init>
+# wrong constant name default_options
+# wrong constant name default_reaction
+# uninitialized constant Rack::Protection::ContentSecurityPolicy::DEFAULT_OPTIONS
+# wrong constant name csp_policy
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::CookieTossing::DEFAULT_OPTIONS
+# wrong constant name bad_cookies
+# wrong constant name cookie_paths
+# wrong constant name empty_cookie
+# wrong constant name redirect
+# wrong constant name remove_bad_cookies
+# wrong constant name session_key
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::EscapedParams::DEFAULT_OPTIONS
+# wrong constant name escape
+# wrong constant name escape_hash
+# wrong constant name escape_string
+# wrong constant name handle
+# wrong constant name initialize
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::FormToken::DEFAULT_OPTIONS
+# uninitialized constant Rack::Protection::FormToken::TOKEN_LENGTH
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::FrameOptions::DEFAULT_OPTIONS
+# wrong constant name frame_options
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::HttpOrigin::DEFAULT_OPTIONS
+# wrong constant name base_url
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::IPSpoofing::DEFAULT_OPTIONS
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::JsonCsrf::DEFAULT_OPTIONS
+# wrong constant name close_body
+# wrong constant name has_vector?
+# wrong constant name react_and_close
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::PathTraversal::DEFAULT_OPTIONS
+# wrong constant name cleanup
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::RemoteReferrer::DEFAULT_OPTIONS
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::RemoteToken::DEFAULT_OPTIONS
+# uninitialized constant Rack::Protection::RemoteToken::TOKEN_LENGTH
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::SessionHijacking::DEFAULT_OPTIONS
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::StrictTransport::DEFAULT_OPTIONS
+# wrong constant name strict_transport
+# wrong constant name <static-init>
+# uninitialized constant Rack::Protection::XSSHeader::DEFAULT_OPTIONS
+# wrong constant name <static-init>
+# wrong constant name _call
+# wrong constant name call
+# wrong constant name include
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Reloader'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Reloader'
+# Did you mean?  initialize_dup
+# undefined method `reload!<defaultArg>1' for class `Rack::Reloader'
+# undefined method `safe_load<defaultArg>1' for class `Rack::Reloader'
+# wrong constant name <Class:Stat>
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name reload!<defaultArg>1
+# wrong constant name reload!
+# wrong constant name safe_load<defaultArg>1
+# wrong constant name safe_load
+# wrong constant name figure_path
+# wrong constant name rotation
+# wrong constant name safe_stat
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant Rack::Request::DEFAULT_PORTS
+# uninitialized constant Rack::Request::FORM_DATA_MEDIA_TYPES
+# uninitialized constant Rack::Request::HTTP_X_FORWARDED_HOST
+# Did you mean?  Rack::Request::HTTP_X_FORWARDED_SSL
+#                Rack::Request::HTTP_X_FORWARDED_PORT
+#                Rack::Request::HTTP_X_FORWARDED_PROTO
+#                Rack::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Rack::Request::HTTP_X_FORWARDED_PORT
+# Did you mean?  Rack::Request::HTTP_X_FORWARDED_SSL
+#                Rack::Request::HTTP_X_FORWARDED_HOST
+#                Rack::Request::HTTP_X_FORWARDED_PROTO
+#                Rack::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Rack::Request::HTTP_X_FORWARDED_PROTO
+# Did you mean?  Rack::Request::HTTP_X_FORWARDED_SSL
+#                Rack::Request::HTTP_X_FORWARDED_PORT
+#                Rack::Request::HTTP_X_FORWARDED_HOST
+#                Rack::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Rack::Request::HTTP_X_FORWARDED_SCHEME
+# Did you mean?  Rack::Request::HTTP_X_FORWARDED_SSL
+#                Rack::Request::HTTP_X_FORWARDED_PORT
+#                Rack::Request::HTTP_X_FORWARDED_HOST
+#                Rack::Request::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Rack::Request::HTTP_X_FORWARDED_SSL
+# Did you mean?  Rack::Request::HTTP_X_FORWARDED_PORT
+#                Rack::Request::HTTP_X_FORWARDED_HOST
+#                Rack::Request::HTTP_X_FORWARDED_PROTO
+#                Rack::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Rack::Request::PARSEABLE_DATA_MEDIA_TYPES
+# undefined method `initialize<defaultArg>1' for class `Rack::Runtime'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Sendfile'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Rack::Sendfile'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Server'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Options>
+# wrong constant name app
+# wrong constant name default_options
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name middleware
+# wrong constant name options
+# wrong constant name options=
+# wrong constant name server
+# wrong constant name start
+# wrong constant name handler_opts
+# wrong constant name parse!
+# wrong constant name <static-init>
+# undefined singleton method `start<defaultArg>1' for `Rack::Server'
+# wrong constant name <static-init>
+# wrong constant name default_middleware_by_environment
+# wrong constant name logging_middleware
+# wrong constant name middleware
+# wrong constant name start<defaultArg>1
+# wrong constant name start
+# wrong constant name delete_session
+# wrong constant name find_session
+# wrong constant name generate_sid
+# wrong constant name mutex
+# wrong constant name pool
+# wrong constant name with_lock
+# wrong constant name write_session
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name h
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::Static'
+# Did you mean?  initialize_dup
+# wrong constant name add_index_root?
+# wrong constant name applicable_rules
+# wrong constant name call
+# wrong constant name can_serve
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name overwrite_file_path
+# wrong constant name route_file
+# wrong constant name <static-init>
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `Rack::URLMap'
+# Did you mean?  initialize_dup
+# wrong constant name call
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name remap
+# wrong constant name <static-init>
 # undefined method `alphanumeric<defaultArg>1' for module `Random::Formatter'
 # undefined method `random_bytes<defaultArg>1' for module `Random::Formatter'
 # undefined method `urlsafe_base64<defaultArg>1' for module `Random::Formatter'
@@ -2704,6 +3647,7 @@
 # wrong constant name resume
 # wrong constant name resolve_feature_path
 # wrong constant name stat
+# wrong constant name bytes
 # undefined method `flatten_merge<defaultArg>1' for class `Set'
 # undefined method `initialize<defaultArg>1' for class `Set'
 # Did you mean?  initialize_dup
@@ -2721,12 +3665,108 @@
 # wrong constant name reset
 # wrong constant name signm
 # wrong constant name signo
-# uninitialized constant SingleForwardable
-# uninitialized constant SingleForwardable
-# uninitialized constant Singleton
-# Did you mean?  SignalException
-# uninitialized constant Singleton
-# Did you mean?  SignalException
+# uninitialized constant Sinatra::Base::COMMON_SEP
+# uninitialized constant Sinatra::Base::DEFAULT_SEP
+# uninitialized constant Sinatra::Base::ESCAPE_HTML
+# uninitialized constant Sinatra::Base::ESCAPE_HTML_PATTERN
+# uninitialized constant Sinatra::Base::ETAG_KINDS
+# uninitialized constant Sinatra::Base::HTTP_STATUS_CODES
+# uninitialized constant Sinatra::Base::NULL_BYTE
+# uninitialized constant Sinatra::Base::PATH_SEPS
+# uninitialized constant Sinatra::Base::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Sinatra::Base::SYMBOL_TO_STATUS_CODE
+# uninitialized constant Sinatra::Request::ALLOWED_SCHEMES
+# uninitialized constant Sinatra::Request::DEFAULT_PORTS
+# uninitialized constant Sinatra::Request::FORM_DATA_MEDIA_TYPES
+# uninitialized constant Sinatra::Request::HTTP_X_FORWARDED_HOST
+# Did you mean?  Sinatra::Request::HTTP_X_FORWARDED_SSL
+#                Sinatra::Request::HTTP_X_FORWARDED_PORT
+#                Sinatra::Request::HTTP_X_FORWARDED_PROTO
+#                Sinatra::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Sinatra::Request::HTTP_X_FORWARDED_PORT
+# Did you mean?  Sinatra::Request::HTTP_X_FORWARDED_SSL
+#                Sinatra::Request::HTTP_X_FORWARDED_HOST
+#                Sinatra::Request::HTTP_X_FORWARDED_PROTO
+#                Sinatra::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Sinatra::Request::HTTP_X_FORWARDED_PROTO
+# Did you mean?  Sinatra::Request::HTTP_X_FORWARDED_SSL
+#                Sinatra::Request::HTTP_X_FORWARDED_PORT
+#                Sinatra::Request::HTTP_X_FORWARDED_HOST
+#                Sinatra::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Sinatra::Request::HTTP_X_FORWARDED_SCHEME
+# Did you mean?  Sinatra::Request::HTTP_X_FORWARDED_SSL
+#                Sinatra::Request::HTTP_X_FORWARDED_PORT
+#                Sinatra::Request::HTTP_X_FORWARDED_HOST
+#                Sinatra::Request::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Sinatra::Request::HTTP_X_FORWARDED_SSL
+# Did you mean?  Sinatra::Request::HTTP_X_FORWARDED_PORT
+#                Sinatra::Request::HTTP_X_FORWARDED_HOST
+#                Sinatra::Request::HTTP_X_FORWARDED_PROTO
+#                Sinatra::Request::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Sinatra::Request::PARSEABLE_DATA_MEDIA_TYPES
+# uninitialized constant Sinatra::Request::SCHEME_WHITELIST
+# uninitialized constant Sinatra::Response::CHUNKED
+# uninitialized constant Sinatra::Response::STATUS_WITH_NO_ENTITY_BODY
+# uninitialized constant Sinatra::ShowExceptions::CONTEXT
+# undefined method `def_delegator<defaultArg>1' for module `SingleForwardable'
+# undefined method `def_single_delegator<defaultArg>1' for module `SingleForwardable'
+# wrong constant name def_delegator<defaultArg>1
+# wrong constant name def_delegator
+# wrong constant name def_delegators
+# wrong constant name def_single_delegator<defaultArg>1
+# wrong constant name def_single_delegator
+# wrong constant name def_single_delegators
+# wrong constant name delegate
+# wrong constant name single_delegate
+# uninitialized constant Socket::APPEND
+# uninitialized constant Socket::BINARY
+# uninitialized constant Socket::CREAT
+# uninitialized constant Socket::DSYNC
+# Did you mean?  Socket::SYNC
+# uninitialized constant Socket::EXCL
+# uninitialized constant Socket::FNM_CASEFOLD
+# uninitialized constant Socket::FNM_DOTMATCH
+# uninitialized constant Socket::FNM_EXTGLOB
+# uninitialized constant Socket::FNM_NOESCAPE
+# uninitialized constant Socket::FNM_PATHNAME
+# uninitialized constant Socket::FNM_SHORTNAME
+# uninitialized constant Socket::FNM_SYSCASE
+# uninitialized constant Socket::LOCK_EX
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_UN
+#                Socket::LOCK_SH
+# uninitialized constant Socket::LOCK_NB
+# Did you mean?  Socket::LOCK_UN
+#                Socket::LOCK_EX
+#                Socket::LOCK_SH
+# uninitialized constant Socket::LOCK_SH
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_UN
+#                Socket::LOCK_EX
+# uninitialized constant Socket::LOCK_UN
+# Did you mean?  Socket::LOCK_NB
+#                Socket::LOCK_EX
+#                Socket::LOCK_SH
+# uninitialized constant Socket::NOCTTY
+# uninitialized constant Socket::NOFOLLOW
+# uninitialized constant Socket::NONBLOCK
+# uninitialized constant Socket::NULL
+# uninitialized constant Socket::RDONLY
+# Did you mean?  Socket::WRONLY
+# uninitialized constant Socket::RDWR
+# uninitialized constant Socket::SEEK_CUR
+# uninitialized constant Socket::SEEK_DATA
+# Did you mean?  Socket::SEEK_SET
+# uninitialized constant Socket::SEEK_END
+# uninitialized constant Socket::SEEK_HOLE
+# uninitialized constant Socket::SEEK_SET
+# uninitialized constant Socket::SHARE_DELETE
+# uninitialized constant Socket::SYNC
+# Did you mean?  Socket::DSYNC
+# uninitialized constant Socket::TRUNC
+# Did you mean?  TRUE
+# uninitialized constant Socket::WRONLY
+# Did you mean?  Socket::RDONLY
 # wrong constant name <Class:ConstantEntry>
 # wrong constant name all_module_aliases
 # wrong constant name all_module_names
@@ -2911,6 +3951,7 @@
 # wrong constant name each_grapheme_cluster
 # wrong constant name encode!
 # wrong constant name grapheme_clusters
+# wrong constant name parse_csv
 # wrong constant name reverse!
 # wrong constant name shellescape
 # wrong constant name shellsplit
@@ -2920,6 +3961,52 @@
 # wrong constant name unicode_normalize!
 # wrong constant name unicode_normalized?
 # wrong constant name unpack1
+# wrong constant name length
+# wrong constant name truncate
+# wrong constant name <<
+# wrong constant name []
+# wrong constant name beginning_of_line?
+# wrong constant name bol?
+# wrong constant name captures
+# wrong constant name charpos
+# wrong constant name check
+# wrong constant name check_until
+# wrong constant name clear
+# wrong constant name concat
+# wrong constant name empty?
+# wrong constant name exist?
+# wrong constant name get_byte
+# wrong constant name getbyte
+# wrong constant name initialize
+# wrong constant name match?
+# wrong constant name matched
+# wrong constant name matched?
+# wrong constant name matched_size
+# wrong constant name peek
+# wrong constant name peep
+# wrong constant name pointer
+# wrong constant name pointer=
+# wrong constant name pos
+# wrong constant name pos=
+# wrong constant name post_match
+# wrong constant name pre_match
+# wrong constant name reset
+# wrong constant name rest
+# wrong constant name rest?
+# wrong constant name rest_size
+# wrong constant name restsize
+# wrong constant name scan_full
+# wrong constant name scan_until
+# wrong constant name search_full
+# wrong constant name size
+# wrong constant name skip
+# wrong constant name skip_until
+# wrong constant name string
+# wrong constant name string=
+# wrong constant name terminate
+# wrong constant name unscan
+# wrong constant name values_at
+# wrong constant name must_C_version
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name dig
@@ -2940,6 +4027,53 @@
 # wrong constant name T.noreturn
 # wrong constant name T.noreturn
 # wrong constant name T.untyped
+# undefined method `close<defaultArg>1' for class `Tempfile'
+# undefined method `initialize<defaultArg>1' for class `Tempfile'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>2' for class `Tempfile'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>3' for class `Tempfile'
+# Did you mean?  initialize_dup
+# wrong constant name <Class:Remover>
+# wrong constant name _close
+# wrong constant name close<defaultArg>1
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize<defaultArg>2
+# wrong constant name initialize<defaultArg>3
+# wrong constant name inspect
+# wrong constant name call
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name <Class:CSVTemplate>
+# wrong constant name <Class:ERBTemplate>
+# wrong constant name <Class:EtanniTemplate>
+# wrong constant name <Class:PlainTemplate>
+# wrong constant name <Class:RDocTemplate>
+# wrong constant name <Class:SigilTemplate>
+# wrong constant name <Class:StringTemplate>
+# wrong constant name precompiled
+# wrong constant name precompiled_template
+# wrong constant name <static-init>
+# wrong constant name engine
+# wrong constant name precompiled
+# wrong constant name precompiled_postamble
+# wrong constant name precompiled_preamble
+# wrong constant name precompiled_template
+# wrong constant name <static-init>
+# wrong constant name default_output_variable
+# wrong constant name default_output_variable=
+# wrong constant name precompiled
+# wrong constant name precompiled_template
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name allows_script?
+# wrong constant name markup
+# wrong constant name <static-init>
+# wrong constant name allows_script?
+# wrong constant name <static-init>
+# wrong constant name precompiled
+# wrong constant name precompiled_template
+# wrong constant name <static-init>
 # undefined method `enable<defaultArg>1' for class `TracePoint'
 # undefined method `enable<defaultArg>2' for class `TracePoint'
 # wrong constant name __enable
@@ -2949,11 +4083,270 @@
 # wrong constant name event
 # wrong constant name instruction_sequence
 # wrong constant name parameters
+# wrong constant name <Class:File>
+# wrong constant name decode
+# wrong constant name encode
+# wrong constant name escape
+# wrong constant name unescape
+# wrong constant name set_typecode
+# wrong constant name typecode
+# wrong constant name typecode=
+# undefined singleton method `new2<defaultArg>1' for `URI::FTP'
+# undefined singleton method `new2<defaultArg>2' for `URI::FTP'
+# wrong constant name new2<defaultArg>1
+# wrong constant name new2<defaultArg>2
+# wrong constant name new2
+# uninitialized constant URI::File::ABS_PATH
+# Did you mean?  URI::ABS_PATH
+# uninitialized constant URI::File::ABS_URI
+# Did you mean?  URI::ABS_URI
+# uninitialized constant URI::File::ABS_URI_REF
+# Did you mean?  URI::ABS_URI_REF
+# uninitialized constant URI::File::DEFAULT_PARSER
+# Did you mean?  URI::File::DEFAULT_PORT
+#                URI::DEFAULT_PARSER
+# uninitialized constant URI::File::ESCAPED
+# Did you mean?  URI::File::Escape
+#                URI::Escape
+#                URI::ESCAPED
+# uninitialized constant URI::File::FRAGMENT
+# Did you mean?  URI::FRAGMENT
+# uninitialized constant URI::File::HOST
+# Did you mean?  URI::HOST
+# uninitialized constant URI::File::OPAQUE
+# Did you mean?  URI::OPAQUE
+# uninitialized constant URI::File::PORT
+# Did you mean?  URI::PORT
+# uninitialized constant URI::File::QUERY
+# Did you mean?  URI::QUERY
+# uninitialized constant URI::File::REGISTRY
+# Did you mean?  URI::REGISTRY
+# uninitialized constant URI::File::REL_PATH
+# Did you mean?  URI::REL_PATH
+# uninitialized constant URI::File::REL_URI
+# Did you mean?  URI::REL_URI
+# uninitialized constant URI::File::REL_URI_REF
+# Did you mean?  URI::REL_URI_REF
+# uninitialized constant URI::File::RFC3986_PARSER
+# Did you mean?  URI::File::RFC3986_Parser
+#                URI::RFC3986_Parser
+#                URI::RFC2396_Parser
+#                URI::File::RFC2396_Parser
+#                URI::RFC3986_PARSER
+# uninitialized constant URI::File::SCHEME
+# Did you mean?  URI::SCHEME
+# uninitialized constant URI::File::TBLDECWWWCOMP_
+# Did you mean?  URI::File::TBLENCWWWCOMP_
+#                URI::TBLDECWWWCOMP_
+#                URI::TBLENCWWWCOMP_
+# uninitialized constant URI::File::TBLENCWWWCOMP_
+# Did you mean?  URI::File::TBLDECWWWCOMP_
+#                URI::TBLDECWWWCOMP_
+#                URI::TBLENCWWWCOMP_
+# uninitialized constant URI::File::UNSAFE
+# Did you mean?  URI::UNSAFE
+# uninitialized constant URI::File::URI_REF
+# Did you mean?  URI::URI_REF
+# uninitialized constant URI::File::USERINFO
+# Did you mean?  URI::USERINFO
+# uninitialized constant URI::File::USE_REGISTRY
+# uninitialized constant URI::File::VERSION
+# Did you mean?  URI::VERSION
+# uninitialized constant URI::File::VERSION_CODE
+# Did you mean?  URI::VERSION_CODE
+# uninitialized constant URI::File::WEB_ENCODINGS_
+# Did you mean?  URI::WEB_ENCODINGS_
+# wrong constant name check_password
+# wrong constant name check_user
+# wrong constant name check_userinfo
+# wrong constant name set_userinfo
+# wrong constant name <static-init>
+# wrong constant name attributes
+# wrong constant name attributes=
+# wrong constant name dn
+# wrong constant name dn=
+# wrong constant name extensions
+# wrong constant name extensions=
+# wrong constant name filter
+# wrong constant name filter=
+# wrong constant name initialize
+# wrong constant name scope
+# wrong constant name scope=
+# wrong constant name set_attributes
+# wrong constant name set_dn
+# wrong constant name set_extensions
+# wrong constant name set_filter
+# wrong constant name set_scope
+# wrong constant name headers
+# wrong constant name headers=
+# wrong constant name initialize
+# wrong constant name set_headers
+# wrong constant name set_to
+# wrong constant name to
+# wrong constant name to=
+# wrong constant name to_mailtext
+# wrong constant name to_rfc822text
+# undefined method `escape<defaultArg>1' for class `URI::RFC2396_Parser'
+# undefined method `extract<defaultArg>1' for class `URI::RFC2396_Parser'
+# undefined method `initialize<defaultArg>1' for class `URI::RFC2396_Parser'
+# Did you mean?  initialize_dup
+# undefined method `make_regexp<defaultArg>1' for class `URI::RFC2396_Parser'
+# undefined method `unescape<defaultArg>1' for class `URI::RFC2396_Parser'
+# wrong constant name escape<defaultArg>1
+# wrong constant name escape
+# wrong constant name extract<defaultArg>1
+# wrong constant name extract
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name join
+# wrong constant name make_regexp<defaultArg>1
+# wrong constant name make_regexp
+# wrong constant name parse
+# wrong constant name pattern
+# wrong constant name regexp
+# wrong constant name split
+# wrong constant name unescape<defaultArg>1
+# wrong constant name unescape
+# wrong constant name join
+# wrong constant name parse
+# wrong constant name regexp
+# wrong constant name split
+# wrong constant name make_components_hash
+# undefined singleton method `extract<defaultArg>1' for `URI'
+# undefined singleton method `regexp<defaultArg>1' for `URI'
+# wrong constant name extract<defaultArg>1
+# wrong constant name get_encoding
+# wrong constant name regexp<defaultArg>1
 # wrong constant name clone
 # wrong constant name original_name
 # wrong constant name tag
 # wrong constant name value
 # wrong constant name <static-init>
-# uninitialized constant WEBrick
-# uninitialized constant WEBrick
 # wrong constant name warn
+# wrong constant name <Class:BufError>
+# wrong constant name <Class:DataError>
+# wrong constant name <Class:Deflate>
+# wrong constant name <Class:Error>
+# wrong constant name <Class:GzipFile>
+# wrong constant name <Class:GzipReader>
+# wrong constant name <Class:GzipWriter>
+# wrong constant name <Class:Inflate>
+# wrong constant name <Class:MemError>
+# wrong constant name <Class:NeedDict>
+# wrong constant name <Class:StreamEnd>
+# wrong constant name <Class:StreamError>
+# wrong constant name <Class:VersionError>
+# wrong constant name <Class:ZStream>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <<
+# wrong constant name deflate
+# wrong constant name flush
+# wrong constant name initialize
+# wrong constant name params
+# wrong constant name set_dictionary
+# wrong constant name <static-init>
+# wrong constant name deflate
+# wrong constant name <static-init>
+# wrong constant name <Class:CRCError>
+# wrong constant name <Class:Error>
+# wrong constant name <Class:LengthError>
+# wrong constant name <Class:NoFooter>
+# wrong constant name close
+# wrong constant name closed?
+# wrong constant name comment
+# wrong constant name crc
+# wrong constant name finish
+# wrong constant name level
+# wrong constant name mtime
+# wrong constant name orig_name
+# wrong constant name os_code
+# wrong constant name sync
+# wrong constant name sync=
+# wrong constant name to_io
+# wrong constant name <static-init>
+# wrong constant name input
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name wrap
+# uninitialized constant Zlib::GzipReader::Elem
+# wrong constant name bytes
+# wrong constant name each
+# wrong constant name each_byte
+# wrong constant name each_char
+# wrong constant name each_line
+# wrong constant name eof
+# wrong constant name eof?
+# wrong constant name external_encoding
+# wrong constant name getbyte
+# wrong constant name getc
+# wrong constant name initialize
+# wrong constant name lineno
+# wrong constant name lineno=
+# wrong constant name lines
+# wrong constant name pos
+# wrong constant name read
+# wrong constant name readbyte
+# wrong constant name readchar
+# wrong constant name readpartial
+# wrong constant name rewind
+# wrong constant name tell
+# wrong constant name ungetbyte
+# wrong constant name ungetc
+# wrong constant name unused
+# wrong constant name <static-init>
+# wrong constant name <<
+# wrong constant name comment=
+# wrong constant name flush
+# wrong constant name initialize
+# wrong constant name mtime=
+# wrong constant name orig_name=
+# wrong constant name pos
+# wrong constant name tell
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name <<
+# wrong constant name add_dictionary
+# wrong constant name inflate
+# wrong constant name initialize
+# wrong constant name set_dictionary
+# wrong constant name sync
+# wrong constant name sync_point?
+# wrong constant name <static-init>
+# wrong constant name inflate
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name adler
+# wrong constant name avail_in
+# wrong constant name avail_out
+# wrong constant name avail_out=
+# wrong constant name close
+# wrong constant name closed?
+# wrong constant name data_type
+# wrong constant name end
+# wrong constant name ended?
+# wrong constant name finish
+# wrong constant name finished?
+# wrong constant name flush_next_in
+# wrong constant name flush_next_out
+# wrong constant name reset
+# wrong constant name stream_end?
+# wrong constant name total_in
+# wrong constant name total_out
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name adler32
+# wrong constant name adler32_combine
+# wrong constant name crc32
+# wrong constant name crc32_combine
+# wrong constant name crc_table
+# wrong constant name deflate
+# wrong constant name gunzip
+# wrong constant name gzip
+# wrong constant name inflate
+# wrong constant name zlib_version
