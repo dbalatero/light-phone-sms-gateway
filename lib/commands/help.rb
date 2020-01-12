@@ -25,9 +25,9 @@ module Commands
       if command
         command.help
       else
-        names = Commands.all.map(&:name).sort.join(', ')
+        names = Commands.all.map(&:name).sort.join("\n")
 
-        "Available commands: #{names}"
+        "Available commands:\n\n#{names}"
       end
     end
 
