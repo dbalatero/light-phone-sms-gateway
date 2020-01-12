@@ -20,7 +20,7 @@ that matter) can ping with useful commands.
 
 ## Supported Commands
 
-Here are the currently supported commands. If you want to add more commands
+Here are the currently supported commands. If you want to add more commands, see [Contributing a new command](#contributing-a-new-command).
 
 ### directions
 
@@ -51,7 +51,7 @@ This command will give you Google Maps directions from `start` to `destination`.
 
     Light rail towards University Of Washington Station (11 mins)
     1. Board Link light rail (Sound Transit) from Pioneer Square Station at 3:39pm
-    2. Get off at University of Washington Station at 3:50pm
+    2. Get off at University of Washington [[Station]] at 3:50pm
 
     Walk to Seattle, WA 98195, USA (4 mins)
     1. Head south (85 ft, 1 min)
