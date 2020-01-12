@@ -9,6 +9,8 @@ that matter) can ping with useful commands.
   * [ping](#ping) tiny command for testing your gateway
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
+  * [Registering the command](#registering-the-command)
+* [Developing locally with ngrok](#developing-locally-with-ngrok)
 
 ## Setup
 
@@ -94,7 +96,7 @@ the `def self.all` method.
 
 This should be all you need to do to hook your new command up to the gateway!
 
-## Developing locally
+## Developing locally with ngrok
 
 The easiest way to test any new commands you write is to use ngrok.
 
