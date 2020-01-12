@@ -16,7 +16,7 @@ RSpec.describe Commands::Directions::RoutePresenter do
 
           presenter = described_class.new(
             route,
-            mode: described_class::Mode::Bicycling
+            mode: Commands::Directions::Mode::Bicycling
           )
 
           expect(presenter.to_text).to eq <<~MSG.strip
@@ -48,7 +48,7 @@ RSpec.describe Commands::Directions::RoutePresenter do
 
           presenter = described_class.new(
             route,
-            mode: described_class::Mode::Walking
+            mode: Commands::Directions::Mode::Walking
           )
 
           expect(presenter.to_text).to eq <<~MSG.strip
@@ -89,7 +89,7 @@ RSpec.describe Commands::Directions::RoutePresenter do
 
           presenter = described_class.new(
             route,
-            mode: described_class::Mode::Transit
+            mode: Commands::Directions::Mode::Transit
           )
 
           expect(presenter.to_text).to eq <<~MSG.strip

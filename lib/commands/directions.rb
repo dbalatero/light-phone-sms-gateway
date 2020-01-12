@@ -1,8 +1,8 @@
 # typed: strong
 # frozen_string_literal: true
 
-require 'google-maps'
 require_relative './base'
+require 'google-maps'
 
 Google::Maps.configure do |config|
   config.authentication_mode = Google::Maps::Configuration::API_KEY
@@ -11,6 +11,107 @@ end
 
 module Commands
   class Directions < Base
+    extend T::Sig
+
+    class Mode < T::Enum
+      enums do
+        Bicycling = new
+        Driving = new
+        Walking = new
+        Transit = new
+      end
+    end
+
+    sig { override.returns(String) }
+    def self.name
+      'directions'
+    end
+
+    def self.help
+      <<~HELP
+        directions [#{Query::MODES.join('|')}] <start> to <destination>
+      HELP
+    end
+
+    sig { override.returns(String) }
+    def response_body
+      query = build_query
+      return help unless query
+
+      options = {}
+      case query.mode
+      when Mode::Transit
+        options[:mode] = 'transit'
+        options[:transit_routing_mode] = 'fewer_transfers'
+        options[:transit_mode] = query.transit_mode if query.transit_mode
+      when Mode::Walking
+        options[:mode] = 'walking'
+      when Mode::Bicycling
+        options[:mode] = 'bicycling'
+      when Mode::Driving
+        options[:mode] = 'driving'
+      end
+
+      route = Google::Maps.route(
+        query.start,
+        query.destination,
+        **options
+      )
+
+      RoutePresenter.new(route, mode: query.mode).to_text
+    end
+
+    private
+
+    class Query < T::Struct
+      extend T::Sig
+
+      const :start, String
+      const :destination, String
+      const :mode_type, String, default: 'transit'
+
+      MODES = %w[rail bus transit walk bike drive].freeze
+
+      sig { returns(T.nilable(String)) }
+      def transit_mode
+        case mode_type
+        when 'rail'
+          'rail'
+        when 'bus'
+          'bus'
+        end
+      end
+
+      def mode
+        case mode_type
+        when 'walk'
+          Mode::Walking
+        when 'bike'
+          Mode::Bicycling
+        when 'drive'
+          Mode::Driving
+        else
+          # fallback for train, bus, transit
+          Mode::Transit
+        end
+      end
+    end
+
+    QUERY_REGEX = /^(?:(?<mode_type>#{Query::MODES.join('|')}) )?(?<start>.+) to (?<destination>.+)$/i.freeze
+    def build_query
+      result = arg_text.match(QUERY_REGEX)
+      return nil unless result
+
+      options = {
+        start: result[:start],
+        destination: result[:destination]
+      }
+
+      options[:mode_type] = result[:mode_type] if result[:mode_type]
+
+      Query.new(**options)
+    end
+
     class RoutePresenter
       extend T::Sig
 
@@ -38,14 +139,6 @@ module Commands
                 end
 
         parts.strip
-      end
-
-      class Mode < T::Enum
-        enums do
-          Bicycling = new
-          Walking = new
-          Transit = new
-        end
       end
 
       private

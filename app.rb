@@ -19,25 +19,16 @@ class App < Sinatra::Base
     body 'OK'
   end
 
-  COMMANDS = [
-    Commands::Ping
-  ].freeze
-
   post '/gateway' do
     incoming_message = params['Body'].to_s.downcase
     cmd, arg_text = incoming_message.split(/\s+/, 2)
 
     logger.info "Received command: #{cmd}, arg text: #{arg_text}"
-
-    command_class = COMMANDS.find { |klass| klass.name == cmd }
+    command_class = Commands.get(cmd) || Commands::Help
 
     twiml = Twilio::TwiML::MessagingResponse.new do |resp|
-      if command_class
-        command = command_class.new(arg_text)
-        resp.message body: command.response_body
-      else
-        resp.message body: 'invalid command'
-      end
+      command = command_class.new(arg_text)
+      resp.message body: command.response_body
     end
 
     twiml.to_s

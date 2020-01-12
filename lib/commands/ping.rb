@@ -13,6 +13,13 @@ module Commands
     end
 
     sig { override.returns(String) }
+    def self.help
+      <<~HELP
+        ping: returns a pong
+      HELP
+    end
+
+    sig { override.returns(String) }
     def response_body
       'pong'
     end
