@@ -2,3 +2,9 @@
 
 ruby '2.6.3'
 source 'https://rubygems.org'
+
+gem 'sorbet-runtime'
+
+group :development do
+  gem 'sorbet'
+end
