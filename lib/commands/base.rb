@@ -5,12 +5,12 @@ module Commands
   class Base
     extend T::Sig
 
-    sig { returns(T.nilable(String)) }
+    sig { returns(String) }
     attr_reader :arg_text
 
     sig { params(arg_text: T.nilable(String)).void }
-    def initialize(arg_text)
-      @arg_text = arg_text
+    def initialize(arg_text = nil)
+      @arg_text = arg_text.to_s
     end
 
     sig { abstract.returns(String) }
