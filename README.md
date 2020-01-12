@@ -16,19 +16,51 @@ that matter) can ping with useful commands.
 
 ## Setup
 
+This repo works out of the box on Heroku. The setup guide assumes you already
+have a Heroku account and the Heroku CLI app installed. If you don't have these
+things, Google how to set it up - it should only be a few minutes. If this is a
+lie, come back and yell at me in [GH
+issues](https://github.com/dbalatero/light-phone-sms-gateway/issues).
+
+    # clone this repo
+    git clone git@github.com:dbalatero/light-phone-sms-gateway.git
+
+    # create a new Heroku app
+    heroku create my-cool-sms-gateway
+
+    # push to heroku
+    git push heroku master
+
+If you visit your app (https://my-cool-sms-gateway.herokuapp.com), you should
+see an `OK` in the browser.
+
+The next step is to wire a Twilio phone number to your new app:
+
+1. [Sign up for a Twilio account](https://www.twilio.com/)
+2. Login to the dashboard
+3. [Create a new phone number](https://www.twilio.com/console/phone-numbers/incoming)
+4. Click the phone number to Edit it
+5. Scroll down to the Messaging section
+6. Set up a webhook to `POST https://my-cool-sms-gateway.herokuapp.com/gateway` like so:
+
+![image](https://user-images.githubusercontent.com/59429/72227509-476ae680-3552-11ea-9c93-2da5ad7627b8.png)
+
+Finally, text `h` to your new phone number to make sure it's up and running.
+
 ## Cost
 
 This service isn't free to run:
 
 * Twilio costs $0.0075 (at time of writing) per SMS.
 * Responses might come back batched as multiple SMS messages.
+* A static phone number from them is $1.00/mo.
 
 However, you need to do a cost/benefit analysis. What is the value of ditching
 your smartphone and regaining your focus? For me, I would easily pay someone
-$100/mo if they could guarantee that I would be twice as focused and less
-stressed out by technology. YMMV, of course. But for the love of god don't
-kneejerk react to the cost - make sure you really weigh the pros and cons of
-running this service!
+*$100/mo* if they could guarantee that I would be more focused and less
+stressed out by technology. YMMV, of course. Just please don't have a kneejerk
+reaction to the cost - make sure you really weigh the pros and cons of running
+this service!
 
 ## Supported Commands
 
