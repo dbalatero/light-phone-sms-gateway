@@ -3,9 +3,9 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sorbet-runtime'
-
 require 'sinatra/base'
 require 'twilio-ruby'
+
 require_relative './lib/compare'
 require_relative './lib/commands'
 
