@@ -3,6 +3,9 @@
 This adds a simple SMS gateway that Light Phone 2 (or any phone with SMS for
 that matter) can ping with useful commands.
 
+This is meant to fill any functionality gaps missing from the phone while the
+Light Phone team works on adding things like directions.
+
 * [Setup](#setup)
 * [Cost](#cost)
 * [Supported Commands](#supported-commands)
