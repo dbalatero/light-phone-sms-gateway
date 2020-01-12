@@ -26,6 +26,8 @@ class App < Sinatra::Base
     incoming_message = params['Body'].to_s.downcase
     cmd, arg_text = incoming_message.split(/\s+/, 2)
 
+    logger.info "Received command: #{cmd}, arg text: #{arg_text}"
+
     command_class = COMMANDS.find { |klass| klass.name == cmd }
 
     twiml = Twilio::TwiML::MessagingResponse.new do |resp|
