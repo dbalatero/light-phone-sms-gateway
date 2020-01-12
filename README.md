@@ -6,6 +6,8 @@ that matter) can ping with useful commands.
 * [Setup](#setup)
 * [Cost](#cost)
 * [Supported Commands](#supported-commands)
+  * [directions](#directions) texts you Google Maps directions
+  * [help](#help) shows available commands
   * [ping](#ping) tiny command for testing your gateway
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
@@ -20,11 +22,58 @@ that matter) can ping with useful commands.
 
 Here are the currently supported commands. If you want to add more commands
 
+### directions
+
+This command will give you Google Maps directions from `start` to `destination`.
+
+*Syntax*: `directions [mode] <start> to <destination>`
+*Extra cost:* consult Google Maps API fees
+
+*Params:*
+* `mode` - one of `rail bus transit walk bike drive`, defaults to `transit`
+* `start`* - your starting location, e.g. `1234 Fake Street, seattle, wa 98123`
+* `destination`* - your destination, e.g. `university of washington`
+
+*Setup*:
+* [Get an API key for Google Maps](https://developers.google.com/maps/gmp-get-started)
+* `heroku config:set GOOGLE_MAPS_API_KEY=...`
+
+### help
+
+Get a list of commands, or get help for a specific command.
+
+*Syntax:* `h [command]`
+*Extra cost:* none
+
+*Params*:
+* `command` - optional, set it to the name of a known command to get help
+
+*Setup*: none
+
+Running `help [command]` will give you the help text for a specific command.
+
+*Examples:*
+
+    -> h
+
+    Available commands: directions, h, ping
+
+    -> h ping
+
+    ping: returns a pong
+
 ### ping
 
-Syntax: `ping`
+*Syntax*: `ping`
+*Params:* none
+*Setup*: none
+*Extra cost*: none
 
-Response: Sends back a simple `pong`
+*Examples:*
+
+    -> ping
+
+    pong
 
 ## Contributing a new command
 
@@ -101,7 +150,7 @@ This should be all you need to do to hook your new command up to the gateway!
 The easiest way to test any new commands you write is to use ngrok.
 
 1. `brew cask install ngrok`
-2. Run `rackup` from the repo root (boots a server on 4567)
+2. Run `rackup` from the repo root (boots a web server on port 4567)
 3. Run `ngrok http 4567` to tunnel an external URL to your localhost:4567 server
 
 Once the tunnel is up:

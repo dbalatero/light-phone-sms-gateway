@@ -36,6 +36,7 @@ module Commands
     sig { override.returns(String) }
     def response_body
       query = build_query
+      return api_key_missing unless api_key_exists?
       return help unless query
 
       options = {}
@@ -62,6 +63,19 @@ module Commands
     end
 
     private
+
+    def api_key_missing
+      <<~MSG
+        Your Google Maps API key is missing.
+        Create a new key at: https://developers.google.com/maps/gmp-get-started
+
+        Once you get a key, set it to ENV['GOOGLE_MAPS_API_KEY'] on your server.
+      MSG
+    end
+
+    def api_key_exists?
+      ENV.key?('GOOGLE_MAPS_API_KEY')
+    end
 
     class Query < T::Struct
       extend T::Sig
