@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
 
   post '/gateway' do
-    secret_token = request.env['SmsGatewayToken']
+    secret_token = request.env['HTTP_SMS_GATEWAY_TOKEN']
     return status 403 unless secret_token
 
     configured_token = ENV.fetch('GATEWAY_SECRET_KEY')

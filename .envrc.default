@@ -1,1 +1,1 @@
-GATEWAY_SECRET_KEY=xxxxxxxxxxx
+export GATEWAY_SECRET_KEY=xxxxxxxxxxx

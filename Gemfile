@@ -7,5 +7,6 @@ gem 'sinatra'
 gem 'sorbet-runtime'
 
 group :development do
+  gem 'pry'
   gem 'sorbet'
 end
