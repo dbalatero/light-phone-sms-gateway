@@ -11,3 +11,7 @@ group :development do
   gem 'pry'
   gem 'sorbet'
 end
+
+group :test do
+  gem 'rspec'
+end
