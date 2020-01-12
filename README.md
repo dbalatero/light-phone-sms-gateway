@@ -7,7 +7,7 @@ that matter) can ping with useful commands.
 * [Cost](#cost)
 * [Supported Commands](#supported-commands)
   * [directions](#directions) texts you Google Maps directions
-  * [help](#help) shows available commands
+  * [h](#h) (help) shows available commands
   * [ping](#ping) tiny command for testing your gateway
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
@@ -136,7 +136,7 @@ This command will give you Google Maps directions from `start` to `destination`.
     Turn left toward Hagiwara Tea Garden Dr (1 min)
     Turn right onto Hagiwara Tea Garden Dr. Destination will be on the right (2 mins)
 
-### help
+### h
 
 Get a list of commands, or get help for a specific command.
 
@@ -148,7 +148,7 @@ Get a list of commands, or get help for a specific command.
 
 *Setup*: none
 
-Running `help [command]` will give you the help text for a specific command.
+Running `h [command]` will give you the help text for a specific command.
 
 *Examples:*
 
