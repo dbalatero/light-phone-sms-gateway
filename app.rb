@@ -14,13 +14,11 @@ class App < Sinatra::Base
 
   post '/gateway' do
     secret_token = request.env['SmsGatewayToken']
-    configured_token = ENV.fetch('GATEWAY_SECRET_KEY')
+    return status 403 unless secret_token
 
-    if Compare.secure_compare(secret_token, configured_token)
-      body 'OK GATEWAY'
-    else
-      # forbidden
-      return status 403
-    end
+    configured_token = ENV.fetch('GATEWAY_SECRET_KEY')
+    return status 403 unless Compare.secure_compare(secret_token, configured_token)
+
+    body 'OK GATEWAY'
   end
 end
