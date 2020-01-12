@@ -1,0 +1,390 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/directions/json?destination=University%20of%20Washington,%20Seattle,%20WA&key=<GOOGLE
+      MAPS API KEY>&language=en&mode=transit&origin=Smith%20Tower,%20Seattle,%20WA
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
+      Accept:
+      - "*/*"
+      Date:
+      - Sun, 12 Jan 2020 21:09:38 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Jan 2020 21:09:39 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=728
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "geocoded_waypoints" : [
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6x3yk7pqkFQRW2zXQJUlScA",
+                 "types" : [ "establishment", "point_of_interest", "tourist_attraction" ]
+              },
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6zWFnZIUkFQRoyu4AXksdGs",
+                 "types" : [ "establishment", "point_of_interest", "university" ]
+              }
+           ],
+           "routes" : [
+              {
+                 "bounds" : {
+                    "northeast" : {
+                       "lat" : 47.6498399,
+                       "lng" : -122.303608
+                    },
+                    "southwest" : {
+                       "lat" : 47.6018287,
+                       "lng" : -122.3384277
+                    }
+                 },
+                 "copyrights" : "Map data ©2020",
+                 "legs" : [
+                    {
+                       "arrival_time" : {
+                          "text" : "1:29pm",
+                          "time_zone" : "America/Los_Angeles",
+                          "value" : 1578864582
+                       },
+                       "departure_time" : {
+                          "text" : "1:11pm",
+                          "time_zone" : "America/Los_Angeles",
+                          "value" : 1578863497
+                       },
+                       "distance" : {
+                          "text" : "4.4 mi",
+                          "value" : 7077
+                       },
+                       "duration" : {
+                          "text" : "18 mins",
+                          "value" : 1085
+                       },
+                       "end_address" : "Seattle, WA 98195, USA",
+                       "end_location" : {
+                          "lat" : 47.6476359,
+                          "lng" : -122.3045419
+                       },
+                       "start_address" : "506 2nd Ave, Seattle, WA 98104, USA",
+                       "start_location" : {
+                          "lat" : 47.6018287,
+                          "lng" : -122.3320368
+                       },
+                       "steps" : [
+                          {
+                             "distance" : {
+                                "text" : "0.1 mi",
+                                "value" : 211
+                             },
+                             "duration" : {
+                                "text" : "3 mins",
+                                "value" : 203
+                             },
+                             "end_location" : {
+                                "lat" : 47.6031548,
+                                "lng" : -122.3316907
+                             },
+                             "html_instructions" : "Walk to Pioneer Square Station",
+                             "polyline" : {
+                                "points" : "mfpaHf~siV_@Zc@`@WTMHCIQm@Oc@EQWy@M]AGGQaAz@"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6018287,
+                                "lng" : -122.3320368
+                             },
+                             "steps" : [
+                                {
+                                   "distance" : {
+                                      "text" : "213 ft",
+                                      "value" : 65
+                                   },
+                                   "duration" : {
+                                      "text" : "1 min",
+                                      "value" : 50
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6023556,
+                                      "lng" : -122.3325134
+                                   },
+                                   "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003e2nd Ave\u003c/b\u003e toward \u003cb\u003eJames St\u003c/b\u003e",
+                                   "polyline" : {
+                                      "points" : "mfpaHf~siV_@Zc@`@WTMH"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6018287,
+                                      "lng" : -122.3320368
+                                   },
+                                   "travel_mode" : "WALKING"
+                                },
+                                {
+                                   "distance" : {
+                                      "text" : "322 ft",
+                                      "value" : 98
+                                   },
+                                   "duration" : {
+                                      "text" : "2 mins",
+                                      "value" : 112
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6028179,
+                                      "lng" : -122.3313916
+                                   },
+                                   "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJames St\u003c/b\u003e",
+                                   "maneuver" : "turn-right",
+                                   "polyline" : {
+                                      "points" : "wipaHdatiVCIQm@Oc@EQWy@M]AGGQ"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6023556,
+                                      "lng" : -122.3325134
+                                   },
+                                   "travel_mode" : "WALKING"
+                                },
+                                {
+                                   "distance" : {
+                                      "text" : "157 ft",
+                                      "value" : 48
+                                   },
+                                   "duration" : {
+                                      "text" : "1 min",
+                                      "value" : 41
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6031548,
+                                      "lng" : -122.3316907
+                                   },
+                                   "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e3rd Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                                   "maneuver" : "turn-left",
+                                   "polyline" : {
+                                      "points" : "slpaHdzsiVaAz@"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6028179,
+                                      "lng" : -122.3313916
+                                   },
+                                   "travel_mode" : "WALKING"
+                                }
+                             ],
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "4.1 mi",
+                                "value" : 6599
+                             },
+                             "duration" : {
+                                "text" : "11 mins",
+                                "value" : 660
+                             },
+                             "end_location" : {
+                                "lat" : 47.6498399,
+                                "lng" : -122.3037968
+                             },
+                             "html_instructions" : "Light rail towards University Of Washington Station",
+                             "polyline" : {
+                                "points" : "_opaHj{siVFPCB]Z_UfSwCjCsBhB}LzKOHMBO?MEKGKKISeDgK]eAyHeVw@}CE[Ee@Aa@A[?a@BkA`AeLF{@Bw@DmB?mAAwAEqAKuAOyAUyASiAEQMe@WgAY}@[y@a@_Ao@iA]k@QWQWUWSU}@_Ak@e@q@e@gAg@cAa@_ASy@MkAIwGBaC@aB?q@AsBQs@K}@ScAYuAg@gAg@gAq@}@m@{KoIkg@a`@_@Yi^uXqA_AoEqCqAs@wAu@qAm@aBs@m@YwB{@qAa@oAa@yCw@mA[uAYkB_@yAUwAQyBUeDUsCOcO?Yd@"
+                             },
+                             "start_location" : {
+                                "lat" : 47.603199,
+                                "lng" : -122.331581
+                             },
+                             "transit_details" : {
+                                "arrival_stop" : {
+                                   "location" : {
+                                      "lat" : 47.6498399,
+                                      "lng" : -122.3037968
+                                   },
+                                   "name" : "University of Washington Station"
+                                },
+                                "arrival_time" : {
+                                   "text" : "1:26pm",
+                                   "time_zone" : "America/Los_Angeles",
+                                   "value" : 1578864360
+                                },
+                                "departure_stop" : {
+                                   "location" : {
+                                      "lat" : 47.603199,
+                                      "lng" : -122.331581
+                                   },
+                                   "name" : "Pioneer Square Station"
+                                },
+                                "departure_time" : {
+                                   "text" : "1:15pm",
+                                   "time_zone" : "America/Los_Angeles",
+                                   "value" : 1578863700
+                                },
+                                "headsign" : "University Of Washington Station",
+                                "line" : {
+                                   "agencies" : [
+                                      {
+                                         "name" : "Sound Transit",
+                                         "phone" : "1 (888) 889-6368",
+                                         "url" : "http://www.soundtransit.org/"
+                                      }
+                                   ],
+                                   "color" : "#e73b2e",
+                                   "short_name" : "Link light rail",
+                                   "url" : "http://www.soundtransit.org/Schedules/ST-Express-Bus/599",
+                                   "vehicle" : {
+                                      "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/tram2.png",
+                                      "name" : "Light rail",
+                                      "type" : "TRAM"
+                                   }
+                                },
+                                "num_stops" : 4,
+                                "trip_short_name" : "LOCAL"
+                             },
+                             "travel_mode" : "TRANSIT"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.2 mi",
+                                "value" : 267
+                             },
+                             "duration" : {
+                                "text" : "4 mins",
+                                "value" : 222
+                             },
+                             "end_location" : {
+                                "lat" : 47.6476359,
+                                "lng" : -122.3045419
+                             },
+                             "html_instructions" : "Walk to Seattle, WA 98195, USA",
+                             "polyline" : {
+                                "points" : "iryaHdnniVF?`@CDABFR`@PXPZHLDHd@BRBd@?fA@h@?RAJ@F?J?H?F?PJJA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6498065,
+                                "lng" : -122.3038681
+                             },
+                             "steps" : [
+                                {
+                                   "distance" : {
+                                      "text" : "85 ft",
+                                      "value" : 26
+                                   },
+                                   "duration" : {
+                                      "text" : "1 min",
+                                      "value" : 40
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6495712,
+                                      "lng" : -122.3038393
+                                   },
+                                   "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e",
+                                   "polyline" : {
+                                      "points" : "iryaHdnniVF?`@CDA"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6498065,
+                                      "lng" : -122.3038681
+                                   },
+                                   "travel_mode" : "WALKING"
+                                },
+                                {
+                                   "distance" : {
+                                      "text" : "220 ft",
+                                      "value" : 67
+                                   },
+                                   "duration" : {
+                                      "text" : "1 min",
+                                      "value" : 52
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6491911,
+                                      "lng" : -122.3044435
+                                   },
+                                   "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMontlake Blvd NE\u003c/b\u003e",
+                                   "maneuver" : "turn-right",
+                                   "polyline" : {
+                                      "points" : "ypyaH~mniVBFR`@PXPZHLDH"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6495712,
+                                      "lng" : -122.3038393
+                                   },
+                                   "travel_mode" : "WALKING"
+                                },
+                                {
+                                   "distance" : {
+                                      "text" : "0.1 mi",
+                                      "value" : 174
+                                   },
+                                   "duration" : {
+                                      "text" : "2 mins",
+                                      "value" : 130
+                                   },
+                                   "end_location" : {
+                                      "lat" : 47.6476359,
+                                      "lng" : -122.3045419
+                                   },
+                                   "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMontlake Blvd NE\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                                   "maneuver" : "turn-left",
+                                   "polyline" : {
+                                      "points" : "mnyaHvqniVd@BRBd@?fA@h@?RAJ@F?J?H?F?PJJA"
+                                   },
+                                   "start_location" : {
+                                      "lat" : 47.6491911,
+                                      "lng" : -122.3044435
+                                   },
+                                   "travel_mode" : "WALKING"
+                                }
+                             ],
+                             "travel_mode" : "WALKING"
+                          }
+                       ],
+                       "traffic_speed_entry" : [],
+                       "via_waypoint" : []
+                    }
+                 ],
+                 "overview_polyline" : {
+                    "points" : "mfpaHf~siViB|Ak@mBo@qBaAz@IUFPCB}UbTkGtF}LzKOH]BYMU_@cEmMyHeVw@}CKaAC}@BmBhAaNHeDAeDQgDe@sDY{Ae@mBu@wBqAiCo@cAg@o@qAuA}AkAkCiAyBa@kAIwGBcF@eDSqB_@cAYuAg@gAg@gAq@}@m@{KoIkh@{`@i^uXqA_AaHeEiDcBoCmAwB{@qAa@oAa@yCw@cDu@eEu@qEg@yHe@cO?Yd@DLF?f@EVh@r@lAx@FlB@pA?T?XJJA"
+                 },
+                 "summary" : "",
+                 "warnings" : [
+                    "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+                 ],
+                 "waypoint_order" : []
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 12 Jan 2020 21:09:39 GMT
+recorded_with: VCR 5.0.0

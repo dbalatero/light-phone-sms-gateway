@@ -1,0 +1,380 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/directions/json?destination=University%20of%20Washington,%20Seattle,%20WA&key=<GOOGLE
+      MAPS API KEY>&language=en&mode=bicycling&origin=Smith%20Tower,%20Seattle,%20WA
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
+      Accept:
+      - "*/*"
+      Date:
+      - Sun, 12 Jan 2020 21:54:42 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Jan 2020 21:54:43 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=72
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "geocoded_waypoints" : [
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6x3yk7pqkFQRW2zXQJUlScA",
+                 "types" : [ "establishment", "point_of_interest", "tourist_attraction" ]
+              },
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6zWFnZIUkFQRoyu4AXksdGs",
+                 "types" : [ "establishment", "point_of_interest", "university" ]
+              }
+           ],
+           "routes" : [
+              {
+                 "bounds" : {
+                    "northeast" : {
+                       "lat" : 47.6561047,
+                       "lng" : -122.3172645
+                    },
+                    "southwest" : {
+                       "lat" : 47.6018103,
+                       "lng" : -122.3389406
+                    }
+                 },
+                 "copyrights" : "Map data ©2020",
+                 "legs" : [
+                    {
+                       "distance" : {
+                          "text" : "4.5 mi",
+                          "value" : 7164
+                       },
+                       "duration" : {
+                          "text" : "32 mins",
+                          "value" : 1927
+                       },
+                       "end_address" : "Seattle, WA 98195, USA",
+                       "end_location" : {
+                          "lat" : 47.6560405,
+                          "lng" : -122.3172645
+                       },
+                       "start_address" : "506 2nd Ave, Seattle, WA 98104, USA",
+                       "start_location" : {
+                          "lat" : 47.6018103,
+                          "lng" : -122.3320826
+                       },
+                       "steps" : [
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 977
+                             },
+                             "duration" : {
+                                "text" : "7 mins",
+                                "value" : 393
+                             },
+                             "end_location" : {
+                                "lat" : 47.6092799,
+                                "lng" : -122.3389406
+                             },
+                             "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003e2nd Ave\u003c/b\u003e toward \u003cb\u003eJames St\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "ifpaHn~siV_@\\c@^_@Ze@d@kA`A]ZmC`C[XqAhA]ZoC`C}@x@oAfAmCbCi@d@eB|Ae@`@}CxCs@j@uAnA[Ta@`@"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6018103,
+                                "lng" : -122.3320826
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 982
+                             },
+                             "duration" : {
+                                "text" : "7 mins",
+                                "value" : 408
+                             },
+                             "end_location" : {
+                                "lat" : 47.6139385,
+                                "lng" : -122.3278157
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003ePike St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Starbucks (on the right)\u003c/div\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "_uqaHjiuiVs@qBa@_BGQo@sBk@kBo@kBk@mB}AaFm@kB[aASk@Ok@GSIWc@yAIYK[Y}@]iA_@iACGOc@Qi@AAIU?AUw@EQGQGSEKEK[cAAE[_A[_Ae@uAIWm@kB"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6092799,
+                                "lng" : -122.3389406
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "89 ft",
+                                "value" : 27
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 24
+                             },
+                             "end_location" : {
+                                "lat" : 47.6141645,
+                                "lng" : -122.3279227
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMelrose Ave\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "crraHzcsiVQNA@A?A?A@A?C?G?C?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6139385,
+                                "lng" : -122.3278157
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.8 mi",
+                                "value" : 1217
+                             },
+                             "duration" : {
+                                "text" : "5 mins",
+                                "value" : 321
+                             },
+                             "end_location" : {
+                                "lat" : 47.6251112,
+                                "lng" : -122.327949
+                             },
+                             "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e after Starbucks Reserve Roastery (on the left)",
+                             "maneuver" : "turn-slight-right",
+                             "polyline" : {
+                                "points" : "osraHndsiV]?i@?}@AO?[?O?SAc@?c@?O?e@?M?c@?gA?c@?M?[?i@Ac@?c@AgAAkBAa@Ac@@gA@iB@iB@c@?c@@{@?K?K?s@?c@?gA?c@?WAKAu@@c@?gA@gA@I@y@@c@?gA@W?K?K?W?c@?c@@c@?K?K?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6141645,
+                                "lng" : -122.3279227
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.2 mi",
+                                "value" : 370
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 66
+                             },
+                             "end_location" : {
+                                "lat" : 47.62832460000001,
+                                "lng" : -122.3271776
+                             },
+                             "html_instructions" : "Continue onto \u003cb\u003eMelrose Trail\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "}wtaHtdsiVG?[?c@?O?SA]?E?w@A}@@IAMCWS[GA?U?M@K@W?G?WCC?QEQEOEQGa@Oi@]GGIKACGGSM"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6251112,
+                                "lng" : -122.327949
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 915
+                             },
+                             "duration" : {
+                                "text" : "3 mins",
+                                "value" : 172
+                             },
+                             "end_location" : {
+                                "lat" : 47.6355314,
+                                "lng" : -122.3224085
+                             },
+                             "html_instructions" : "Continue onto \u003cb\u003eLakeview Blvd E\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "_luaHz_siV]e@Wa@S]SWW]o@o@USkAmAqCwC]]eAiA][QSGICACCGGGEECECGCICCAE?I?E?E?]BQ?C?C?A?CAIAEAECECAAGGKOEGKO_@k@MSGIm@o@{@y@QKc@WECEAGEGAIAGAOCg@AeCAW?c@?c@?c@?[@q@?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.62832460000001,
+                                "lng" : -122.3271776
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.2 mi",
+                                "value" : 242
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 68
+                             },
+                             "end_location" : {
+                                "lat" : 47.6367649,
+                                "lng" : -122.324684
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eE Newton St\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "ayvaH`briVIRADCDCDA@CBYZGD]^[^]^EDUVCBA@A@A?E@A?A?A@C??@A?A@A@A@A@M`@AAA?A?A??@A??@?@A@?@?@?D?`@?N?BA@GZ?r@@h@"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6355314,
+                                "lng" : -122.3224085
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.4 mi",
+                                "value" : 586
+                             },
+                             "duration" : {
+                                "text" : "2 mins",
+                                "value" : 98
+                             },
+                             "end_location" : {
+                                "lat" : 47.64203730000001,
+                                "lng" : -122.3246572
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eFranklin Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "w`waHfpriVuB?mB?gA?gHAwE?sFA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6367649,
+                                "lng" : -122.324684
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "302 ft",
+                                "value" : 92
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 13
+                             },
+                             "end_location" : {
+                                "lat" : 47.6420457,
+                                "lng" : -122.325888
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eE Louisa St\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "waxaHbpriV?R?fB?B?r@A`A"
+                             },
+                             "start_location" : {
+                                "lat" : 47.64203730000001,
+                                "lng" : -122.3246572
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "1.1 mi",
+                                "value" : 1712
+                             },
+                             "duration" : {
+                                "text" : "6 mins",
+                                "value" : 350
+                             },
+                             "end_location" : {
+                                "lat" : 47.6561047,
+                                "lng" : -122.3178093
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eEastlake Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "yaxaHxwriVIAY?_C?}@B]?c@?eE?sA?y@?M?S?E?KAC?E?EAA?MAi@a@YSyGwEcAs@uAaAk@a@sAcA_Ao@sA_Ac@[CAIGECKIECCAIGAAWSKIIEECw@k@QM_@Ww@i@i@a@a@U]SGIWS_@YECa@W_@Y_@W}BaBAA_@Y}CyBuByAuB{AECEEMIECCCECCCSOi@]EMCA_Ag@"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6420457,
+                                "lng" : -122.325888
+                             },
+                             "travel_mode" : "BICYCLING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "144 ft",
+                                "value" : 44
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 14
+                             },
+                             "end_location" : {
+                                "lat" : 47.6560405,
+                                "lng" : -122.3172645
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNE Campus Pkwy\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "syzaHheqiVBA@C@C@E@K?gA?I"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6561047,
+                                "lng" : -122.3178093
+                             },
+                             "travel_mode" : "BICYCLING"
+                          }
+                       ],
+                       "traffic_speed_entry" : [],
+                       "via_waypoint" : []
+                    }
+                 ],
+                 "overview_polyline" : {
+                    "points" : "ifpaHn~siVia@j^cEzDiCzB}@v@s@qBa@_Bw@eC{AwEsE}NiCqIoBaGw@iCuAiEo@mBm@kBQNA@G@aEAsEAuC?yDEyF?{GDoHAaA?kB@oDD{FBaDA}@AgA?MCWS]GgABu@IuAc@q@e@KO[Uu@gAg@u@gAmAqGwG}BcCWS]OYAy@BSCSKe@o@m@_Au@y@mAeAi@[_@KWEmDCcC?mA@KXMPyCbDUFIHM`@CAC@CNAv@GZ?r@@h@uB?uD?_OAsFA?R?jBAtBc@A}DBaA?aJ?i@A[CaLaI{K}HgHcF_Ai@_@]gAu@iR_NaAs@i@]EMcAi@HO@}A"
+                 },
+                 "summary" : "Eastlake Ave E",
+                 "warnings" : [
+                    "Bicycling directions are in beta. Use caution – This route may contain streets that aren't suited for bicycling."
+                 ],
+                 "waypoint_order" : []
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 12 Jan 2020 21:54:43 GMT
+recorded_with: VCR 5.0.0

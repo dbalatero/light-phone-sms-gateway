@@ -1,0 +1,596 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/directions/json?destination=University%20of%20Washington,%20Seattle,%20WA&key=<GOOGLE
+      MAPS API KEY>&language=en&mode=walking&origin=Smith%20Tower,%20Seattle,%20WA
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
+      Accept:
+      - "*/*"
+      Date:
+      - Sun, 12 Jan 2020 21:45:53 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Jan 2020 21:45:54 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=710
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "geocoded_waypoints" : [
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6x3yk7pqkFQRW2zXQJUlScA",
+                 "types" : [ "establishment", "point_of_interest", "tourist_attraction" ]
+              },
+              {
+                 "geocoder_status" : "OK",
+                 "place_id" : "ChIJ6zWFnZIUkFQRoyu4AXksdGs",
+                 "types" : [ "establishment", "point_of_interest", "university" ]
+              }
+           ],
+           "routes" : [
+              {
+                 "bounds" : {
+                    "northeast" : {
+                       "lat" : 47.6476359,
+                       "lng" : -122.3015613
+                    },
+                    "southwest" : {
+                       "lat" : 47.6018287,
+                       "lng" : -122.3325134
+                    }
+                 },
+                 "copyrights" : "Map data ©2020",
+                 "legs" : [
+                    {
+                       "distance" : {
+                          "text" : "4.2 mi",
+                          "value" : 6704
+                       },
+                       "duration" : {
+                          "text" : "1 hour 30 mins",
+                          "value" : 5398
+                       },
+                       "end_address" : "Seattle, WA 98195, USA",
+                       "end_location" : {
+                          "lat" : 47.6476359,
+                          "lng" : -122.3045419
+                       },
+                       "start_address" : "506 2nd Ave, Seattle, WA 98104, USA",
+                       "start_location" : {
+                          "lat" : 47.6018287,
+                          "lng" : -122.3320368
+                       },
+                       "steps" : [
+                          {
+                             "distance" : {
+                                "text" : "213 ft",
+                                "value" : 65
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 50
+                             },
+                             "end_location" : {
+                                "lat" : 47.6023556,
+                                "lng" : -122.3325134
+                             },
+                             "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003e2nd Ave\u003c/b\u003e toward \u003cb\u003eJames St\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "mfpaHf~siV_@Zc@`@WTMH"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6018287,
+                                "lng" : -122.3320368
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 1037
+                             },
+                             "duration" : {
+                                "text" : "19 mins",
+                                "value" : 1122
+                             },
+                             "end_location" : {
+                                "lat" : 47.60729509999999,
+                                "lng" : -122.3207084
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJames St\u003c/b\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "wipaHdatiVCIQm@Oc@EQWy@M]AGGSMa@y@gCM]EQM_@u@kCMc@GQIYCI_@kAUk@Sm@GQAESm@Qk@KWQm@Oc@EQOc@e@{ASk@K]GQMc@e@{ASm@Ma@GSe@wAEQWw@Og@GQe@yAGQOg@Ws@GQU{@e@yASm@CKGQIWe@wAKY"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6023556,
+                                "lng" : -122.3325134
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.3 mi",
+                                "value" : 436
+                             },
+                             "duration" : {
+                                "text" : "5 mins",
+                                "value" : 310
+                             },
+                             "end_location" : {
+                                "lat" : 47.6111291,
+                                "lng" : -122.3207542
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBroadway\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "shqaHlwqiV_@?[@_@@O@S?O?O?G?}@@S?c@?c@?]A[?O?_@@U?c@?}@?U?q@?c@@S?w@?a@A"
+                             },
+                             "start_location" : {
+                                "lat" : 47.60729509999999,
+                                "lng" : -122.3207084
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "1.0 mi",
+                                "value" : 1640
+                             },
+                             "duration" : {
+                                "text" : "22 mins",
+                                "value" : 1299
+                             },
+                             "end_location" : {
+                                "lat" : 47.6191748,
+                                "lng" : -122.3025907
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eE Madison St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Trader Joe's (on the left in 0.6&nbsp;mi)\u003c/div\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "q`raHtwqiVMa@Sk@W{@Qk@Uu@IUK[_@mAe@{ASk@Ss@K[GQGUOa@IUQk@Y_AISO?ACKYYaAOg@EKQk@Og@GUN?GUGQIUMa@o@qBI[ISEOSo@CGMa@Mc@Qi@Qm@Wu@GSY{@e@yA]iAGUOg@Sk@Qm@Sm@[cAIUO?EKWy@eA_DKYMa@AGgAuDQi@IUg@{ASs@g@{AISGUe@yAOc@GQW{@y@kCGQOYm@cAMS_AaBUa@i@eA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6111291,
+                                "lng" : -122.3207542
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 926
+                             },
+                             "duration" : {
+                                "text" : "12 mins",
+                                "value" : 709
+                             },
+                             "end_location" : {
+                                "lat" : 47.6276055,
+                                "lng" : -122.302299
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e23rd Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "yrsaHdfniV]?c@@kB?[@M?yEIOAgBAm@AcB?}AIM?eFCM?sAA_A?M?]?a@AmA?kBAg@?SDM@w@?O?KAIAE?KCOGUQ"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6191748,
+                                "lng" : -122.3025907
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "299 ft",
+                                "value" : 91
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 66
+                             },
+                             "end_location" : {
+                                "lat" : 47.6281994,
+                                "lng" : -122.3017748
+                             },
+                             "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eTurner Way E\u003c/b\u003e",
+                             "maneuver" : "turn-slight-right",
+                             "polyline" : {
+                                "points" : "qguaHjdniVII_@YKKa@]]["
+                             },
+                             "start_location" : {
+                                "lat" : 47.6276055,
+                                "lng" : -122.302299
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.4 mi",
+                                "value" : 681
+                             },
+                             "duration" : {
+                                "text" : "8 mins",
+                                "value" : 464
+                             },
+                             "end_location" : {
+                                "lat" : 47.6342987,
+                                "lng" : -122.3016308
+                             },
+                             "html_instructions" : "Continue onto \u003cb\u003e24th Ave E\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "gkuaH`aniVQEKAyDAQAc@?c@?gAAc@?w@AkB?]AM?[?gA?c@?k@?OAM?OAM?c@AkB?c@Aa@?Q?}BA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6281994,
+                                "lng" : -122.3017748
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.6 mi",
+                                "value" : 912
+                             },
+                             "duration" : {
+                                "text" : "11 mins",
+                                "value" : 634
+                             },
+                             "end_location" : {
+                                "lat" : 47.6424946,
+                                "lng" : -122.3020764
+                             },
+                             "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003e24th Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-slight-left",
+                             "polyline" : {
+                                "points" : "kqvaHd`niVIDE?A?E@C?S?M@[?_@@c@?c@?O?y@?qBAmBASIa@?M?_ACcBCiAZqAZqA\\w@PG@M@O?_C?M??YuA?o@?M?cCCM?cA?S?I?I@KBIDOH"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6342987,
+                                "lng" : -122.3016308
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "213 ft",
+                                "value" : 65
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 52
+                             },
+                             "end_location" : {
+                                "lat" : 47.6429099,
+                                "lng" : -122.302625
+                             },
+                             "html_instructions" : "Continue onto \u003cb\u003eE Montlake Pl E\u003c/b\u003e",
+                             "polyline" : {
+                                "points" : "qdxaH~bniVGDKL_AvA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6424946,
+                                "lng" : -122.3020764
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "131 ft",
+                                "value" : 40
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 30
+                             },
+                             "end_location" : {
+                                "lat" : 47.6431993,
+                                "lng" : -122.302975
+                             },
+                             "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eE Montlake Pl E\u003c/b\u003e",
+                             "maneuver" : "turn-slight-right",
+                             "polyline" : {
+                                "points" : "egxaHjfniVMDIJINILMT"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6429099,
+                                "lng" : -122.302625
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "79 ft",
+                                "value" : 24
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 18
+                             },
+                             "end_location" : {
+                                "lat" : 47.64320499999999,
+                                "lng" : -122.302695
+                             },
+                             "html_instructions" : "Sharp \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eE Roanoke St\u003c/b\u003e",
+                             "maneuver" : "turn-sharp-right",
+                             "polyline" : {
+                                "points" : "_ixaHphniVAi@@K"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6431993,
+                                "lng" : -122.302975
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "121 ft",
+                                "value" : 37
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 24
+                             },
+                             "end_location" : {
+                                "lat" : 47.6434613,
+                                "lng" : -122.302702
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003e24th Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "_ixaHzfniVI?E?G?E@G?MA"
+                             },
+                             "start_location" : {
+                                "lat" : 47.64320499999999,
+                                "lng" : -122.302695
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "138 ft",
+                                "value" : 42
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 27
+                             },
+                             "end_location" : {
+                                "lat" : 47.6435266,
+                                "lng" : -122.3021977
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003e24th Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "sjxaHzfniV?K@wAO?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6434613,
+                                "lng" : -122.302702
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "253 ft",
+                                "value" : 77
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 61
+                             },
+                             "end_location" : {
+                                "lat" : 47.6441301,
+                                "lng" : -122.3020928
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e24th Ave E\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "akxaHvcniVc@?MAYMKE_@?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6435266,
+                                "lng" : -122.3021977
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "20 ft",
+                                "value" : 6
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 5
+                             },
+                             "end_location" : {
+                                "lat" : 47.6442016,
+                                "lng" : -122.3021203
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eE Lake Washington Blvd\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "ynxaH`cniV?DM?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6441301,
+                                "lng" : -122.3020928
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "463 ft",
+                                "value" : 141
+                             },
+                             "duration" : {
+                                "text" : "2 mins",
+                                "value" : 147
+                             },
+                             "end_location" : {
+                                "lat" : 47.6452591,
+                                "lng" : -122.3015849
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e520 Trail\u003c/b\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "goxaHfcniVa@?E?]?c@AYAI?GACAECECCCEECEEIEIEGCGCGAE?CAGAM"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6442016,
+                                "lng" : -122.3021203
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "98 ft",
+                                "value" : 30
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 21
+                             },
+                             "end_location" : {
+                                "lat" : 47.6455249,
+                                "lng" : -122.3015613
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eE Hamlin St\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "{uxaHz_niV[@E?IAGC"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6452591,
+                                "lng" : -122.3015849
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "30 ft",
+                                "value" : 9
+                             },
+                             "duration" : {
+                                "text" : "1 min",
+                                "value" : 7
+                             },
+                             "end_location" : {
+                                "lat" : 47.6455614,
+                                "lng" : -122.3016087
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eE Hamlin St\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "owxaHv_niVGH"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6455249,
+                                "lng" : -122.3015613
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.1 mi",
+                                "value" : 213
+                             },
+                             "duration" : {
+                                "text" : "3 mins",
+                                "value" : 177
+                             },
+                             "end_location" : {
+                                "lat" : 47.6455971,
+                                "lng" : -122.3044182
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eE Hamlin St\u003c/b\u003e",
+                             "maneuver" : "turn-left",
+                             "polyline" : {
+                                "points" : "wwxaH``niV@D@D@D?B?F@F?L?R?T?B?bD?v@?lBAX?T?h@?j@M?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6455614,
+                                "lng" : -122.3016087
+                             },
+                             "travel_mode" : "WALKING"
+                          },
+                          {
+                             "distance" : {
+                                "text" : "0.1 mi",
+                                "value" : 232
+                             },
+                             "duration" : {
+                                "text" : "3 mins",
+                                "value" : 175
+                             },
+                             "end_location" : {
+                                "lat" : 47.6476359,
+                                "lng" : -122.3045419
+                             },
+                             "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMontlake Blvd E\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                             "maneuver" : "turn-right",
+                             "polyline" : {
+                                "points" : "_xxaHrqniVaBBm@@I@M@c@DS@C@OHM?MA_AAaAAE?"
+                             },
+                             "start_location" : {
+                                "lat" : 47.6455971,
+                                "lng" : -122.3044182
+                             },
+                             "travel_mode" : "WALKING"
+                          }
+                       ],
+                       "traffic_speed_entry" : [],
+                       "via_waypoint" : []
+                    }
+                 ],
+                 "overview_polyline" : {
+                    "points" : "mfpaHf~siViB|Ak@mBkCmIyAaFcA{CqBiG}GmTmD}K{@mCKY_@?{@BcA@}B@mBAu@@aB?_C@yAAa@mAiAsDeBqFuB{GISO?M]aAaDW}@N?GUQg@}@sCm@oBq@wBgDuKuAkEIUO?]eAaBcFkCqIcDeKaA}C}@}AmC}EiEB_JMqCAkBIgKE{CAsCAa@F}ACQCe@YwAmA][QEeECaDCeFCoFCaECs@?}BAIDG?I@}ABqC?_FCSIa@?mACcBCiAZcDx@_ARkD@?YuA?}@?iFCS@UHWNkAdBMDIJS\\MTAi@@KI?M?E@UA@cBs@?g@OKE_@??DM?g@?aAAc@AKCUQUa@IYCUa@@QEGH@DBJ?J@~@ArMgDFiAJOHM?mACgAA"
+                 },
+                 "summary" : "24th Ave E",
+                 "warnings" : [
+                    "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+                 ],
+                 "waypoint_order" : []
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 12 Jan 2020 21:45:55 GMT
+recorded_with: VCR 5.0.0

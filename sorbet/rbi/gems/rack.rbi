@@ -458,7 +458,7 @@ class Rack::Session::Cookie::Identity
   def decode(str); end
   def encode(str); end
 end
-class Rack::Session::Cookie::SessionId < Anonymous_Delegator_1
+class Rack::Session::Cookie::SessionId < Anonymous_Delegator_2
   def cookie_value; end
   def initialize(session_id, cookie_value); end
 end
