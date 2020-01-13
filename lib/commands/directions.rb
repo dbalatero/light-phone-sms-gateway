@@ -30,6 +30,10 @@ module Commands
     def self.help
       <<~HELP
         directions [#{Query::MODES.join('|')}] <start> to <destination>
+
+        Examples:
+        directions rail Barclays Center to Madison Square Garden
+        directions walk SF Moma to Japanese gardens, san francisco, ca
       HELP
     end
 
