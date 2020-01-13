@@ -192,6 +192,8 @@ To create a new command, it needs to conform to the interface in
 # lib/command/add.rb
 module Commands
   class AddNumbers < Base
+    extend T::Sig
+    
     # This is the command name that someone will use when texting
     sig { override.returns(String) }
     def self.name
