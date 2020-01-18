@@ -5,6 +5,7 @@ require_relative './commands/base'
 require_relative './commands/directions'
 require_relative './commands/help'
 require_relative './commands/ping'
+require_relative './commands/tip'
 
 module Commands
   extend T::Sig
@@ -14,7 +15,8 @@ module Commands
     [
       Commands::Directions,
       Commands::Help,
-      Commands::Ping
+      Commands::Ping,
+      Commands::Tip
     ]
   end
 
