@@ -12,6 +12,7 @@ Light Phone team works on adding things like directions.
   * [directions](#directions) texts you Google Maps directions
   * [h](#h) (help) shows available commands
   * [ping](#ping) tiny command for testing your gateway
+  * [tip](#tip) calculates the tip at a restaurant
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
   * [Registering the command](#registering-the-command)
