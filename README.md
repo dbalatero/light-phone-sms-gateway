@@ -281,3 +281,9 @@ Once the tunnel is up:
 4. Set the webhook URL to https://whatever.ngrok.io/gateway as an *HTTP POST* (replace "whatever" with your URL):
 
 ![image](https://user-images.githubusercontent.com/59429/72227060-0f14d980-354d-11ea-93ae-f30d7f8d2375.png)
+
+## Thanks
+
+Thanks to these folks for contributing:
+
+* @l33loo - added `tip` command!
