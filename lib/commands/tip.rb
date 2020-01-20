@@ -19,7 +19,7 @@ module Commands
         based on the bill amount and the tip percentage
         (<amount> * <percentage> / 100).
 
-        Example: tip 1234.56 20
+        Example: tip 20 1234.56
         Returns: Tip: 246.91
       HELP
     end
