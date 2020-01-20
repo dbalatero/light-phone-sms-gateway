@@ -176,6 +176,23 @@ Running `h [command]` will give you the help text for a specific command.
 
     pong
 
+### tip
+
+Get the tip from your bill `amount` and tip `percentage`.
+
+*Syntax*: `tip [percentage] [amount]`
+*Extra cost:* none
+
+*Params:*
+* `percentage` - the percentage of the `amount` to tip
+* `amount` - the initial amount on which to tip
+
+*Examples:*
+
+    -> tip 20 1234.56
+
+    Tip: 246.91
+
 ## Contributing a new command
 
 To add a command, you need to do two things:
@@ -193,7 +210,7 @@ To create a new command, it needs to conform to the interface in
 module Commands
   class AddNumbers < Base
     extend T::Sig
-    
+
     # This is the command name that someone will use when texting
     sig { override.returns(String) }
     def self.name
