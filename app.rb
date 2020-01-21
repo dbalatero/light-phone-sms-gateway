@@ -9,6 +9,7 @@ require 'twilio-ruby'
 
 require_relative './lib/compare'
 require_relative './lib/commands'
+require_relative './lib/phone_whitelist'
 
 class App < Sinatra::Base
   configure :production, :development do
@@ -22,12 +23,12 @@ class App < Sinatra::Base
   post '/gateway' do
     incoming_message = params['Body'].to_s.downcase
     cmd, arg_text = incoming_message.split(/\s+/, 2)
-    sender_whitelist = ENV['SENDER_WHITELIST'] ? ENV['SENDER_WHITELIST'].gsub('-', '').split(',') : nil
+    whitelist = PhoneWhitelist.new(ENV['SENDER_WHITELIST'])
     twiml = Twilio::TwiML::MessagingResponse.new
 
     logger.info "Received command: #{cmd}, arg text: #{arg_text}"
 
-    if sender_whitelist.nil? or sender_whitelist.include? params['From']
+    if whitelist.valid_number?(params['From'])
       command_class = Commands.get(cmd) || Commands::Help
       command = command_class.new(arg_text)
 
