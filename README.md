@@ -13,6 +13,8 @@ Light Phone team works on adding things like directions.
   * [h](#h) (help) shows available commands
   * [ping](#ping) tiny command for testing your gateway
   * [tip](#tip) calculates the tip at a restaurant
+* [Options](#options)
+  * [Sender whitelist](#sender-whitelist)
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
   * [Registering the command](#registering-the-command)
@@ -193,6 +195,25 @@ Get the tip from your bill `amount` and tip `percentage`.
     -> tip 20 1234.56
 
     Tip: 246.91
+
+## Options
+
+### Sender whitelist
+
+If you don't want everyone to be able to use your app, you can add a sender whitelist.
+If you add such a whitelist, only the senders (i.e., phone numbers) in it will be able
+to receive information via the SMS commands.
+
+The whitelist is completely optional and you can edit or remove it at any time.
+
+*Extra cost:* None (possible savings)
+
+*Setup*:
+* `heroku config:set SENDER_WHITELIST=...`
+* You can add as many comma-separated phone numbers as you wish
+* The phone numbers can contain hyphens but *no spaces or parentheses*
+* Include `+`, the country code, and the area code in the phone number
+* Example: `heroku config:set SENDER_WHITELIST=+18001234567,+1-800-765-4321`
 
 ## Contributing a new command
 

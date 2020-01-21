@@ -22,13 +22,20 @@ class App < Sinatra::Base
   post '/gateway' do
     incoming_message = params['Body'].to_s.downcase
     cmd, arg_text = incoming_message.split(/\s+/, 2)
+    sender_whitelist = ENV['SENDER_WHITELIST'] ? ENV['SENDER_WHITELIST'].gsub('-', '').split(',') : nil
+    twiml = Twilio::TwiML::MessagingResponse.new
 
     logger.info "Received command: #{cmd}, arg text: #{arg_text}"
-    command_class = Commands.get(cmd) || Commands::Help
 
-    twiml = Twilio::TwiML::MessagingResponse.new do |resp|
+    if sender_whitelist.nil? or sender_whitelist.include? params['From']
+      command_class = Commands.get(cmd) || Commands::Help
       command = command_class.new(arg_text)
-      resp.message body: command.response_body
+
+      twiml.message do |message|
+        message.body(command.response_body)
+      end
+    else
+      logger.info "The sender is not whitelisted"
     end
 
     twiml.to_s
