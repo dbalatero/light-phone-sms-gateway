@@ -2742,6 +2742,9 @@ class Commands::Base
   def self.name(*args, &blk); end
 end
 
+class Commands::Details
+end
+
 class Commands::Directions
 end
 
@@ -2761,6 +2764,12 @@ class Commands::Directions::RoutePresenter
   extend ::T::Private::Methods::SingletonMethodHooks
 end
 
+class Commands::GoogleMapsAPI
+end
+
+class Commands::GoogleMapsAPI
+end
+
 class Commands::Help
 end
 
@@ -2768,6 +2777,9 @@ class Commands::Ping
 end
 
 class Commands::Ping
+end
+
+class Commands::Tip
 end
 
 module Commands
@@ -2816,7 +2828,6 @@ class Delegator
   def protected_methods(all=T.unsafe(nil)); end
 
   def public_methods(all=T.unsafe(nil)); end
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
 
 class Delegator
@@ -2951,8 +2962,6 @@ class ERB::Compiler::Scanner
   DEFAULT_ETAGS = ::T.let(nil, ::T.untyped)
   DEFAULT_STAGS = ::T.let(nil, ::T.untyped)
 end
-
-Emitter = Psych::Stream::Emitter
 
 class Encoding
   def _dump(*_); end
@@ -3833,60 +3842,7 @@ module GC
   def self.verify_transient_heap_internal_consistency(); end
 end
 
-module Gem
-  UNTAINT = ::T.let(nil, ::T.untyped)
-end
-
-class Gem::BasicSpecification
-  def self._deprecated_default_specifications_dir(); end
-end
-
-class Gem::Command
-  def check_deprecated_options(options); end
-
-  def deprecate_option(name, version: T.unsafe(nil), extra_msg: T.unsafe(nil)); end
-
-end
-
-class Gem::Dependency
-  def identity(); end
-end
-
-class Gem::DependencyInstaller
-  def _deprecated_available_set_for(dep_or_name, version); end
-
-  def _deprecated_find_gems_with_sources(dep, best_only=T.unsafe(nil)); end
-
-  def _deprecated_find_spec_by_name_and_version(gem_name, version=T.unsafe(nil), prerelease=T.unsafe(nil)); end
-end
-
-class Gem::Installer
-  def _deprecated_unpack(directory); end
-
-  def package(); end
-end
-
-class Gem::Package
-  def gem(); end
-end
-
-class Gem::Package::TarHeader
-  def self.oct_or_256based(str); end
-end
-
-class Gem::Package
-  def self.raw_spec(path, security_policy=T.unsafe(nil)); end
-end
-
-class Gem::RemoteFetcher
-  include ::Gem::UriParsing
-  def _deprecated_fetch_size(uri); end
-
-  def s3_uri_signer(uri); end
-end
-
 class Gem::RemoteFetcher::FetchError
-  include ::Gem::UriParsing
   def initialize(message, uri); end
 
   def uri(); end
@@ -3903,130 +3859,12 @@ end
 class Gem::RemoteFetcher::UnknownHostError
 end
 
-class Gem::RemoteFetcher
-  extend ::Gem::Deprecate
-end
-
-class Gem::Requirement
-  DefaultPrereleaseRequirement = ::T.let(nil, ::T.untyped)
-end
-
-class Gem::Requirement
-  def self.default_prerelease(); end
-end
-
-class Gem::Resolver::ActivationRequest
-  def platform(); end
-end
-
 class Gem::Resolver::Molinillo::DependencyGraph::Log
   extend ::Enumerable
 end
 
-class Gem::S3URISigner
-  def initialize(uri); end
-
-  def sign(expiration=T.unsafe(nil)); end
-
-  def uri(); end
-
-  def uri=(uri); end
-  BASE64_URI_TRANSLATE = ::T.let(nil, ::T.untyped)
-  EC2_IAM_INFO = ::T.let(nil, ::T.untyped)
-  EC2_IAM_SECURITY_CREDENTIALS = ::T.let(nil, ::T.untyped)
-end
-
-class Gem::S3URISigner::ConfigurationError
-  def initialize(message); end
-end
-
-class Gem::S3URISigner::ConfigurationError
-end
-
-class Gem::S3URISigner::InstanceProfileError
-  def initialize(message); end
-end
-
-class Gem::S3URISigner::InstanceProfileError
-end
-
-class Gem::S3URISigner::S3Config
-  def access_key_id(); end
-
-  def access_key_id=(_); end
-
-  def region(); end
-
-  def region=(_); end
-
-  def secret_access_key(); end
-
-  def secret_access_key=(_); end
-
-  def security_token(); end
-
-  def security_token=(_); end
-end
-
-class Gem::S3URISigner::S3Config
-  def self.[](*_); end
-
-  def self.members(); end
-end
-
-class Gem::S3URISigner
-end
-
-class Gem::Source
-  include ::Gem::Text
-  def typo_squatting?(host, distance_threshold=T.unsafe(nil)); end
-end
-
-class Gem::Specification
-  def _deprecated_rubyforge_project=(_deprecated_rubyforge_project); end
-  LOAD_CACHE_MUTEX = ::T.let(nil, ::T.untyped)
-end
-
 class Gem::Specification
   extend ::Enumerable
-  def self.default_stubs(pattern=T.unsafe(nil)); end
-end
-
-class Gem::SpecificationPolicy
-  include ::Gem::UserInteraction
-  include ::Gem::DefaultUserInteraction
-  include ::Gem::Text
-end
-
-class Gem::UriParser
-  def parse(uri); end
-
-  def parse!(uri); end
-end
-
-class Gem::UriParser
-end
-
-module Gem::UriParsing
-end
-
-module Gem::UriParsing
-end
-
-module Gem::Util
-  def self.correct_for_windows_path(path); end
-end
-
-module Gem
-  def self.add_to_load_path(*paths); end
-
-  def self.default_specifications_dir(); end
-
-  def self.java_platform?(); end
-
-  def self.source_date_epoch(); end
-
-  def self.suffix_regexp(); end
 end
 
 class Google::Maps::API
@@ -4333,6 +4171,7 @@ class Integer
   def pow(*_); end
 
   def to_bn(); end
+  GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
 class Integer
@@ -4357,8 +4196,6 @@ class JSONClient
   CONTENT_TYPE_JSON = ::T.let(nil, ::T.untyped)
   CONTENT_TYPE_JSON_REGEX = ::T.let(nil, ::T.untyped)
 end
-
-JSONTree = Psych::Visitors::JSONTree
 
 module JWT::Algos::Ecdsa
   NAMED_CURVES = ::T.let(nil, ::T.untyped)
@@ -4545,57 +4382,12 @@ module Mustermann
   DEFAULT_TYPE = ::T.let(nil, ::T.untyped)
 end
 
-class Mustermann::AST::Boundaries::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Expander::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::ParamScanner::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
 class Mustermann::AST::Pattern
   extend ::SingleForwardable
 end
 
-class Mustermann::AST::TemplateGenerator::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Transformer::ArrayTransform
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
 class Mustermann::AST::Transformer::ExpressionTransform
   OPERATORS = ::T.let(nil, ::T.untyped)
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Transformer::GroupTransformer
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Transformer::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Transformer::RootTransformer
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Translator::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::AST::Validation::NodeTranslator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class Mustermann::Caster
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
 
 module Mutex_m
@@ -5382,6 +5174,11 @@ class Pathname
   def glob(*_); end
 
   def make_symlink(_); end
+end
+
+class PhoneWhitelist
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
 end
 
 class Proc
@@ -10425,10 +10222,6 @@ class Rack::Session::Abstract::SessionHash
   Unspecified = ::T.let(nil, ::T.untyped)
 end
 
-class Rack::Session::Cookie::SessionId
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
 class Rack::Session::Pool
   def delete_session(req, session_id, options); end
 
@@ -10706,10 +10499,6 @@ class SignalException
   def signm(); end
 
   def signo(); end
-end
-
-class SimpleDelegator
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
 
 module Sinatra
@@ -11553,7 +11342,6 @@ class Tempfile
   def _close(); end
 
   def inspect(); end
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
 
 class Tempfile::Remover
@@ -11960,10 +11748,6 @@ class VCR::Errors::UnhandledHTTPRequestError
   ALL_SUGGESTIONS = ::T.let(nil, ::T.untyped)
 end
 
-class VCR::HTTPInteraction::HookAware
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
 module VCR::InternetConnection
   def available?(); end
   EXAMPLE_HOST = ::T.let(nil, ::T.untyped)
@@ -11971,10 +11755,6 @@ end
 
 module VCR::InternetConnection
   extend ::VCR::InternetConnection
-end
-
-class VCR::LinkedCassette
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
 
 class VCR::Middleware::Faraday
@@ -12016,14 +11796,6 @@ module VCR::RSpec::Metadata
   extend ::VCR::RSpec::Metadata
 end
 
-class VCR::Request::FiberAware
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-class VCR::Request::Typed
-  RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
 class VCR::RequestIgnorer
   LOCALHOST_ALIASES = ::T.let(nil, ::T.untyped)
 end
@@ -12035,8 +11807,6 @@ end
 class VCR::Response
   HAVE_ZLIB = ::T.let(nil, ::T.untyped)
 end
-
-Visitor = Psych::Visitors::Visitor
 
 module Warning
   def warn(_); end
@@ -12087,8 +11857,6 @@ module WebMock::Util::URI::CharacterClasses
 end
 
 YAML = Psych
-
-YAMLTree = Psych::Visitors::YAMLTree
 
 module Zlib
   ASCII = ::T.let(nil, ::T.untyped)
