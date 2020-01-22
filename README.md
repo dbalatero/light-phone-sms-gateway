@@ -308,4 +308,4 @@ Once the tunnel is up:
 
 Thanks to these folks for contributing:
 
-* @l33loo - added `tip` command!
+* @l33loo - added `tip` command and phone whitelisting!
