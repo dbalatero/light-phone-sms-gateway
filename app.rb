@@ -36,7 +36,8 @@ class App < Sinatra::Base
         message.body(command.response_body)
       end
     else
-      logger.info "The sender is not whitelisted"
+      logger.info "The sender (#{params['From'].inspect}) is not "\
+        "in the whitelist (#{ENV['SENDER_WHITELIST'].inspect})"
     end
 
     twiml.to_s
