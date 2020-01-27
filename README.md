@@ -15,6 +15,7 @@ Light Phone team works on adding things like directions.
   * [tip](#tip) calculates the tip at a restaurant
 * [Options](#options)
   * [Sender whitelist](#sender-whitelist)
+* [Similar projects](#similar-projects)
 * [Contributing a new command](#contributing-a-new-command)
   * [Creating a command](#creating-a-command)
   * [Registering the command](#registering-the-command)
@@ -214,6 +215,12 @@ The whitelist is completely optional and you can edit or remove it at any time.
 * The phone numbers can contain hyphens but *no spaces or parentheses*
 * Include `+`, the country code, and the area code in the phone number
 * Example: `heroku config:set SENDER_WHITELIST=+18001234567,+1-800-765-4321`
+
+## Similar Projects
+
+Here are some similar projects to this that might fit your needs better:
+
+* [iMessage Light Phone Proxy](https://github.com/seanhealy/LightPhoneProxy) - this requires an always-on Mac and can proxy iMessage/SMS from your computer's Messages.app to your Light Phone. Good if you want to try to maintain that blue text bubble with your friends, and still use desktop Messages.
 
 ## Contributing a new command
 
