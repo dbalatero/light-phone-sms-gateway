@@ -28,13 +28,13 @@ module Commands
     def response_body
       return api_key_missing unless api_key_exists?
 
-      return help if arg_text === ''
+      return help if arg_text.empty?
 
       begin
         places = Google::Maps.places(arg_text)
         place = Google::Maps.place(places.first.place_id)
       rescue StandardError => error
-        return "NO RESULTS FOR \"#{arg_text}\"" if error.message === 'Google did not return any results: ZERO_RESULTS'
+        return "NO RESULTS FOR \"#{arg_text}\"" if error.message == 'Google did not return any results: ZERO_RESULTS'
         return error.message
       rescue
         return 'THERE WAS AN ERROR'
