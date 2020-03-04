@@ -33,11 +33,10 @@ module Commands
       begin
         places = Google::Maps.places(arg_text)
         place = Google::Maps.place(places.first.place_id)
-      rescue StandardError => error
-        return "NO RESULTS FOR \"#{arg_text}\"" if error.message == 'Google did not return any results: ZERO_RESULTS'
+      rescue Google::Maps::ZeroResultsException
+        return "NO RESULTS FOR \"#{arg_text}\""
+      rescue => error
         return error.message
-      rescue
-        return 'THERE WAS AN ERROR'
       end
 
       return "#{places.slice(0, 10).map.with_index { |e, i| "(#{i + 1}) #{e}" }.join(%Q{\n})}" if places.length > 1
