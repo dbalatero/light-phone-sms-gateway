@@ -39,8 +39,15 @@ module Commands
         return error.message
       end
 
-      return "#{places.slice(0, 10).map.with_index { |e, i| "(#{i + 1}) #{e}" }.join(%Q{\n})}" if places.length > 1
+      return list_of_places(places) if places.length > 1
 
+      build_response(place)
+    end
+
+    private
+
+    sig { params(place: Google::Maps::PlaceDetails).returns(String) }
+    def build_response(place)
       place_name = place.name
       place_address = place.address
       data = place.data
@@ -54,10 +61,14 @@ module Commands
         "\nHours:\n* #{data.opening_hours.weekday_text.join(%Q{\n* })}"
         :
         ''
-      response = "#{place_name}\n#{place_address}#{data_phone}#{data_rating}"\
-        "#{data_price_level}#{data_permanently_closed}#{open_now}#{weekday_hours}"
 
-      response
+      "#{place_name}\n#{place_address}#{data_phone}#{data_rating}"\
+        "#{data_price_level}#{data_permanently_closed}#{open_now}#{weekday_hours}"
+    end
+
+    sig { params(places: T::Array[Google::Maps::Place]).returns(String) }
+    def list_of_places(places)
+      places.slice(0, 10).map.with_index { |place, index| "(#{index + 1}) #{place}" }.join(%Q{\n})
     end
   end
 end
