@@ -1,0 +1,597 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/autocomplete/json?input=korean%20restaurant,%20victoria%20bc&key=<GOOGLE
+      MAPS API KEY>&language=en
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 04 Feb 2020 01:32:14 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 04 Feb 2020 01:32:14 GMT
+      Expires:
+      - Tue, 04 Feb 2020 01:32:14 GMT
+      Cache-Control:
+      - private, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=49
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "predictions" : [
+              {
+                 "description" : "NARU Korean Restaurant, Wharf Street, Victoria, BC, Canada",
+                 "id" : "60cefdab8e9827bd470184a6d37958a9c796f111",
+                 "matched_substrings" : [
+                    {
+                       "length" : 17,
+                       "offset" : 5
+                    },
+                    {
+                       "length" : 8,
+                       "offset" : 38
+                    },
+                    {
+                       "length" : 2,
+                       "offset" : 48
+                    }
+                 ],
+                 "place_id" : "ChIJsTuRCYV1j1QRXsKUhvyChQQ",
+                 "reference" : "ChIJsTuRCYV1j1QRXsKUhvyChQQ",
+                 "structured_formatting" : {
+                    "main_text" : "NARU Korean Restaurant",
+                    "main_text_matched_substrings" : [
+                       {
+                          "length" : 17,
+                          "offset" : 5
+                       }
+                    ],
+                    "secondary_text" : "Wharf Street, Victoria, BC, Canada",
+                    "secondary_text_matched_substrings" : [
+                       {
+                          "length" : 8,
+                          "offset" : 14
+                       },
+                       {
+                          "length" : 2,
+                          "offset" : 24
+                       }
+                    ]
+                 },
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "NARU Korean Restaurant"
+                    },
+                    {
+                       "offset" : 24,
+                       "value" : "Wharf Street"
+                    },
+                    {
+                       "offset" : 38,
+                       "value" : "Victoria"
+                    },
+                    {
+                       "offset" : 48,
+                       "value" : "BC"
+                    },
+                    {
+                       "offset" : 52,
+                       "value" : "Canada"
+                    }
+                 ],
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+              },
+              {
+                 "description" : "Cera Korean Restaurant, Pandora Avenue, Victoria, BC, Canada",
+                 "id" : "76bfbd0ff17039ea5cdceb909a48d53934f6c643",
+                 "matched_substrings" : [
+                    {
+                       "length" : 17,
+                       "offset" : 5
+                    },
+                    {
+                       "length" : 8,
+                       "offset" : 40
+                    },
+                    {
+                       "length" : 2,
+                       "offset" : 50
+                    }
+                 ],
+                 "place_id" : "ChIJR2MogR11j1QRJe8oTjIrG8Y",
+                 "reference" : "ChIJR2MogR11j1QRJe8oTjIrG8Y",
+                 "structured_formatting" : {
+                    "main_text" : "Cera Korean Restaurant",
+                    "main_text_matched_substrings" : [
+                       {
+                          "length" : 17,
+                          "offset" : 5
+                       }
+                    ],
+                    "secondary_text" : "Pandora Avenue, Victoria, BC, Canada",
+                    "secondary_text_matched_substrings" : [
+                       {
+                          "length" : 8,
+                          "offset" : 16
+                       },
+                       {
+                          "length" : 2,
+                          "offset" : 26
+                       }
+                    ]
+                 },
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Cera Korean Restaurant"
+                    },
+                    {
+                       "offset" : 24,
+                       "value" : "Pandora Avenue"
+                    },
+                    {
+                       "offset" : 40,
+                       "value" : "Victoria"
+                    },
+                    {
+                       "offset" : 50,
+                       "value" : "BC"
+                    },
+                    {
+                       "offset" : 54,
+                       "value" : "Canada"
+                    }
+                 ],
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+              },
+              {
+                 "description" : "Han Korean Restaurant, Johnson Street, Victoria, BC, Canada",
+                 "id" : "53d32b5baca90488e0daeb055cbd4e16724b3bb5",
+                 "matched_substrings" : [
+                    {
+                       "length" : 17,
+                       "offset" : 4
+                    },
+                    {
+                       "length" : 8,
+                       "offset" : 39
+                    },
+                    {
+                       "length" : 2,
+                       "offset" : 49
+                    }
+                 ],
+                 "place_id" : "ChIJJbqn3IR0j1QRGe2nv6KlIkU",
+                 "reference" : "ChIJJbqn3IR0j1QRGe2nv6KlIkU",
+                 "structured_formatting" : {
+                    "main_text" : "Han Korean Restaurant",
+                    "main_text_matched_substrings" : [
+                       {
+                          "length" : 17,
+                          "offset" : 4
+                       }
+                    ],
+                    "secondary_text" : "Johnson Street, Victoria, BC, Canada",
+                    "secondary_text_matched_substrings" : [
+                       {
+                          "length" : 8,
+                          "offset" : 16
+                       },
+                       {
+                          "length" : 2,
+                          "offset" : 26
+                       }
+                    ]
+                 },
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Han Korean Restaurant"
+                    },
+                    {
+                       "offset" : 23,
+                       "value" : "Johnson Street"
+                    },
+                    {
+                       "offset" : 39,
+                       "value" : "Victoria"
+                    },
+                    {
+                       "offset" : 49,
+                       "value" : "BC"
+                    },
+                    {
+                       "offset" : 53,
+                       "value" : "Canada"
+                    }
+                 ],
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+              },
+              {
+                 "description" : "Sura Korean Restaurant, Douglas Street, Victoria, BC, Canada",
+                 "id" : "49fc46c725531e132182168f898b8e788853ce4e",
+                 "matched_substrings" : [
+                    {
+                       "length" : 17,
+                       "offset" : 5
+                    },
+                    {
+                       "length" : 8,
+                       "offset" : 40
+                    },
+                    {
+                       "length" : 2,
+                       "offset" : 50
+                    }
+                 ],
+                 "place_id" : "ChIJ-6Z5b4R0j1QRspOwslFuhQc",
+                 "reference" : "ChIJ-6Z5b4R0j1QRspOwslFuhQc",
+                 "structured_formatting" : {
+                    "main_text" : "Sura Korean Restaurant",
+                    "main_text_matched_substrings" : [
+                       {
+                          "length" : 17,
+                          "offset" : 5
+                       }
+                    ],
+                    "secondary_text" : "Douglas Street, Victoria, BC, Canada",
+                    "secondary_text_matched_substrings" : [
+                       {
+                          "length" : 8,
+                          "offset" : 16
+                       },
+                       {
+                          "length" : 2,
+                          "offset" : 26
+                       }
+                    ]
+                 },
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Sura Korean Restaurant"
+                    },
+                    {
+                       "offset" : 24,
+                       "value" : "Douglas Street"
+                    },
+                    {
+                       "offset" : 40,
+                       "value" : "Victoria"
+                    },
+                    {
+                       "offset" : 50,
+                       "value" : "BC"
+                    },
+                    {
+                       "offset" : 54,
+                       "value" : "Canada"
+                    }
+                 ],
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+              },
+              {
+                 "description" : "Sumi Korean Restaurant, Victoria Drive, Vancouver, BC, Canada",
+                 "id" : "39e2cece4b42ecf0ec66f15d6295d9e2fc539160",
+                 "matched_substrings" : [
+                    {
+                       "length" : 17,
+                       "offset" : 5
+                    },
+                    {
+                       "length" : 8,
+                       "offset" : 24
+                    },
+                    {
+                       "length" : 2,
+                       "offset" : 51
+                    }
+                 ],
+                 "place_id" : "ChIJcaBgLwh1hlQRp2UdMmvM6SI",
+                 "reference" : "ChIJcaBgLwh1hlQRp2UdMmvM6SI",
+                 "structured_formatting" : {
+                    "main_text" : "Sumi Korean Restaurant",
+                    "main_text_matched_substrings" : [
+                       {
+                          "length" : 17,
+                          "offset" : 5
+                       }
+                    ],
+                    "secondary_text" : "Victoria Drive, Vancouver, BC, Canada",
+                    "secondary_text_matched_substrings" : [
+                       {
+                          "length" : 8,
+                          "offset" : 0
+                       },
+                       {
+                          "length" : 2,
+                          "offset" : 27
+                       }
+                    ]
+                 },
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Sumi Korean Restaurant"
+                    },
+                    {
+                       "offset" : 24,
+                       "value" : "Victoria Drive"
+                    },
+                    {
+                       "offset" : 40,
+                       "value" : "Vancouver"
+                    },
+                    {
+                       "offset" : 51,
+                       "value" : "BC"
+                    },
+                    {
+                       "offset" : 55,
+                       "value" : "Canada"
+                    }
+                 ],
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Tue, 04 Feb 2020 01:32:14 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?key=<GOOGLE MAPS
+      API KEY>&language=en&placeid=ChIJsTuRCYV1j1QRXsKUhvyChQQ
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 04 Feb 2020 01:32:14 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 04 Feb 2020 01:30:39 GMT
+      Expires:
+      - Tue, 04 Feb 2020 01:35:39 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=265
+      Cache-Control:
+      - public, max-age=300
+      Age:
+      - '96'
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"address_components\"
+        : [\n         {\n            \"long_name\" : \"1218\",\n            \"short_name\"
+        : \"1218\",\n            \"types\" : [ \"street_number\" ]\n         },\n
+        \        {\n            \"long_name\" : \"Wharf Street\",\n            \"short_name\"
+        : \"Wharf St\",\n            \"types\" : [ \"route\" ]\n         },\n         {\n
+        \           \"long_name\" : \"Downtown\",\n            \"short_name\" : \"Downtown\",\n
+        \           \"types\" : [ \"neighborhood\", \"political\" ]\n         },\n
+        \        {\n            \"long_name\" : \"Victoria\",\n            \"short_name\"
+        : \"Victoria\",\n            \"types\" : [ \"locality\", \"political\" ]\n
+        \        },\n         {\n            \"long_name\" : \"Capital\",\n            \"short_name\"
+        : \"CRD\",\n            \"types\" : [ \"administrative_area_level_2\", \"political\"
+        ]\n         },\n         {\n            \"long_name\" : \"British Columbia\",\n
+        \           \"short_name\" : \"BC\",\n            \"types\" : [ \"administrative_area_level_1\",
+        \"political\" ]\n         },\n         {\n            \"long_name\" : \"Canada\",\n
+        \           \"short_name\" : \"CA\",\n            \"types\" : [ \"country\",
+        \"political\" ]\n         },\n         {\n            \"long_name\" : \"V8W
+        1T8\",\n            \"short_name\" : \"V8W 1T8\",\n            \"types\" :
+        [ \"postal_code\" ]\n         }\n      ],\n      \"adr_address\" : \"\\u003cspan
+        class=\\\"street-address\\\"\\u003e1218 Wharf St\\u003c/span\\u003e, \\u003cspan
+        class=\\\"locality\\\"\\u003eVictoria\\u003c/span\\u003e, \\u003cspan class=\\\"region\\\"\\u003eBC\\u003c/span\\u003e
+        \\u003cspan class=\\\"postal-code\\\"\\u003eV8W 1T8\\u003c/span\\u003e, \\u003cspan
+        class=\\\"country-name\\\"\\u003eCanada\\u003c/span\\u003e\",\n      \"formatted_address\"
+        : \"1218 Wharf St, Victoria, BC V8W 1T8, Canada\",\n      \"formatted_phone_number\"
+        : \"(250) 590-5298\",\n      \"geometry\" : {\n         \"location\" : {\n
+        \           \"lat\" : 48.426445,\n            \"lng\" : -123.370475\n         },\n
+        \        \"viewport\" : {\n            \"northeast\" : {\n               \"lat\"
+        : 48.4278221302915,\n               \"lng\" : -123.3689770197085\n            },\n
+        \           \"southwest\" : {\n               \"lat\" : 48.4251241697085,\n
+        \              \"lng\" : -123.3716749802915\n            }\n         }\n      },\n
+        \     \"icon\" : \"https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png\",\n
+        \     \"id\" : \"60cefdab8e9827bd470184a6d37958a9c796f111\",\n      \"international_phone_number\"
+        : \"+1 250-590-5298\",\n      \"name\" : \"NARU Korean Restaurant\",\n      \"opening_hours\"
+        : {\n         \"open_now\" : true,\n         \"periods\" : [\n            {\n
+        \              \"close\" : {\n                  \"day\" : 1,\n                  \"time\"
+        : \"1600\"\n               },\n               \"open\" : {\n                  \"day\"
+        : 1,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 1,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 1,\n                  \"time\" : \"1700\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"1600\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 2,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 2,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"1700\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"1600\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 3,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 3,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"1700\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"1600\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 4,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 4,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"1700\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"1600\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 5,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 5,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"1700\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"1600\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 6,\n                  \"time\" : \"1130\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 6,\n
+        \                 \"time\" : \"2130\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"1700\"\n
+        \              }\n            }\n         ],\n         \"weekday_text\" :
+        [\n            \"Monday: 11:30 AM – 4:00 PM, 5:00 – 9:30 PM\",\n            \"Tuesday:
+        11:30 AM – 4:00 PM, 5:00 – 9:30 PM\",\n            \"Wednesday: 11:30 AM –
+        4:00 PM, 5:00 – 9:30 PM\",\n            \"Thursday: 11:30 AM – 4:00 PM, 5:00
+        – 9:30 PM\",\n            \"Friday: 11:30 AM – 4:00 PM, 5:00 – 9:30 PM\",\n
+        \           \"Saturday: 11:30 AM – 4:00 PM, 5:00 – 9:30 PM\",\n            \"Sunday:
+        Closed\"\n         ]\n      },\n      \"photos\" : [\n         {\n            \"height\"
+        : 3024,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAAyipALrR4oACjsWaMTj1KHgmsgHtavtkBW4LlwGHflp3czKxQmN3wgO_biBFc4V03f1_Y4LyUMK6lV8DRHeNsnMLDY697nJUAeqfYXGF34cDyWc4sITfSkWE_-1EyDjvqEhA90UIX6YTFeJkJ6Jn_B1gGGhSoZKEHizNRXRhZSpnlyQOCuXML2g\",\n
+        \           \"width\" : 4032\n         },\n         {\n            \"height\"
+        : 4000,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAAdZxzj21eH7k3SyfQ07ROfSyKn9_nKBNckdyEied3_KDNrnAGtRuBs0Q-l7apUCkuUCcuYT66NxjaAlZ6oSwVbYGgHYie2HiyIWfH83ftBEFNdMpht37CPTrKIR3jvO8nEhCsArINdeXVgvOQHwmu6m_OGhT5aVZtfD8gSTBHG6GjYgFLtYrLuA\",\n
+        \           \"width\" : 6000\n         },\n         {\n            \"height\"
+        : 4032,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/108119494912502779918\\\"\\u003elucy
+        byun\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\" :
+        \"CmRaAAAAZMgCM9LkoDX2tcxPRD770t2misrkw31AQ65VdLfhNFY3fPtis4W_QD46WaAIufpvwWgmpQRoWItr5AJivZ_EUysbWXr2lT02jusHCVsOo3m0_b6l7bob4Dn4--Mar3E1EhCZoelPDSN5LGCP9ShcWvyJGhSB6FHJ_vh8FQ4aQ_pwPj1ndYyYBg\",\n
+        \           \"width\" : 3024\n         },\n         {\n            \"height\"
+        : 4000,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAAPJy7N0mueO2x5awlEjM3VqVLAQS1eM01yOeSek_phIFeZv8ju-jiOZRtGCTT-HwmVNr08SMcuB6zmJcfXNcoAuHAd_Cgf30aRWhezE_OGjP25SxgX-NUzKMuDcUMS-IqEhDeyt7FiBNsPIh1j8uRLcDtGhR7zel3MD_IDCKVGwywoL2-zY0jRA\",\n
+        \           \"width\" : 6000\n         },\n         {\n            \"height\"
+        : 4000,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAA6qVRwvhSAGw6UwZx7z8K9Gid1aqBiQ8hAg7BTYKKPIZxy6QFAxwVp5oXnjzaYDZqKTuwBSqrZQlr-0IqJEbsuw8KlUkqNGYJ2SHaSGLOy2lchBElJeQv9sV-JRDrCGCcEhBC-3UMWvgixFm6igWZXycaGhSBoY8PG30_GChA22OWQy1ImSdpUg\",\n
+        \           \"width\" : 6000\n         },\n         {\n            \"height\"
+        : 1536,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/103885090727600394266\\\"\\u003eyong
+        wan cho\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRaAAAANqzm51DZ973nNSjZv6pUCLVMeoSQ0DIRsBW6O0pRHgBofxtFT6fn8_uthmml4-zsNVCHGVccPUMAs196RfBMCSse4Y6f8nXkMC7I4sQUCkTFmpYLFBQhNeK9YSL4OEUbEhBTuG68YBG3Q9idLkj1BpmvGhS17CMg_yDruqHYyAhNjKkXXz1HMQ\",\n
+        \           \"width\" : 2048\n         },\n         {\n            \"height\"
+        : 4000,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAAyvk_8WDcf3QIm7Dm4Z5q_rWuHT3IE_VbPHewJ6Z_Zc1JJ4zr_gBnDNvayVKrZUQL03N5mgn_tV-KEmMAUC8SUYVeClJxsD3zdp8LD4wd9obP0MsNGyY9q2vQ4MVZerSXEhCDYi9Rcg31aNli7ya1nz6cGhSJDCujXDjypHaIT2ZaSRba1X2TwQ\",\n
+        \           \"width\" : 6000\n         },\n         {\n            \"height\"
+        : 4000,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/102767798335640166022\\\"\\u003eNARU
+        Korean Restaurant\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRZAAAArnxU5rNzwcpZPUcQtBAZB08g8Rh6m4OHJXL5wG5egv85uXgK-HSliYBTzMX-xfZlU_s2p_ygWf-NCuzW_MCj_hvYQ8cb7fAL3AWKTzNBcj-6iOR15b6lyypJhwiMS66DEhCCnsgoUwpjZBDgU6UOyZ2gGhTZIjcVeLVIQyDWqT7podqZ1ymsiQ\",\n
+        \           \"width\" : 6000\n         },\n         {\n            \"height\"
+        : 2048,\n            \"html_attributions\" : [\n               \"\\u003ca
+        href=\\\"https://maps.google.com/maps/contrib/103885090727600394266\\\"\\u003eyong
+        wan cho\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\"
+        : \"CmRaAAAAQjL3UPyy2NYrrDyvDYBKNaxWTBBFdotYZuqXl_onz4upHMq4SGXxjsfcIFgDvBWZyBhPsbfdUK-5fLN2M9SR5fg_seZ83HbusBCWStUPZjSkjUfGuqb1XpWf9i2AEg82EhDX9mhbrd8OKr84obN4I-vVGhQytwmBmxzzT0O7qknPm1FUk5tQkg\",\n
+        \           \"width\" : 1536\n         },\n         {\n            \"height\"
+        : 961,\n            \"html_attributions\" : [\n               \"\\u003ca href=\\\"https://maps.google.com/maps/contrib/104570750953545296721\\\"\\u003eKyou
+        Park\\u003c/a\\u003e\"\n            ],\n            \"photo_reference\" :
+        \"CmRaAAAAgySR8FkE4cCOKLJso2e5MA9sjvTIq5xSUC43AZkbPGm77NDrjWVIy86hCTOM8FuJF3PiOQ9k8vUGepvgN8Igztvyl32mbPGkixZRaGjQMvWXB1MS4nmpnDfOEIqk2rMyEhDuCWbz0qVqn1azj8xxO_esGhRrIXzEV4BN1qUdDZpex-Y6DWagJg\",\n
+        \           \"width\" : 961\n         }\n      ],\n      \"place_id\" : \"ChIJsTuRCYV1j1QRXsKUhvyChQQ\",\n
+        \     \"plus_code\" : {\n         \"compound_code\" : \"CJGH+HR Victoria,
+        British Columbia, Canada\",\n         \"global_code\" : \"84WRCJGH+HR\"\n
+        \     },\n      \"rating\" : 4.5,\n      \"reference\" : \"ChIJsTuRCYV1j1QRXsKUhvyChQQ\",\n
+        \     \"reviews\" : [\n         {\n            \"author_name\" : \"Anisa _\",\n
+        \           \"author_url\" : \"https://www.google.com/maps/contrib/112753285667148678497/reviews\",\n
+        \           \"language\" : \"en\",\n            \"profile_photo_url\" : \"https://lh3.ggpht.com/-jZkZHYANdfw/AAAAAAAAAAI/AAAAAAAAAAA/xZfa87Pp_gE/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"3
+        months ago\",\n            \"text\" : \"Got the hot pot and it was amazing!
+        I’ve had much fair share of Korean food and this place was great. Such a good
+        amount of food and super flavourful. Plus I love the set up of the restaurant
+        itself with the high ceilings and big windows. Good service too \U0001F60A\",\n
+        \           \"time\" : 1572541107\n         },\n         {\n            \"author_name\"
+        : \"Sally Lin\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/104366231054072771635/reviews\",\n
+        \           \"language\" : \"en\",\n            \"profile_photo_url\" : \"https://lh3.ggpht.com/-ngv2j3AdLeQ/AAAAAAAAAAI/AAAAAAAAAAA/uKmZT_yweuU/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"3
+        months ago\",\n            \"text\" : \"The hot pot dishes are really good!
+        Friendly service too. Best Korean food I’ve had in Victoria and I’ve tried
+        a few different places. This restaurant is Vancouver-level good and I lived
+        there for 5 years. Really glad Victoria is lucky enough to have Naru join
+        the restaurant scene! \U0001F642\",\n            \"time\" : 1571804196\n         },\n
+        \        {\n            \"author_name\" : \"Monica W\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/112440640190488425281/reviews\",\n
+        \           \"language\" : \"en\",\n            \"profile_photo_url\" : \"https://lh6.ggpht.com/-BTxWIXo2TGo/AAAAAAAAAAI/AAAAAAAAAAA/82bswRXLfUU/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"a
+        month ago\",\n            \"text\" : \"We had an excellent meal as a group
+        of 8. Reasonably priced and great staff.\",\n            \"time\" : 1576445864\n
+        \        },\n         {\n            \"author_name\" : \"Amy L\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/103882966574906704924/reviews\",\n
+        \           \"language\" : \"en\",\n            \"profile_photo_url\" : \"https://lh4.ggpht.com/-DiP0RyXupTA/AAAAAAAAAAI/AAAAAAAAAAA/UyrvAUqIDKI/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg\",\n
+        \           \"rating\" : 4,\n            \"relative_time_description\" : \"2
+        months ago\",\n            \"text\" : \"Possam is a favorite of ours and it
+        was tasty. Can't wait to come back and try so many delicacies.  Very clean,
+        fast and excellent service.\",\n            \"time\" : 1573893212\n         },\n
+        \        {\n            \"author_name\" : \"Sarah Graham\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/100414946235174593274/reviews\",\n
+        \           \"language\" : \"en\",\n            \"profile_photo_url\" : \"https://lh3.ggpht.com/-kIQXPD6XPXE/AAAAAAAAAAI/AAAAAAAAAAA/uhIR_iODSJk/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"a
+        month ago\",\n            \"text\" : \"Great service and amazingly delicious
+        food! And great atmosphere!\",\n            \"time\" : 1576386722\n         }\n
+        \     ],\n      \"scope\" : \"GOOGLE\",\n      \"types\" : [ \"restaurant\",
+        \"food\", \"point_of_interest\", \"establishment\" ],\n      \"url\" : \"https://maps.google.com/?cid=325810569155494494\",\n
+        \     \"user_ratings_total\" : 80,\n      \"utc_offset\" : -480,\n      \"vicinity\"
+        : \"1218 Wharf Street, Victoria\"\n   },\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Tue, 04 Feb 2020 01:32:15 GMT
+recorded_with: VCR 5.0.0

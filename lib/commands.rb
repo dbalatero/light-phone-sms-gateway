@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require_relative './commands/base'
+require_relative './commands/details'
 require_relative './commands/directions'
 require_relative './commands/help'
 require_relative './commands/ping'
@@ -13,6 +14,7 @@ module Commands
   sig { returns(T::Array[T.class_of(Commands::Base)]) }
   def self.all
     [
+      Commands::Details,
       Commands::Directions,
       Commands::Help,
       Commands::Ping,

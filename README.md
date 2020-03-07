@@ -9,6 +9,7 @@ Light Phone team works on adding things like directions.
 * [Setup](#setup)
 * [Cost](#cost)
 * [Supported Commands](#supported-commands)
+  * [details](#details) returns Google Maps place details
   * [directions](#directions) texts you Google Maps directions
   * [h](#h) (help) shows available commands
   * [ping](#ping) tiny command for testing your gateway
@@ -72,6 +73,49 @@ this service!
 ## Supported Commands
 
 Here are the currently supported commands. If you want to add more commands, see [Contributing a new command](#contributing-a-new-command).
+
+### details
+
+This command will text you the available info about a specific place listed on Google Maps.
+If there are more than one match, the command returns a list of the top 10 results instead.
+
+*NOTE:* this command does *not* factor in the location of your phone.
+
+*Syntax*: `details <place>`
+*Extra cost:* consult Google Maps API fees
+
+*Params:*
+* `place` - a description of the place, as precise as possible
+
+*Setup*:
+* [Get an API key for Google Maps](https://developers.google.com/maps/gmp-get-started)
+* `heroku config:set GOOGLE_MAPS_API_KEY=...`
+
+*Examples:*
+
+    -> details korean restaurant victoria bc
+
+    (1) NARU Korean Restaurant, Wharf Street, Victoria, BC, Canada
+    (2) Cera Korean Restaurant, Pandora Avenue, Victoria, BC, Canada
+    (3) Han Korean Restaurant, Johnson Street, Victoria, BC, Canada
+    (4) Sura Korean Restaurant, Douglas Street, Victoria, BC, Canada
+    (5) Sumi Korean Restaurant, Victoria Drive, Vancouver, BC, Canada
+
+    -> details naru victoria bc
+
+    NARU Korean Restaurant
+    1218 Wharf St, Victoria, BC V8W 1T8, Canada
+    Phone: (250) 590-5298
+    Rating: 4.5
+    Closed now
+    Hours:
+    * Monday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Tuesday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Wednesday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Thursday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Friday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Saturday: 11:30 AM - 4:00 PM, 5:00 - 9:30 PM
+    * Sunday: Closed
 
 ### directions
 
@@ -315,4 +359,4 @@ Once the tunnel is up:
 
 Thanks to these folks for contributing:
 
-* @l33loo - added `tip` command and phone whitelisting!
+* @l33loo - added `details` and `tip` commands, and phone whitelisting!
